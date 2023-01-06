@@ -1,0 +1,15 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,nameShoppingList,Add a new list,Add a new list,,android.widget.TextView,clickable,,,,,,,correct,br.com.vansact.MainApp,
+0,action_bar_title,Shopping List,Shopping List,,android.widget.TextView,label,,,,,,,wrong,br.com.vansact.MainApp,
+0,action_add,,New list action_add,,android.widget.TextView,clickable,New list,,,,,,wrong,br.com.vansact.MainApp,
+0,action_bar,,More options,,android.widget.ImageButton,clickable,More options,,,,,,wrong,br.com.vansact.MainApp,
+1,null,,New shopping list,,android.widget.EditText,fillable,,,,,,New shopping list New shopping list,correct,br.com.vansact.MainApp,New shopping list
+1,alertTitle,Save?,Save?,,android.widget.TextView,label,,,,,,,wrong,br.com.vansact.MainApp,
+1,message,New shopping list,New shopping list,,android.widget.TextView,label,,,,,,,wrong,br.com.vansact.MainApp,
+1,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,br.com.vansact.MainApp,
+1,button1,OK,,,android.widget.Button,clickable,,,,,,,wrong,br.com.vansact.MainApp,
+2,button1,OK,,,android.widget.Button,clickable,,,,,,,correct,br.com.vansact.MainApp,
+2,alertTitle,Save?,Save?,,android.widget.TextView,label,,,,,,,wrong,br.com.vansact.MainApp,
+2,message,New shopping list,New shopping list,,android.widget.TextView,label,,,,,,,wrong,br.com.vansact.MainApp,
+2,null,Grocery,New shopping list,,android.widget.EditText,fillable,,,,,,New shopping list New shopping list,wrong,br.com.vansact.MainApp,
+2,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,br.com.vansact.MainApp,

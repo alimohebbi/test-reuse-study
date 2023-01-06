@@ -1,0 +1,54 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,fab,,ic_add,ic_add,android.widget.ImageButton,clickable,,,,,,,correct,.MainActivity,null
+0,null,Expenses,Expenses,,android.widget.TextView,label,,,,,,,wrong,.MainActivity,null
+0,null,,More options,,android.widget.ImageView,clickable,More options,,,,,,wrong,.MainActivity,null
+0,total_month_description,Total of month expenses,Total of month expenses,,android.widget.TextView,label,,,,,,,wrong,.MainActivity,null
+0,total_month,$0.00,$0.00,,android.widget.Button,clickable,,,,,,,wrong,.MainActivity,null
+1,expense_value,0.00,expense_value,,android.widget.EditText,fillable,,,,,,,correct,.ExpenseActivity,Money
+1,null,Expenses,Expenses,,android.widget.TextView,label,,,,,,,wrong,.ExpenseActivity,null
+1,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ExpenseActivity,null
+1,null,,Money,,android.widget.ImageView,label,Money,,,,,,wrong,.ExpenseActivity,null
+1,null,,Description,,android.widget.ImageView,label,Description,,,,,,wrong,.ExpenseActivity,null
+1,expense_description,Add a description,Add a description,,android.widget.EditText,fillable,,,,,,,wrong,.ExpenseActivity,null
+1,null,,Date,,android.widget.ImageView,label,Date,,,,,,wrong,.ExpenseActivity,null
+1,date_picker,10-21-2020,10-21-2020,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+1, 1,Food,Food,,android.widget.TextView,clickable,,,,,,,wrong,.ExpenseActivity,null
+1,save_expense,Save,Save,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+2,expense_description,Add a description,Add a description,,android.widget.EditText,fillable,,,,,Add a description,,correct,.ExpenseActivity,null
+2,null,Expenses,Expenses,,android.widget.TextView,label,,,,,,,wrong,.ExpenseActivity,null
+2,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ExpenseActivity,null
+2,null,,Money,,android.widget.ImageView,label,Money,,,,,,wrong,.ExpenseActivity,null
+2,expense_value,45,expense_value,,android.widget.EditText,fillable,,,,,,,wrong,.ExpenseActivity,Money
+2,null,,Description,,android.widget.ImageView,label,Description,,,,,,wrong,.ExpenseActivity,null
+2,null,,Date,,android.widget.ImageView,label,Date,,,,,,wrong,.ExpenseActivity,null
+2,date_picker,10-21-2020,10-21-2020,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+2, 1,Food,Food,,android.widget.TextView,clickable,,,,,,,wrong,.ExpenseActivity,null
+2,save_expense,Save,Save,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+3,date_picker,10-21-2020,10-21-2020,,android.widget.Button,clickable,,,,,,,correct,.ExpenseActivity,null
+3,null,Expenses,Expenses,,android.widget.TextView,label,,,,,,,wrong,.ExpenseActivity,null
+3,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ExpenseActivity,null
+3,null,,Money,,android.widget.ImageView,label,Money,,,,,,wrong,.ExpenseActivity,null
+3,expense_value,45,expense_value,,android.widget.EditText,fillable,,,,,,,wrong,.ExpenseActivity,Money
+3,null,,Description,,android.widget.ImageView,label,Description,,,,,,wrong,.ExpenseActivity,null
+3,expense_description,restaurant,Add a description,,android.widget.EditText,fillable,,,,,Add a description,,wrong,.ExpenseActivity,null
+3,null,,Date,,android.widget.ImageView,label,Date,,,,,,wrong,.ExpenseActivity,null
+3, 1,Food,Food,,android.widget.TextView,clickable,,,,,,,wrong,.ExpenseActivity,null
+3,save_expense,Save,Save,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+4,button1,OK,,,android.widget.Button,clickable,,,,,,,correct,.ExpenseActivity,null
+4,date_picker_month,OCT,OCT,,android.widget.TextView,label,,,,,,,wrong,.ExpenseActivity,null
+4,date_picker_day,21,date_picker_day,,android.widget.TextView,label,,,,OCT,,,wrong,.ExpenseActivity,null
+4,date_picker_year,2020,date_picker_year,,android.widget.TextView,clickable,,,,,,,wrong,.ExpenseActivity,null
+4,animator,,October,,android.view.View,clickable,01 October 2020,,,,,,wrong,.ExpenseActivity,null
+4,animator,,October selected,,android.view.View,clickable,21 October 2020 selected,,,,,,wrong,.ExpenseActivity,null
+4,animator,,,,android.view.View,clickable,,,,,,,wrong,.ExpenseActivity,null
+4,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+5,save_expense,Save,Save,,android.widget.Button,clickable,,,,,,,correct,.ExpenseActivity,null
+5,null,Expenses,Expenses,,android.widget.TextView,label,,,,,,,wrong,.ExpenseActivity,null
+5,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ExpenseActivity,null
+5,null,,Money,,android.widget.ImageView,label,Money,,,,,,wrong,.ExpenseActivity,null
+5,expense_value,45,expense_value,,android.widget.EditText,fillable,,,,,,,wrong,.ExpenseActivity,Money
+5,null,,Description,,android.widget.ImageView,label,Description,,,,,,wrong,.ExpenseActivity,null
+5,expense_description,restaurant,Add a description,,android.widget.EditText,fillable,,,,,Add a description,,wrong,.ExpenseActivity,null
+5,null,,Date,,android.widget.ImageView,label,Date,,,,,,wrong,.ExpenseActivity,null
+5,date_picker,10-21-2020,10-21-2020,,android.widget.Button,clickable,,,,,,,wrong,.ExpenseActivity,null
+5, 1,Food,Food,,android.widget.TextView,clickable,,,,,,,wrong,.ExpenseActivity,null

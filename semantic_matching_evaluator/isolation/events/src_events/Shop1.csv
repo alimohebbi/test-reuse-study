@@ -1,0 +1,20 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,fab,,ic_add_shopping_cart_white_24dp,ic_add_shopping_cart_white_24dp,android.widget.ImageButton,clickable,,,,,,,correct,.MainActivity,null
+0,drawer_layout,Your shopping lists,Your shopping lists,,android.widget.TextView,label,,,,,,,wrong,.MainActivity,null
+0,drawer_layout,,Open navigation drawer,,android.widget.ImageButton,clickable,Open navigation drawer,,,,,,wrong,.MainActivity,null
+0,empty_listview_ view,You have no shopping lists. Add one using the button below.,You have no shopping lists. Add one using the button below.,,android.widget.TextView,label,,,,,,,wrong,.MainActivity,null
+1,shoppingListName ,Shopping list name,Shopping list name,,android.widget.EditText,fillable,,,,,,,correct,.ShoppingListEditActivity,null
+1,null,Add Shopping List,Add Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingListEditActivity,null
+1,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ShoppingListEditActivity,null
+1,shoppingListDescription ,Description,Description,,android.widget.EditText,fillable,,,,,,,wrong,.ShoppingListEditActivity,null
+1,addShoppingList ,Save,Save,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingListEditActivity,null
+2,shoppingListDescription ,Description,Description,,android.widget.EditText,fillable,,,,,Description,,correct,.ShoppingListEditActivity,null
+2,null,Add Shopping List,Add Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingListEditActivity,null
+2,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ShoppingListEditActivity,null
+2,shoppingListName ,Grocery,Shopping list name,,android.widget.EditText,fillable,,,,,Shopping list name,,wrong,.ShoppingListEditActivity,null
+2,addShoppingList ,Save,Save,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingListEditActivity,null
+3,addShoppingList ,Save,Save,,android.widget.Button,clickable,,,,,,,correct,.ShoppingListEditActivity,null
+3,null,Add Shopping List,Add Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingListEditActivity,null
+3,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.ShoppingListEditActivity,null
+3,shoppingListName ,Grocery,Shopping list name,,android.widget.EditText,fillable,,,,,Shopping list name,,wrong,.ShoppingListEditActivity,null
+3,shoppingListDescription ,Weekly grocery shopping,Description,,android.widget.EditText,fillable,,,,,Description,,wrong,.ShoppingListEditActivity,null

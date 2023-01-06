@@ -1,0 +1,44 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,null,,Open navigation drawer,,android.widget.ImageButton,clickable,Open navigation drawer,,,,,,correct,.MainActivity,null
+0, View3,TODAYS BUDGET,TODAYS BUDGET,,android.widget.TextView,label,,,,,,,wrong,.MainActivity,null
+0,current_money,$ 0.00,$ 0.00 TODAYS BUDGET,,android.widget.TextView,label,,,,TODAYS BUDGET,,TODAYS BUDGET TODAYS BUDGET,wrong,.MainActivity,null
+0, View2,DAILY AMOUNT:,DAILY AMOUNT:,,android.widget.TextView,label,,,,$ 0.00,,,wrong,.MainActivity,null
+0,daily_amount,0.00,daily_amount DAILY AMOUNT:,,android.widget.TextView,label,,,,DAILY AMOUNT:,,DAILY AMOUNT: DAILY AMOUNT:,wrong,.MainActivity,null
+0,imageButton2,,plusbutton imageButton,plusbutton,android.widget.ImageButton,clickable,,,, 0.00,,,wrong,.MainActivity,null
+0,imageButton,,minusbutton imageButton,minusbutton,android.widget.ImageButton,clickable,,,,,,,wrong,.MainActivity,null
+1, 1,INCOME,INCOME,,android.widget.TextView,clickable,,,,,,,correct,.MainActivity,null
+1,null,,Close navigation drawer,,android.widget.ImageButton,clickable,Close navigation drawer,,,,,,wrong,.MainActivity,null
+1, 1,HOME,HOME,,android.widget.TextView,clickable,,,,,,,wrong,.MainActivity,null
+1, 1,HISTORY,HISTORY,,android.widget.TextView,clickable,,,,,,,wrong,.MainActivity,null
+1, 1,EXPENSES,EXPENSES,,android.widget.TextView,clickable,,,,,,,wrong,.MainActivity,null
+1, 1,SETTINGS,SETTINGS,,android.widget.TextView,clickable,,,,,,,wrong,.MainActivity,null
+2,editText,Name,Name,,android.widget.EditText,fillable,,,,,,,correct,.income_activity,null
+2,null,INCOME,INCOME,,android.widget.TextView,label,,,,,,,wrong,.income_activity,null
+2,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.income_activity,null
+2, 1,MONTHLY,MONTHLY,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+2,editText2,Amount,Amount,,android.widget.EditText,fillable,,,,Name,,,wrong,.income_activity,null
+2,button2,ADD INCOME,ADD INCOME,,android.widget.Button,clickable,,,,,,,wrong,.income_activity,null
+2,null,TOTAL INCOME:,TOTAL INCOME:,,android.widget.TextView,label,,,,ADD INCOME,,,wrong,.income_activity,null
+2,total_income_view,0,total_income_view TOTAL INCOME:,,android.widget.TextView,label,,,,TOTAL INCOME:,,TOTAL INCOME: TOTAL INCOME:,wrong,.income_activity,null
+2, ,Currently no income...,Currently no income...,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+2, 1,listed.,listed.,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+3,editText2,Amount,Amount,,android.widget.EditText,fillable,,,,uber,Amount,,correct,.income_activity,null
+3,null,INCOME,INCOME,,android.widget.TextView,label,,,,,,,wrong,.income_activity,null
+3,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.income_activity,null
+3,editText,uber,Name,,android.widget.EditText,fillable,,,,,Name,,wrong,.income_activity,null
+3, 1,MONTHLY,MONTHLY,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+3,button2,ADD INCOME,ADD INCOME,,android.widget.Button,clickable,,,,,,,wrong,.income_activity,null
+3,null,TOTAL INCOME:,TOTAL INCOME:,,android.widget.TextView,label,,,,ADD INCOME,,,wrong,.income_activity,null
+3,total_income_view,0,total_income_view TOTAL INCOME:,,android.widget.TextView,label,,,,TOTAL INCOME:,,TOTAL INCOME: TOTAL INCOME:,wrong,.income_activity,null
+3, ,Currently no income...,Currently no income...,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+3, 1,listed.,listed.,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+4,button2,ADD INCOME,ADD INCOME,,android.widget.Button,clickable,,,,,,,correct,.income_activity,null
+4,null,INCOME,INCOME,,android.widget.TextView,label,,,,,,,wrong,.income_activity,null
+4,null,,Navigate up,,android.widget.ImageButton,clickable,Navigate up,,,,,,wrong,.income_activity,null
+4,editText,uber,Name,,android.widget.EditText,fillable,,,,,Name,,wrong,.income_activity,null
+4, 1,MONTHLY,MONTHLY,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+4,editText2,500,Amount,,android.widget.EditText,fillable,,,,uber,Amount,,wrong,.income_activity,null
+4,null,TOTAL INCOME:,TOTAL INCOME:,,android.widget.TextView,label,,,,ADD INCOME,,,wrong,.income_activity,null
+4,total_income_view,0,total_income_view TOTAL INCOME:,,android.widget.TextView,label,,,,TOTAL INCOME:,,TOTAL INCOME: TOTAL INCOME:,wrong,.income_activity,null
+4, ,Currently no income...,Currently no income...,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null
+4, 1,listed.,listed.,,android.widget.TextView,clickable,,,,,,,wrong,.income_activity,null

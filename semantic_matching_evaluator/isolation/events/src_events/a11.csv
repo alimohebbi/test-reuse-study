@@ -1,0 +1,11 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,search,Search,Search,,android.widget.EditText,fillable,,,,,,,correct,.MainActivity,
+0,ui_layout,,More options,,android.widget.ImageView,clickable,More options,,,,,,wrong,.MainActivity,
+0,arrow_button,,arrow_button,,android.widget.FrameLayout,clickable,,,,,,,wrong,.MainActivity,
+0,ui_layout,,,,android.widget.EditText,fillable,,,,,,,wrong,.MainActivity,
+0,ui_layout,,Search,,android.widget.Button,clickable,Search,,,,,,wrong,.MainActivity,
+1,search,Search,Search,,android.widget.EditText,fillable,,,,,Search,,correct,.MainActivity,
+1,ui_layout,,More options,,android.widget.ImageView,clickable,More options,,,,,,wrong,.MainActivity,
+1,arrow_button,,arrow_button,,android.widget.FrameLayout,clickable,,,,,,,wrong,.MainActivity,
+1,ui_layout,,,,android.widget.EditText,fillable,,,,,,,wrong,.MainActivity,
+1,ui_layout,,Search,,android.widget.Button,clickable,Search,,,,,,wrong,.MainActivity,

@@ -1,0 +1,58 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,null,,More options,,android.widget.ImageButton,clickable,More options,,,,,,correct,.ShoppingActivity,null
+0,null,OI Shopping List,OI Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+0,null,,Clean up list,,android.widget.TextView,clickable,Clean up list,,,,,,wrong,.ShoppingActivity,null
+0, 1,My shopping list,My shopping list,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+0,list_items,,list_items,,android.widget.ListView,clickable,,,,,,,wrong,.ShoppingActivity,null
+0,autocomplete_add_item,,autocomplete_add_item,,android.widget.EditText,fillable,,,,,,,wrong,.ShoppingActivity,null
+0,button_add_item,Add,Add,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,New list,New list,,android.widget.TextView,clickable,,,,,,,correct,.ShoppingActivity,null
+1,title,Pick items,Pick items,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Theme,Theme,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Settings,Settings,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Rename list,Rename list,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Delete list,Delete list,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Send list,Send list,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Mark all items,Mark all items,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,About,About,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+1,title,Privacy,Privacy,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+2,edittext,e.g. wishlist family list,e.g. wishlist family list Enter name of new shopping list,,android.widget.EditText,fillable,,,,,,Enter name of new shopping list Enter name of new shopping list,correct,.ShoppingActivity,null
+2,alertTitle,Enter name of new shopping list,Enter name of new shopping list,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+2,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+2,button1,OK,,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+3,button1,OK,,,android.widget.Button,clickable,,,,,,,correct,.ShoppingActivity,null
+3,alertTitle,Enter name of new shopping list,Enter name of new shopping list,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+3,edittext,list1,e.g. wishlist family list Enter name of new shopping list,,android.widget.EditText,fillable,,,,,e.g. wishlist family list,Enter name of new shopping list Enter name of new shopping list,wrong,.ShoppingActivity,null
+3,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+4, 1,list1,list1,,android.widget.TextView,clickable,,,,,,,correct,.ShoppingActivity,null
+4,null,OI Shopping List,OI Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+4,null,,Clean up list,,android.widget.TextView,clickable,Clean up list,,,,,,wrong,.ShoppingActivity,null
+4,null,,More options,,android.widget.ImageButton,clickable,More options,,,,,,wrong,.ShoppingActivity,null
+4,list_items,,list_items,,android.widget.ListView,clickable,,,,,,,wrong,.ShoppingActivity,null
+4,autocomplete_add_item,,autocomplete_add_item,,android.widget.EditText,fillable,,,,,,,wrong,.ShoppingActivity,null
+4,button_add_item,Add,Add,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+5, 1,list1,list1,,android.widget.CheckedTextView,clickable,,,,,,,correct,.ShoppingActivity,null
+5, 1,My shopping list,My shopping list,,android.widget.CheckedTextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+6,button_add_item,Add,Add,,android.widget.Button,clickable,,,,,,,correct,.ShoppingActivity,null
+6,null,OI Shopping List,OI Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+6,null,,Clean up list,,android.widget.TextView,clickable,Clean up list,,,,,,wrong,.ShoppingActivity,null
+6,null,,More options,,android.widget.ImageButton,clickable,More options,,,,,,wrong,.ShoppingActivity,null
+6, 1,list1,list1,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+6,list_items,,list_items,,android.widget.ListView,clickable,,,,,,,wrong,.ShoppingActivity,null
+6,autocomplete_add_item,,autocomplete_add_item,,android.widget.EditText,fillable,,,,,,,wrong,.ShoppingActivity,null
+7,button1,OK,,,android.widget.Button,clickable,,,,,,,correct,.ui.PickItemsActivity,null
+7,title,Pick items,Pick items,,android.widget.TextView,label,,,,,,,wrong,.ui.PickItemsActivity,null
+8,autocomplete_add_item,,autocomplete_add_item,,android.widget.EditText,fillable,,,,,,,correct,.ShoppingActivity,null
+8,null,OI Shopping List,OI Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+8,null,,Clean up list,,android.widget.TextView,clickable,Clean up list,,,,,,wrong,.ShoppingActivity,null
+8,null,,More options,,android.widget.ImageButton,clickable,More options,,,,,,wrong,.ShoppingActivity,null
+8, 1,list1,list1,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+8,list_items,,list_items,,android.widget.ListView,clickable,,,,,,,wrong,.ShoppingActivity,null
+8,button_add_item,Add,Add,,android.widget.Button,clickable,,,,,,,wrong,.ShoppingActivity,null
+9,button_add_item,Add,Add,,android.widget.Button,clickable,,,,,,,correct,.ShoppingActivity,null
+9,null,OI Shopping List,OI Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ShoppingActivity,null
+9,null,,Clean up list,,android.widget.TextView,clickable,Clean up list,,,,,,wrong,.ShoppingActivity,null
+9,null,,More options,,android.widget.ImageButton,clickable,More options,,,,,,wrong,.ShoppingActivity,null
+9, 1,list1,list1,,android.widget.TextView,clickable,,,,,,,wrong,.ShoppingActivity,null
+9,list_items,,list_items,,android.widget.ListView,clickable,,,,,,,wrong,.ShoppingActivity,null
+9,autocomplete_add_item,item1,autocomplete_add_item,,android.widget.EditText,fillable,,,,,,,wrong,.ShoppingActivity,null
