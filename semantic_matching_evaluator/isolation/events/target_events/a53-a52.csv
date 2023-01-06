@@ -1,0 +1,29 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,bill,0,bill,,android.widget.EditText,fillable,,,,,,,correct,.Tip,
+0, Bill,Bill Amount,Bill Amount,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0, People,# Of People,# Of People,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,people,1,people,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+0, Percent,Tip Percent (%),Tip Percent (%),,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,percent,15,percent,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,Tip Percent (%)
+0, TipEach,Tip Per Person,Tip Per Person,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,tipEach,0,tipEach,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,Tip Per Person
+0, Tip,Total Tip,Total Tip,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,tip,0,tip,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+0, Each,Each Person Pays,Each Person Pays,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,each,0,each,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+0, Total,Total Amount,Total Amount,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+0,total,0,total,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+1,percent,15,percent,,android.widget.EditText,fillable,,,,,,,correct,.Tip,Tip Percent (%)
+1, Bill,Bill Amount,Bill Amount,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,bill,0.0056.6,0.0056.6,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+1, People,# Of People,# Of People,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,people,1,people,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+1, Percent,Tip Percent (%),Tip Percent (%),,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1, TipEach,Tip Per Person,Tip Per Person,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,tipEach,0,tipEach,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,Tip Per Person
+1, Tip,Total Tip,Total Tip,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,tip,0,tip,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+1, Each,Each Person Pays,Each Person Pays,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,each,0.01,each,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,
+1, Total,Total Amount,Total Amount,,android.widget.TextView,label,,,,,,,wrong,.Tip,
+1,total,0.01,total,,android.widget.EditText,fillable,,,,,,,wrong,.Tip,

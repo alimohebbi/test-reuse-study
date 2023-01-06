@@ -1,0 +1,58 @@
+model_dir: "PATH TO WORD EMBEDDING MODELS"
+src_event_dir: "events/src_events/"
+target_event_dir: "events/target_events/"
+index_path: "events/index_map.csv"
+save_score_dir: "sim_scores/"
+save_map_dir: "events/total_map.csv"
+save_rank_results_path : "results.csv"
+threshold_data : "threshold_data.csv"
+threshold_results : "threshold_results.csv"
+eval_repeat: 1
+cache_size: 10
+active_techniques:
+  - wm
+  - w2v
+  - nnlm
+  - use
+  - bert
+  - glove
+  - fast
+  - jaccard
+  - edit_distance
+#  - random
+train_set:
+  - android
+  - blogs
+  - standard
+  - empty
+  - googleplay
+algorithm:
+  - craftdroid
+  - custom
+  - atm_0
+  - adaptdroid_0
+#  - random
+descriptors:
+  - union
+  - intersection
+  - craftdroid
+  - atm
+model_path:
+  w2v_android: "w2v/w2v-manuals.model"
+  w2v_googleplay: "w2v/w2v-googleplay.model"
+  w2v_standard: "w2v/GoogleNews-vectors-negative300.bin"
+  w2v_blogs: "w2v/w2v-blogs.model"
+  fast_android: "fast/fast-manuals.model"
+  fast_googleplay: "fast/fast-googleplay.model"
+  fast_blogs: "fast/fast-blogs.model"
+  fast_standard: "fast/cc.en.300.bin"
+  glove_android: "glove/vectors_user_manuals_glove_in_w2v_format.txt"
+  glove_blogs: "glove/vectors_blogs_glove_in_w2v_format.txt"
+  glove_standard: "glove/vectors_6B_glove_w2v_format.txt"
+  glove_googleplay: "glove/vectors_googleplay_glove_in_w2v_format.txt"
+  nnlm_standard: "nnlm/nnlm-en-dim128_2"
+  use_standard: "use/universal-sentence-encoder_4"
+  bert_standard: ""
+  random: ""
+train_data_path:
+  google_play_processed: "/home/amohebbi/AppClustering/output/preprocessed.csv"

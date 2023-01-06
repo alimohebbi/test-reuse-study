@@ -1,0 +1,33 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,btn_skip,Skip,Skip,,android.widget.Button,clickable,,,,,,,correct,.ui.tutorial.TutorialActivity,null
+0,view_pager,Welcome,Welcome,,android.widget.TextView,label,,,,,,,wrong,.ui.tutorial.TutorialActivity,null
+0,view_pager,With this app you can create and manage shopping lists. Lists can be prioritized have deadlines reminders and more.,With this app you can create and manage shopping lists. Lists can be prioritized have deadlines reminders and more.,,android.widget.TextView,label,,,,,,,wrong,.ui.tutorial.TutorialActivity,null
+0,null,•,•,,android.widget.TextView,label,,,,,,,wrong,.ui.tutorial.TutorialActivity,null
+0,btn_next,Next,Next,,android.widget.Button,clickable,,,,,,,wrong,.ui.tutorial.TutorialActivity,null
+1,fab_new_list,,ic_input_add fab_new_list,ic_input_add,android.widget.ImageButton,clickable,,,,,,,correct,.ui.main.MainActivity,null
+1,coordinatorLayout,Shopping List,Shopping List,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+1,coordinatorLayout,,Open navigation drawer,,android.widget.ImageButton,clickable,Open navigation drawer,,,,,,wrong,.ui.main.MainActivity,null
+1,coordinatorLayout,You don't have any shopping lists,You don't have any shopping lists,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+1,coordinatorLayout,CREATE A LIST,CREATE A LIST,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+2,list_name,,list_name,,android.widget.EditText,fillable,,,Shopping List Name,,,,correct,.ui.main.MainActivity,Priority
+2,dialog_title,New List,New List,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+2,switch_statistics,OFF,OFF,,android.widget.Switch,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+2, input_counter,0 / 40,0 / 40,,android.widget.TextView,label,,,Shopping List Name,,,,wrong,.ui.main.MainActivity,null
+2,priority_spinner_content,Priority,Priority,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+2,set_deadline,Deadline,Deadline,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+2,list_dialog_checkbox,,list_dialog_checkbox Deadline,,android.widget.CheckBox,clickable,,,,,,Deadline Deadline,wrong,.ui.main.MainActivity,null
+2,priority_spinner,Normal,Normal priority_spinner,,android.widget.TextView,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+2,list_notes,,list_notes Priority,,android.widget.EditText,fillable,,,Notes,,,Priority Priority,wrong,.ui.main.MainActivity,null
+2,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+2,button1,Okay,Okay,,android.widget.Button,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+3,button1,Okay,Okay,,android.widget.Button,clickable,,,,,,,correct,.ui.main.MainActivity,null
+3,dialog_title,New List,New List,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+3,switch_statistics,OFF,OFF,,android.widget.Switch,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+3,list_name,Grocery,list_name,,android.widget.EditText,fillable,,,Shopping List Name,,,,wrong,.ui.main.MainActivity,7 / 40
+3, input_counter,7 / 40,7 / 40,,android.widget.TextView,label,,,Shopping List Name,Grocery,,,wrong,.ui.main.MainActivity,null
+3,priority_spinner_content,Priority,Priority,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+3,set_deadline,Deadline,Deadline,,android.widget.TextView,label,,,,,,,wrong,.ui.main.MainActivity,null
+3,list_dialog_checkbox,,list_dialog_checkbox Deadline,,android.widget.CheckBox,clickable,,,,,,Deadline Deadline,wrong,.ui.main.MainActivity,null
+3,priority_spinner,Normal,Normal priority_spinner,,android.widget.TextView,clickable,,,,,,,wrong,.ui.main.MainActivity,null
+3,list_notes,,list_notes Priority,,android.widget.EditText,fillable,,,Notes,,,Priority Priority,wrong,.ui.main.MainActivity,Priority
+3,button2,Cancel,,,android.widget.Button,clickable,,,,,,,wrong,.ui.main.MainActivity,null

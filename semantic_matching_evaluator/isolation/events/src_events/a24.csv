@@ -1,0 +1,7 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,AddList ,New List Name,New List Name Simply Do,,android.widget.EditText,fillable,,,,,,Simply Do Simply Do,correct,.SimplyDoActivity,
+0,title,Simply Do,Simply Do,,android.widget.TextView,label,,,,,,,wrong,.SimplyDoActivity,
+0,AddList ,Add,Add,,android.widget.Button,clickable,,,,,,,wrong,.SimplyDoActivity,
+1,AddList ,Add,Add,,android.widget.Button,clickable,,,,,,,correct,.SimplyDoActivity,
+1,title,Simply Do,Simply Do,,android.widget.TextView,label,,,,,,,wrong,.SimplyDoActivity,
+1,AddList ,Sample Todo,New List Name Simply Do,,android.widget.EditText,fillable,,,,,New List Name,Simply Do Simply Do,wrong,.SimplyDoActivity,
