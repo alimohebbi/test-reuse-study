@@ -1,0 +1,31 @@
+model_dir: "PATH TO WORD EMBEDDING MODELS"
+cache_size: 1
+threshold_use: true
+thresholds: "threshold/thresholds.csv"
+ground_truth: "perfect_matcher/gt_t.csv"
+query_log: "query_log/"
+active_techniques:
+  - wm
+train_set:
+  - android
+algorithm:
+  - custom
+descriptors:
+  - union
+model_path:
+  w2v_android: "w2v/w2v-manuals.model"
+  w2v_googleplay: "w2v/w2v-googleplay.model"
+  w2v_standard: "w2v/GoogleNews-vectors-negative300.bin"
+  w2v_blogs: "w2v/w2v-blogs.model"
+  fast_android: "fast/fast-manuals.model"
+  fast_googleplay: "fast/fast-googleplay.model"
+  fast_blogs: "fast/fast-blogs.model"
+  fast_standard: "fast/cc.en.300.bin"
+  glove_android: "glove/vectors_user_manuals_glove_in_w2v_format.txt"
+  glove_blogs: "glove/vectors_blogs_glove_in_w2v_format.txt"
+  glove_standard: "glove/vectors_6B_glove_w2v_format.txt"
+  glove_googleplay: "glove/vectors_googleplay_glove_in_w2v_format.txt"
+  nnlm_standard: "nnlm/nnlm-en-dim128_2"
+  use_standard: "use/universal-sentence-encoder_4"
+  bert_standard: ""
+  random: ""

@@ -16,5 +16,11 @@ The analyzor prints the tables in console and save plots and statistical test in
 ### Python Packages
 You can use the same virtual environment as the `isolation` package.
 
-## Run
-
+### Run
+1. Specify input file in the `config.yml`
+1. Activate the virtual environment    
+1. Run following command
+    ````
+    python run_analysis_sem_matching.py
+    ````
+1. Check the analyzor outputs 
