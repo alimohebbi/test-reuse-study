@@ -1,0 +1,158 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "5",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.aa.mynotes.activities.MainActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.aa.mynotes.activities.EditorActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.aa.mynotes.activities.MainActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.aa.mynotes.activities.AboutActivity"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.aa.mynotes.activities.EditorActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "4",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "2",
+				"properties": {
+					"id": "notesListView",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "2",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "action_delete_note",
+					"class": "android.view.MenuItem",
+					"text": "Delete note",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "3",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all notes",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "5",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "viewOnGithubButton",
+					"class": "android.widget.Button",
+					"text": "View app on Github",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "1",
+				"properties": {
+					"id": "action_about",
+					"class": "android.view.MenuItem",
+					"text": "About",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

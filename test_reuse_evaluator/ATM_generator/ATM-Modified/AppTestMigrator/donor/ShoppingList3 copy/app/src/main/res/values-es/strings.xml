@@ -1,0 +1,379 @@
+<resources>
+    <!--### GENERAL ### -->
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="reset">Reutilizar</string>
+    <string name="edit">Editar</string>
+    <string name="duplicate">Duplicar</string>
+    <string name="language">ES</string>
+    <string name="date_long_pattern">EE dd/MM/yyyy HH:mm</string>
+    <string name="date_short_pattern">EE dd/MM/yyyy</string>
+    <string name="date_day_stats_pattern">dd/MM/yy</string>
+    <string name="date_month_pattern">MMM yy</string>
+    <string name="time_pattern">HH:mm</string>
+    <string name="currency">€</string>
+    <string name="number_decimal_separator">,</string>
+    <!-- ### TUTORIAL ### -->
+    <string name="tutorial_dialog_title">Tutorial</string>
+    <string name="tutorial_manage_lists">Administrar Listas</string>
+    <string name="tutorial_manage_products">Administrar Productos</string>
+    <string name="tutorial_how_to">¿Cómo...</string>
+    <string name="tutorial_create_list">... crear una nueva lista?</string>
+    <string name="tutorial_delete_lists">... eliminar varias listas?</string>
+    <string name="tutorial_sort_lists">... ordenar listas?</string>
+    <string name="tutorial_see_details_list">... ver detalles?</string>
+    <string name="tutorial_icons_meaning">Iconos</string>
+    <string name="tutorial_icon_priority">Lista de alta prioridad</string>
+    <string name="tutorial_icon_reminder_on">Recordatorio activado. Notificaciones
+        <b>
+            <i>activadas.</i>
+        </b>
+    </string>
+    <string name="tutorial_icon_reminder_off">Recordatorio activado. Notificaciones
+        <b>
+            <i>desactivadas.</i>
+        </b>
+    </string>
+    <string name="tutorial_add_product">... añadir un nuevo producto?</string>
+    <string name="tutorial_delete_products">... eliminar varios productos?</string>
+    <string name="tutorial_sort_products">... ordenar productos?</string>
+    <string name="tutorial_see_products">... ver detalles?</string>
+    <string name="tutorial_see_details_product">... ver detalles?</string>
+    <string name="tutorial_check_product">... marcar un producto?</string>
+    <string name="tutorial_check_statistics">Si las estadísticas han sido habilitadas, entonces cada vez que un producto
+        sea marcado, este será guardado en un registro aparte para las estadísticas. El mismo producto puede ser marcado
+        varias veces. Esto te permite actualizar el registro de compras al reutilizar listas.
+    </string>
+    <string name="tutorial_multiple_delete">Selecciona los ítems que deseas eliminar, haz clic en el icono y confirma la
+        operación.
+    </string>
+    <!-- ### SHOPPING LIST ### -->
+    <string name="activity_shopping_list">Lista:</string>
+    <string name="nr_items">Nr. Ítems</string>
+    <string name="total_list_amount">Monto total</string>
+    <string name="reminder_text">Recordatorio: %1$d %2$s antes</string>
+    <string name="alert_message_list">CREAR LISTA</string>
+    <string name="alert_message_product">AÑADIR PRODUCTO</string>
+    <!-- ### NOTIFICATIONS ### -->
+    <string name="notification_message">Lista: %1$s\nFecha tope: %2$s</string>
+    <string name="notification_setting_status">Las notificaciones están deshabilitadas. Puedes activarlas en el menú
+        de configuración.
+    </string>
+    <string name="duplicated_suffix">(Nueva)</string>
+    <!-- ### PRODUCTS ### -->
+    <string name="new_product">Producto nuevo</string>
+    <string name="product_already_exists">¡Este producto ya existe!</string>
+    <string name="price_number_too_big">¡Número muy grande!</string>
+    <string name="number_format_invalid">Invalido: #.###.##0,00</string>
+    <string name="product_list_empty">Esta lista no contiene productos.</string>
+    <string name="lists_empty">No existen listas</string>
+    <string name="total_amount">Total:</string>
+    <string name="total_amount_separator">/</string>
+    <string name="store_label">Tienda:</string>
+    <string name="category_label">Categoría:</string>
+    <string name="search">Búsqueda</string>
+    <string name="no_products_found">¡Ningún producto coincide con la búsqueda!</string>
+    <string name="store_detail">Tienda: %1$s</string>
+    <string name="category_detail">Categoría: %1$s</string>
+    <string name="quantity_detail">Cantidad: %1$s</string>
+    <string name="price_detail">Precio: %1$s</string>
+    <string name="total_price_detail">Precio total: %1$s</string>
+    <string name="notes_detail">Notas: %1$s</string>
+    <!-- ### Statistics -->
+    <string name="statistics_total_amout">Total:</string>
+    <string name="statistics_range">Rango:</string>
+    <string name="statistics_group_by">Agrupar:</string>
+    <string name="statistics_y_values">Valores:</string>
+    <string name="statistics_quantity_unit">Unidades</string>
+    <!-- ### SORT ### -->
+    <string name="sort_options">Ordenar</string>
+    <string name="sort_ascencing_descending">Ascendente/Descendente</string>
+    <string name="sort_ascencing">Ascendente</string>
+    <string name="sort_descending">Descendiente</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="sort_by_name">Nombre</string>
+    <string name="sort_by_priority">Prioridad</string>
+    <string name="sort_by_quantity">Cantidad</string>
+    <string name="sort_by_store">Tienda</string>
+    <string name="sort_by_price">Precio</string>
+    <string name="sort_by_category">Categoría</string>
+    <!-- ### DELETE ### -->
+    <string name="delete_confirmation_title">Eliminar</string>
+    <string name="delete_foto_confirmation">¿Deseas eliminar la imagen seleccionada (%1$s)? Esta operación no puede ser
+        revertida.
+    </string>
+    <!-- ### DELETE SHOPPING LISTS ### -->
+    <string name="delete_lists_confirmation">¿Deseas eliminar todas las listas seleccionadas? Esta operación no puede ser
+        revertida.
+    </string>
+    <string name="delete_list_confirmation">¿Deseas eliminar la lista seleccionada (%1$s)? Esta operación no puede ser
+        revertida.
+    </string>
+    <string name="activity_delete_lists">Eliminar listas</string>
+    <!-- ### DELETE PRODUCTS LISTS ### -->
+    <string name="delete_products_confirmation">¿Deseas eliminar todos los productos seleccionados? Esta operación no
+        puede ser revertida.
+    </string>
+    <string name="delete_product_confirmation">¿Deseas eliminar el producto seleccionado (%1$s)? Esta operación no puede
+        ser revertida.
+    </string>
+    <string name="activity_delete_products">Eliminar productos</string>
+    <!-- ### STATISTICS ### -->
+    <string name="statistics">Stadísticas</string>
+    <string name="delete_statistics_confirmation">¿Deseas eliminar el registro de estadísticas? Esta operación no puede
+        ser revertida.
+    </string>
+    <!--### ABOUT ###-->
+    <string name="about">Acerca de Shopping List</string>
+    <string name="version_number">Versión</string>
+    <string name="about_developper">Autores:</string>
+    <string name="about_author_greb">Grebiel José Ifill Brito</string>
+    <string name="about_author_cri">Christian König y contribuidores.</string>
+    <string name="about_affiliation">En afiliación con</string>
+    <string name="privacy_friendly">Esta aplicación pertenece al grupo de Privacy Friendly Apps desarrolladas por la
+        Universidad Técnica de Darmstadt. El código fuente está licenciado bajo \"Apache License\", Versión 2.0. Derecho
+        de autor de imágenes: Universidad Técnica de Darmstadt y Google Inc.
+    </string>
+    <string name="more_info">Más información en:</string>
+    <!-- ### DRAWER ###-->
+    <string name="action_help">Ayuda</string>
+    <string name="action_about">Acerca de Shopping List</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_main">Inicio</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <!-- ### SETTINGS ### -->
+    <string name="pref_header_general">General</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="pref_checkbox_position">Posición de la casilla</string>
+    <string name="pref_checkbox_summary_on">Casilla para marcar productos a la derecha</string>
+    <string name="pref_checkbox_summary_off">Casilla para marcar productos a la izquierda</string>
+    <string name="pref_checkbox_toast_on">¡Casillas serán mostradas a la derecha!</string>
+    <string name="pref_checkbox_toast_off">¡Casillas serán mostradas a la izquierda!</string>
+    <string name="pref_checkbox_right_display_text">D</string>
+    <string name="pref_checkbox_left_display_text">I</string>
+    <string name="pref_move_products">Mover productos</string>
+    <string name="pref_move_products_summary_on">Mover productos automáticamente al final de la lista al marcarlos</string>
+    <string name="pref_move_products_summary_off">No mover productos automáticamente al final de la lista al marcarlos</string>
+    <string name="pref_move_products_toast_on">¡Los productos serán movidos al final de la lista al ser marcardos!</string>
+    <string name="pref_move_products_toast_off">¡Los productos no serán movidos al final de la lista al ser marcados!</string>
+    <string name="pref_header_notifications">Notificaciones</string>
+    <string name="pref_notifications_title">Recordatorio</string>
+    <string name="pref_notifications_summary_on">Las notificaciones para recordatorios se encuentran activadas</string>
+    <string name="pref_notifications_summary_off">Las notificaciones para recordatorios se encuentran desactivadas</string>
+    <string name="pref_notifications_toast_on">¡Las notificaciones para recordatorios se encuentran activadas!</string>
+    <string name="pref_notifications_toast_off">¡Las notificaciones para recordatorios se encuentran desactivadas!</string>
+    <string name="pref_header_statistics">Estadísticas</string>
+    <string name="pref_statistics_title">Valor por defecto</string>
+    <string name="pref_statistics_summary_on">Las estadísticas estarán habilitadas por defecto al crear una nueva
+        lista.
+    </string>
+    <string name="pref_statistics_summary_off">Las estadísticas estarán deshabilitadas por defecto al crear una nueva
+        lista.
+    </string>
+    <string name="pref_statistics_toast_on">!Estadísticas habilitadas!</string>
+    <string name="pref_statistics_toast_off">!Estadísticas deshabilitadas!</string>
+    <string name="pref_statistics_delete">Eliminar</string>
+    <string name="pref_statistics_delete_summary">Eliminar todos los datos de las estadísticas</string>
+    <string name="pref_header_currency">Moneda</string>
+    <string name="pref_currency_title">Seleccionar moneda</string>
+    <string name="pref_currency_summary">€</string>
+    <!-- ### WELCOME DIALOG ### -->
+    <string name="welcome_text">Esta app te permite crear y administrar listas de compras. Además es posible asignar prioridad a listas, fijar fechas topes, recordatorios y más.
+    </string>
+    <string name="welcome">Bienvenido</string>
+    <string name="okay">Aceptar</string>
+    <string name="viewhelp">Ayuda</string>
+    <string name="skip">Saltar</string>
+    <string name="next">Siguiente</string>
+    <!--### HELP ###-->
+    <string name="help">Ayuda</string>
+    <string name="help_overview_heading">Resumen</string>
+    <string name="help_intro1">Bienvenido a la página de ayuda de Privacy Friendly Shopping List. Con esta aplicación no
+        solo podrás crear listas de compras y añadir productos, sino también fijar otra información relevante,
+        como por ejemplo: prioridad, fecha tope, recordatorios y notas.</string>
+    <string name="help_intro2">Además podrás llevar un registro de tus compras y
+        visualizar de forma gráfica tanto el monto total gastado como la cantidad total de unidades compradas.
+    </string>
+    <string name="help_intro3">Una lista de compras contiene productos. Además de asignarle nombre, cantidad y precio a cada producto,
+        podrás añadir categoría, nombre de la tienda o supermercado e incluso una foto del producto usando la cámara de tu
+        dispositivo.
+    </string>
+    <string name="help_how_tos_lists">Funciones</string>
+    <string name="help_how_to_create_a_list">Crear una lista</string>
+    <string name="help_how_to_create_a_list_summary1">Para crear una lista ve al menú de inicio y presiona el signo más
+        (+). Luego rellena los campos que aparecerán en la ventana y presiona ACEPTAR.
+    </string>
+    <string name="help_how_to_create_a_list_summary2">No hay campos obligatorios. Si no se le asigna un nombre a la lista,
+        entonces ésta tomará el nombre por defecto \”Nueva lista\”. Si la opción de \"alta\" prioridad es seleccionada,
+        entonces aparecerá un icono con el signo \"!\" al lado derecho de la tarjeta.
+    </string>
+    <string name="help_how_to_create_a_product">Añadir un producto</string>
+    <string name="help_how_to_create_a_product_summary1">Luego de haber creado una lista, la aplicación saltará
+        automáticamente al interior de la misma. Para añadir un producto utiliza el signo más (+).
+    </string>
+    <string name="help_how_to_create_a_product_summary2">Rellena los campos mostrados y presiona ACEPTAR.
+        El campo \"Nombre del Producto\" es obligatorio.
+    </string>
+    <string name="help_how_to_edit_a_list">Editar, Eliminar o Compartir</string>
+    <string name="help_how_to_edit_a_list_summary">Para editar, eliminar o compartir una lista o un producto debes hacer
+        clic en el ítem correspondiente, lista o producto, por un tiempo de tres segundos aproximadamente. Esta acción mostrará una ventana en
+        donde podrás eligir la operación que deseas realizar. La operación de eliminar no afectará los datos
+        correspondientes a estadísticas.
+    </string>
+    <string name="help_how_to_enable_statistics">Activar estadísticas</string>
+    <string name="help_how_to_enable_statistics_summary1">Una vez que hayas hecho clic en la opción correspondiente para
+        crear o editar listas, podrás activar las estadísticas utilizando el botón que se encuentra al lado del icono
+        con tres barras (representando un gráfico).
+    </string>
+    <string name="help_how_to_enable_statistics_summary2">Luego de haber activado las estadísticas, todos los productos serán
+        guardados en un registro aparte tan pronto sean marcados utilizando la casilla. Este registro es utilizado para
+        mostrar de forma gráfica ciertos datos de interés. Un producto será añadido a las estadísticas tantas veces como
+        sea marcado.
+    </string>
+    <string name="help_how_to_setup_deadline">Fijar una fecha tope</string>
+    <string name="help_how_to_setup_deadline_summary1">Una vez que hayas hecho clic en la opción correspondiente para
+        crear o editar listas, podrás fijar una fecha tope haciendo clic en la casilla \"Fecha tope\" y fijando una fecha y
+        una hora.
+    </string>
+    <string name="help_how_to_setup_deadline_summary2">Si la fecha tope ya ha pasado y la lista aún contiene productos
+        sin marcar, entonces la barra vertical del lado izquierdo de la tarjeta cambiará a color rojo. Si todos los ítems
+        han sido marcados, entonces el color de la barra será gris. El color neutral de la barra es azul. Luego de fijar
+        una fecha, ésta aparecerá en la tarjeta debajo del nombre de la lista.
+    </string>
+    <string name="help_how_to_setup_reminder">Fijar un recordatorio</string>
+    <string name="help_how_to_setup_reminder_summary1">Si has fijado una fecha tope para una lista, entonces podrás también
+        fijar un recordatorio. Para ello tendrás que hacer clic en el botón que se encuentra al lado del icono de alarma
+        y luego introducir cuántos minutos, horas, días o semanas antes de la fecha tope quieres el recordatorio.
+    </string>
+    <string name="help_how_to_setup_reminder_summary2">Si la alarma ya ha sonado, entonces la barra vertical al lado
+        izquierdo de la tarjeta cambiará a color amarillo. Listas con recordatorio mostrarán en la tarjeta un icono de
+        alarma ubicado al lado de la fecha tope. Si las notificaciones han sido deshabilitadas en la aplicación,
+        entonces el color del icono será rojo.
+    </string>
+    <string name="help_how_to_sort_lists">Ordenar ítems</string>
+    <string name="help_how_to_sort_lists_summary">Para ordenar ítems utiliza el icono con tres barras horizontales
+        localizado en la parte superior de la ventana. Luego de hacer clic en este icono, verás unas opciones donde podrás
+        escoger si deseas ordenar los ítems de manera ascendente o descendente y el criterio que debe ser utilizado para
+        ordenar los mismos.
+    </string>
+    <string name="help_how_to_delete_multiple_items">Eliminar múltiples ítems</string>
+    <string name="help_how_to_delete_multiple_items_summary1">Para eliminar múltiples ítems simultáneamente utiliza el icono de la
+        papelera mostrado en la parte superior derecha de la pantalla. Luego de haber hecho clic en este icono, tendrás la
+        oportunidad de seleccionar todos los ítems que deseas eliminar.
+    </string>
+    <string name="help_how_to_delete_multiple_items_summary2">Al final haz clic nuevamente en el icono de la
+        papelera localizado en la parte inferior derecha. Esta operación no eliminará ningún dato relacionado con las
+        estadísticas.
+    </string>
+    <string name="help_how_to_search_products">Buscar productos en lista</string>
+    <string name="help_how_to_search_products_summary1">Para buscar productos en una lista debes utilizar el
+        icono de la lupa que se encuentra en la parte superior de la ventana. Luego de hacer clic en él, aparecerá un campo en el que
+        podrás escribir las palabras que deseas buscar.</string>
+    <string name="help_how_to_search_products_summary2">La lista se filtrará a medida que estas escribiendo, mostrando
+        así los ítems que coincidan con la búsqueda. Los ítems allí mostrados pueden ser manipulados tal y como se hace
+        en la vista original (marcar, editar, etc.).
+    </string>
+    <string name="help_how_to_save_picture">Guardar imagen</string>
+    <string name="help_how_to_save_picture_summary1">Para guardar una imagen de un producto se puede utilizar la cámara
+        del dispositivo. Esta opción se encuentra localizada en la ventana de añadir o editar productos (Vea \"Añadir un
+        producto\" y/o \"Editar, eliminar o compartir\").</string>
+    <string name="help_how_to_save_picture_summary2">Una vez estando allí, podrás hacer clic en la flecha hacia
+        abajo para ver más opciones. Allí encontrarás un icono de una cámara en color azul. La imagen tomada solamente
+        puede ser accedida por esta aplicación. No existe ninguna posibilidad de compartir esta imagen, a menos que hagas una captura de pantalla.
+    </string>
+    <string name="help_settings_heading">Configuración</string>
+    <string name="help_settings_summary1">En la página de configuración podrás personalizar la applicación.</string>
+    <string name="help_settings_summary2">Allí podrás escoger por ejemplo si deseas que las casillas para marcar productos
+        sean mostradas a la izquierda o la derecha de la pantalla, dependiendo de con qué mano utilices el dispositivo.
+        Además podrás activar/desactivar las notificaciones y otras cosas más. Visita la página de configuración
+        para más información.
+    </string>
+    <string name="help_privacy_heading">Información de Privacidad</string>
+    <string name="help_camera_permission_heading">Permiso para acceder a la cámara</string>
+    <string name="help_camera_permission_description">Este permiso es necesario para poder tomar y guardar fotos de un
+        producto. Si el permiso es negado, la función no podrá ser utilizada. Negar este permiso no afecta las otras
+        funciones de la aplicación.
+    </string>
+    <string name="help_permissions_heading">Permisos</string>
+    <string name="help_permissions_description">No se requiere de otros permisos.</string>
+    <!-- Product Dialog -->
+    <string name="product_name">Nombre</string>
+    <string name="product_name_new">Nuevo producto</string>
+    <string name="product_name_edit">Editar producto</string>
+    <string name="price">0,00</string>
+    <string name="alert_missing_product_name">¡Por favor introduce el nombre del producto!</string>
+    <string name="product_dialog_title">Título</string>
+    <string name="price_text">Precio</string>
+    <string name="quantity_text">Cant.</string>
+    <string name="category_text">Categoría</string>
+    <string name="store_text">Tienda</string>
+    <string name="product_as_title">Producto: %1$s</string>
+    <string name="close_image">Cerrar</string>
+    <string name="edit_dialog_product">Editar, eliminar o compartir producto?</string>
+    <!-- Shopping List Dialog -->
+    <string name="list_name">Nombre</string>
+    <string name="list_name_new">Nueva lista</string>
+    <string name="list_name_edit">Editar lista</string>
+    <string name="list_as_title">Lista: %1$s</string>
+    <string name="priority">Prioridad</string>
+    <string name="priority_high">Alta</string>
+    <string name="priority_normal">Normal</string>
+    <string name="deadline_date">Fecha</string>
+    <string name="deadline_time">Hora</string>
+    <string name="deadline">Fecha tope</string>
+    <string name="reminder">Recordatorio</string>
+    <string name="reminder_before">antes</string>
+    <string name="list_notes">Notas</string>
+    <string name="default_list_name">Nueva lista</string>
+    <string name="edit_dialog_list">Editar, eliminar o compartir lista?</string>
+    <!-- Sharing -->
+    <string name="no_products">Esta lista no contiene productos.</string>
+    <string name="share_as_text">Compartir Texto</string>
+    <string-array
+            name="shopping_list_priority_spinner">
+        <item>Alta</item>
+        <item>Normal</item>
+        <item>Prioridad</item>
+    </string-array>
+    <string-array
+            name="shopping_list_reminder_spinner">
+        <item>Minutos</item>
+        <item>Horas</item>
+        <item>Días</item>
+        <item>Semanas</item>
+        <item>Recordatorio</item>
+    </string-array>
+    <string-array name="statistics_spinner_group_by">
+        <item>Mes</item>
+        <item>Semana</item>
+        <item>Día</item>
+        <item>Categoría</item>
+        <item>Tienda</item>
+        <item>Producto</item>
+    </string-array>
+    <string-array name="statistics_spinner_values">
+        <item>Precio</item>
+        <item>Cantidad</item>
+    </string-array>
+    <string-array name="statistics_enabled_text">
+        <item>Estadísticas activadas para esta lista.</item>
+        <item>Estadísticas desactivadas para esta lista.</item>
+        <item></item>
+    </string-array>
+    <string-array name="statistics_months">
+        <item>Ene.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Abr.</item>
+        <item>May.</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Ago.</item>
+        <item>Sep.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dic.</item>
+    </string-array>
+</resources>

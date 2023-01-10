@@ -1,0 +1,142 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.main.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.tutorial.TutorialActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".ui.main.MainActivity"
+                android:label="@string/app_name"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <receiver
+                android:name='privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.reminder.ReminderReceiver'>
+        </receiver>
+
+        <service
+                android:name='privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.reminder.ReminderSchedulingService'>
+        </service>
+
+
+        <activity
+                android:name=".ui.products.ProductsActivity"
+                android:label="@string/activity_shopping_list"
+                android:launchMode="singleTop"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.products.PhotoPreviewActivity"
+                android:label="@string/activity_shopping_list"
+                android:parentActivityName=".ui.products.ProductsActivity"
+                android:configChanges="orientation|screenSize">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.products.ProductsActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.deleteproducts.DeleteProductsActivity"
+                android:label="@string/activity_delete_products"
+                android:parentActivityName=".ui.deleteproducts.DeleteProductsActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/DeleteTheme">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.deleteproducts.DeleteProductsActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.deletelists.DeleteListsActivity"
+                android:label="@string/activity_delete_lists"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/DeleteTheme">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.statistics.StatisticsActivity"
+                android:label="@string/statistics"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.camera.CameraActivity"
+                android:label="@string/app_name"
+                android:parentActivityName=".ui.products.ProductsActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.products.ProductsActivity"/>
+        </activity>
+
+        <!-- Menu Activities -->
+        <activity
+                android:name=".ui.about.AboutActivity"
+                android:label="@string/about"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.help.HelpActivity"
+                android:label="@string/help"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".ui.settings.SettingsActivity"
+                android:label="@string/title_activity_settings"
+                android:parentActivityName=".ui.main.MainActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ui.main.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

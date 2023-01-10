@@ -1,0 +1,575 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "9",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.example.tomek.notepad.NoteActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.example.tomek.notepad.NoteActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "VAR[$r1"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.example.tomek.notepad.MainActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.example.tomek.notepad.MainActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "5",
+				"properties": {
+					"id": "context_menu_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "5",
+				"properties": {
+					"id": "context_menu_edit",
+					"class": "android.view.MenuItem",
+					"text": "Edit",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "5",
+				"properties": {
+					"id": "context_menu_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2304",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2301",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2301",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonUnderline",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonTextColorYellow",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2304",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2301",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonTextColorRed",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonItalic",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2298",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonTextColorBlack",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2301",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2301",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2304",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "activity_note_title",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2298",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "editText",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.ImageButton,*,2298",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonBold",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonTextColorBlue",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "imageButtonTextColorGreen",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "1",
+				"properties": {
+					"id": "context_menu_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "1",
+				"properties": {
+					"id": "context_menu_edit",
+					"class": "android.view.MenuItem",
+					"text": "Edit",
+					"action": "click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "1",
+				"properties": {
+					"id": "context_menu_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "6",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "1",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "1",
+				"properties": {
+					"id": "listView",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "2",
+				"properties": {
+					"id": "context_menu_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "2",
+				"properties": {
+					"id": "context_menu_edit",
+					"class": "android.view.MenuItem",
+					"text": "Edit",
+					"action": "click"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "2",
+				"properties": {
+					"id": "context_menu_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "7",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "2",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "2",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "8",
+				"properties": {
+					"id": "listView",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "8",
+				"properties": {
+					"id": "toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "8",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "listView",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "long_click"
+				}
+			}
+		]
+	}
+}

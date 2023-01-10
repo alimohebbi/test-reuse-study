@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.com.andrzejgrzyb.shoppinglist">
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--android:name="android.support.multidex.MultiDexApplication"-->
+        <activity
+            android:name="pl.com.andrzejgrzyb.shoppinglist.MainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.com.andrzejgrzyb.shoppinglist.ShoppingListViewActivity"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="pl.com.andrzejgrzyb.shoppinglist.ShoppingListEditActivity"
+            android:configChanges="locale"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="pl.com.andrzejgrzyb.shoppinglist.ItemEditActivity"
+            android:configChanges="locale"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="pl.com.andrzejgrzyb.shoppinglist.SettingsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="pl.com.andrzejgrzyb.shoppinglist.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.com.andrzejgrzyb.shoppinglist.MainActivity" />
+        </activity>
+        <!--<activity-->
+            <!--android:name="pl.com.andrzejgrzyb.shoppinglist.LoginActivity"-->
+            <!--android:configChanges="locale"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"-->
+            <!--&gt;-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.gms.version"-->
+            <!--android:value="@integer/google_play_services_version" />-->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyBCkSK0o5lWAPKyImICFXyWqz7nTGMwp6Q"/>-->
+
+
+    </application>
+
+</manifest>

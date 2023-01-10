@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Daily Budget</string>
+    <string name="title_activity_item_activity"> </string>
+    <string name="title_activity_ex_item_activity"> </string>
+    <string name="banner_ad_unit_id">ca-app-pub-8534650310108016/3162806086</string>
+
+
+    <!--
+    SHARED PREFERENCES
+    *****************************
+    -->
+    <string name="preference_file_key">com.example.simonkvannli.dailybudget.PREFERENCE_FILE_KEY</string>
+    <string name="current_money">PREFERENCE_CURRENT_MONEY</string>
+    <string name="daily_money">PREFERENCE_DAILY_MONEY</string>
+    <string name="daily_expenses">PREFERENCE_DAILY_EXPENSES</string>
+    <string name="moneyType">PREFERENCE_MONEY_TYPE</string>
+    <string name="last_updated">PREFERENCE_LAST_UPDATED</string>
+    <string name="moneyDesimal">PREFERENCE_MONEY_DECIMAL</string>
+
+    <!--
+    MAIN PAGE
+    ******************************
+    -->
+    <string name="main_activity"> </string>
+    <string name="todays_budget_header">TODAYS BUDGET</string>
+    <string name="daily_amount_text">DAILY AMOUNT:</string>
+    <string name="todays_budget_placeholder_text">420</string>
+    <string name="daily_amount_placeholder_text">0</string>
+    <string name="input_example_text">e.g. 30</string>
+
+
+    <!--
+    INCOME
+    *******************************
+    -->
+    <string name="title_activity_income_activity">INCOME</string>
+    <string name="income_name_input_text">Name</string>
+    <string name="income_amount_input_text">Amount</string>
+    <string name="add_income_button_text">ADD INCOME</string>
+    <string name="total_income_text">TOTAL INCOME:</string>
+    <string name="default_total_income_value">0</string>
+
+    <string name="income_deleted_text">Income deleted</string>
+
+    <!--
+    EXPENSES
+    *******************************
+    -->
+    <string name="title_activity_expense_activity">EXPENSES</string>
+    <string name="expense_name_input_text">Name</string>
+    <string name="expense_amount_input_text">Amount</string>
+    <string name="add_expense_button_text">ADD EXPENSE</string>
+    <string name="total_expenses_text">TOTAL EXPENSES:</string>
+    <string name="default_total_expenses_value">0</string>
+
+    <string name="expense_deleted_text">Expense deleted</string>
+
+
+    <!--
+    SPINNER
+    *******************************
+    -->
+    <string name="spinner_title">MONTHLY</string>
+    <string name="spinner_bi_week">BI-WEEKLY</string>
+    <string name="spinner_week">WEEKLY</string>
+    <string name="spinner_day">DAILY</string>
+    <string name="spinner_year">YEARLY</string>
+
+    <string-array name="spinner_array">
+        <item>@string/spinner_title</item>
+        <item>@string/spinner_bi_week</item>
+        <item>@string/spinner_week</item>
+        <item>@string/spinner_day</item>
+        <item>@string/spinner_year</item>
+    </string-array>
+
+    <!--
+    SETTINGS ACTIVITY
+    ******************************************
+    -->
+    <string name="action_settings">SETTINGS</string>
+    <string name="title_activity_settings_activity">SETTINGS</string>
+    <string name="selected_currency_text">"Selected currency: "</string>
+    <string name="default_selected_currency_text">Current currency: kr</string>
+    <string name="change_currency_button_text">Change currency</string>
+    <string name="feedback_or_feature_ideas_text">Feedback or feature ideas?</string>
+    <string name="like_the_app_text">Like the app?</string>
+    <string name="rate_it_text">Please rate it!</string>
+
+    <string name="NOK">kr</string>
+    <string name="USD">$</string>
+    <string name="EUR">€</string>
+    <string name="SEK">kr</string>
+    <string name="AUD">$</string>
+    <string name="JPY">¥</string>
+    <string name="GBP">£</string>
+    <string name="DKK">kr</string>
+    <string name="INR">₹</string>
+    <string name="RUB">₽</string>
+
+    <string-array name="money_spinner_array">
+        <item>@string/NOK</item>
+        <item>@string/USD</item>
+        <item>@string/EUR</item>
+        <item>@string/JPY</item>
+        <item>@string/GBP</item>
+        <item>@string/INR</item>
+        <item>@string/RUB</item>
+    </string-array>
+
+    <!--Must be same order as as money_spinner_array -->
+    <string-array name="currency_name_array">
+        <item>kr</item>
+        <item>$</item>
+        <item>€</item>
+        <item>¥</item>
+        <item>£</item>
+        <item>₹</item>
+        <item>₽</item>
+    </string-array>
+
+    <string-array name="currency_desimal_array">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>0</item>
+        <item>2</item><!--GBP-->
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="two_desimal">%.2f</string>
+    <string name="one_desimal">%.1f</string>
+    <string name="no_desimal">%.0f</string>
+
+
+    <!--
+    NAVIGATION DRAWER
+    *************************************
+    -->
+    <string name="title_activity_drawer_activity">drawer_activity</string>
+
+    <string name="title_section0">HOME</string>
+    <string name="title_section1">INCOME</string>
+    <string name="title_section2">EXPENSES</string>
+    <string name="title_section3">SETTINGS</string>
+    <string name="title_section4">FEEDBACK</string>
+    <string name="title_section5">HISTORY</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--
+    FEEDBACK ACTIVITY
+    *************************************************
+    -->
+    <string name="title_activity_feedback_activity">FEEDBACK</string>
+    <string name="feedback_text">We want to make this app as easy and useful to you as possible. We would love your feedback and additional feature ideas.</string>
+    <string name="simons_gmail">simonkvannli@gmail.com</string>
+    <string name="send_mail_text">Send mail...</string>
+    <string name="no_mail_clients_installed_text">There are no email clients installed.</string>
+    <string name="send_us_an_email_text">Send us an email:</string>
+    <string name="subject_hint_text">Subject</string>
+    <string name="text_hint_text">Text</string>
+    <string name="send_mail_button_text">Send mail</string>
+
+    <!--
+    DIV
+    *************************************************
+    -->
+    <string name="action_example">Example action</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="missing_input_text">Missing input</string>
+    <string name="update_successful_text">Update successful</string>
+    <string name="selected_text">"Selected: "</string>
+    <string name="update_item_text">Update</string>
+    <string name="delete_item_text">Delete</string>
+    <string name="cancel_item_text">Cancel</string>
+    <string name="first_day">PREFERENCE_FIRST_DAY</string>
+    <string name="savingPercentage">PREFERENCE_SAVING_PERCENTAGE</string>
+
+
+</resources>

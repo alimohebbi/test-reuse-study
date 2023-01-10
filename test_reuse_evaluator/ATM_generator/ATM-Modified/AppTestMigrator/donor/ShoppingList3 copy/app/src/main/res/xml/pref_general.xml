@@ -1,0 +1,83 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/pref_header_general">
+        <SwitchPreference
+                android:id="@+id/pref_checkbox_position"
+                android:key="pref_checkbox_position"
+                android:title="@string/pref_checkbox_position"
+                android:summaryOn="@string/pref_checkbox_summary_on"
+                android:summaryOff="@string/pref_checkbox_summary_off"
+                android:defaultValue="true"/>
+        <SwitchPreference
+                android:id="@+id/pref_move_products"
+                android:key="pref_move_products"
+                android:title="@string/pref_move_products"
+                android:summaryOn="@string/pref_move_products_summary_on"
+                android:summaryOff="@string/pref_move_products_summary_off"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/pref_header_notifications">
+        <SwitchPreference
+                android:id="@+id/pref_notifications"
+                android:key="pref_notifications"
+                android:title="@string/pref_notifications_title"
+                android:summaryOn="@string/pref_notifications_summary_on"
+                android:summaryOff="@string/pref_notifications_summary_off"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/pref_header_statistics">
+        <SwitchPreference
+                android:id="@+id/pref_statistics"
+                android:key="pref_statistics"
+                android:title="@string/pref_statistics_title"
+                android:summaryOn="@string/pref_statistics_summary_on"
+                android:summaryOff="@string/pref_statistics_summary_off"
+                android:defaultValue="false"/>
+        <Preference
+                android:key="pref_statistics_delete"
+                android:title="@string/pref_statistics_delete"
+                android:summary="@string/pref_statistics_delete_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/pref_header_currency">
+        <EditTextPreference
+                android:key="pref_currency"
+                android:title="@string/pref_currency_title"
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:maxLength="3"
+                android:selectAllOnFocus="true"
+                android:defaultValue="@string/currency"
+                android:singleLine="true"/>
+    </PreferenceCategory>
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <!-- <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+
+    <ListPreference
+                android:id="@+id/pref_currency"
+                android:key="pref_currency"
+                android:title="@string/pref_currency_title"
+                android:summary="%s"
+                android:dialogTitle="Larger sample rates create better sound quality but larger file sizes."
+                android:entries="@array/statistics_months"
+                android:entryValues="@array/statistics_months"
+                android:defaultValue="0"/>
+        -->
+
+</PreferenceScreen>

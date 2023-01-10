@@ -1,0 +1,284 @@
+<!--
+   Copyright 2015 Benoit LETONDOR
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name" translatable="false">EasyBudget</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_balance">Adjust current balance</string>
+    <string name="fab_add_expense">Add expense/income</string>
+    <string name="fab_add_monthly_expense">Add recurring expense/income</string>
+    <string name="title_activity_add_expense">Add expense</string>
+    <string name="title_activity_add_income">Add income</string>
+    <string name="title_activity_edit_expense">Edit expense</string>
+    <string name="title_activity_edit_income">Edit income</string>
+    <string name="title_activity_recurring_expense_add">Add recurring expense</string>
+    <string name="title_activity_recurring_income_add">Add recurring income</string>
+    <string name="title_activity_recurring_expense_edit">Edit recurring expense</string>
+    <string name="title_activity_monthly_income_edit">Edit recurring income</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_welcome">EasyBudget</string>
+    <string name="title_activity_premium">Premium</string>
+    <string name="title_activity_monthly_report">Monthly report</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">UNDO</string>
+    <string name="ok">OK</string>
+    <string name="amount">Amount ( %s )</string>
+    <string name="description">Description</string>
+    <string name="type">Type</string>
+    <string name="payment">Expense</string>
+    <string name="income">Income</string>
+    <string name="date">Date</string>
+    <string name="first_occurence">First instance</string>
+    <string name="no_expense_for_today">No income or expense yet.</string>
+
+    <string name="no_description_error">Enter a description</string>
+    <string name="no_amount_error">Enter an amount</string>
+    <string name="negative_amount_error">Amount should be greater than 0</string>
+    <string name="invalid_amount">Not a valid amount</string>
+
+    <string name="dialog_edit_expense_title">What do you want to do?</string>
+    <string name="dialog_edit_income_title">What do you want to do?</string>
+    <string-array name="dialog_edit_expense_choices">
+        <item>Edit expense</item>
+        <item>Delete expense</item>
+    </string-array>
+    <string-array name="dialog_edit_income_choices">
+        <item>Edit income</item>
+        <item>Delete income</item>
+    </string-array>
+    <string name="dialog_edit_recurring_expense_title">Recurring expense: What do you want to do?</string>
+    <string name="dialog_edit_recurring_income_title">Recurring income: What do you want to do?</string>
+    <string-array name="dialog_edit_recurring_expense_choices">
+        <item>Edit this instance</item>
+        <item>Delete this instance only</item>
+        <item>Delete all following</item>
+        <item>Delete all before</item>
+        <item>Delete all</item>
+    </string-array>
+    <string-array name="dialog_edit_recurring_income_choices">
+        <item>Edit this instance</item>
+        <item>Delete this instance only</item>
+        <item>Delete all following</item>
+        <item>Delete all before</item>
+        <item>Delete all</item>
+    </string-array>
+    <string name="expense_delete_snackbar_text">Expense deleted</string>
+    <string name="income_delete_snackbar_text">Income deleted</string>
+
+    <string name="adjust_balance_title">Adjust current balance</string>
+    <string name="adjust_balance_message">Adjust how much you currently have on your account</string>
+    <string name="adjust_balance_expense_title">Balance</string>
+    <string name="adjust_balance_snackbar_text">Balance adjusted to %s</string>
+    <string name="account_balance_format">Balance on %s:</string>
+    <string name="account_balance_date_format">MMM dd</string>
+    <string name="add_expense_date_format">MMM dd yyyy</string>
+    <string name="adjust_limit_warning_title">Change warning threshold for low balance</string>
+    <string name="adjust_limit_warning_message">Set the threshold value (must be > 0)</string>
+    <string name="adjust_limit_warning_error_title">Oops</string>
+    <string name="adjust_limit_warning_error_message">The value you entered is invalid. It must be a positive number, superior to 0</string>
+    <string name="adjust_balance_error_title">Oops</string>
+    <string name="adjust_balance_error_message">The value you entered is invalid.</string>
+
+    <string name="monthly">MONTHLY</string>
+    <string name="weekly">WEEKLY</string>
+    <string name="bi_weekly">BI-WEEKLY</string>
+    <string name="yearly">YEARLY</string>
+    <string name="recurring_expense_add_loading_title">Loading</string>
+    <string name="recurring_expense_add_loading_message">Creating recurring expense…</string>
+    <string name="recurring_income_add_loading_message">Creating recurring income…</string>
+    <string name="recurring_expense_add_error_title">Oops</string>
+    <string name="recurring_expense_add_error_message">An error occurred.</string>
+    <string name="recurring_expense_delete_success_message">Recurring expense deleted with success</string>
+    <string name="recurring_expense_delete_loading_title">Deleting</string>
+    <string name="recurring_expense_delete_loading_message">Deleting recurring expense…</string>
+    <string name="recurring_expense_delete_error_title">Oops</string>
+    <string name="recurring_expense_delete_error_message">An error occurred.</string>
+    <string name="recurring_expense_restoring_loading_title">Canceling</string>
+    <string name="recurring_expense_restoring_loading_message">Restoring deleted recurring expense…</string>
+    <string name="recurring_expense_restored_success_message">Recurring expense restored with success</string>
+    <string name="recurring_expense_restore_error_title">Oops</string>
+    <string name="recurring_expense_restore_error_message">An error occurred.</string>
+    <string name="recurring_expense_delete_first_error_title">Oops</string>
+    <string name="recurring_expense_delete_first_error_message">There are no instances before this one.</string>
+    <string name="expense_delete_error_title">Oops</string>
+    <string name="expense_delete_error_message">An error occurred.</string>
+
+    <string name="recurring_expense_interval">Interval</string>
+    <string name="recurring_interval_weekly">Every week</string>
+    <string name="recurring_interval_bi_weekly">Every 2 weeks</string>
+    <string name="recurring_interval_monthly">Every month</string>
+    <string name="recurring_interval_yearly">Every year</string>
+    <string name="recurring_update_notification">New feature: Based on a popular request, you can now add weekly, bi-weekly and yearly recurring expenses!</string>
+
+    <string name="setting_category_app_title">App</string>
+    <string name="setting_category_rate_button_title">Like the app?</string>
+    <string name="setting_category_rate_button_message">Let me know what you think</string>
+    <string name="setting_category_bug_report_send_button_title">Report a bug</string>
+    <string name="bug_report_email" translatable="false">easybudget@benoitletondor.com</string>
+    <string name="setting_category_bug_report_send_subject" translatable="false">EasyBudget - Bug report</string>
+    <string name="setting_category_bug_report_send_text">\n\n---\n*Please do not remove this part*\nEasyBudget id: %s</string>
+    <string name="setting_category_bug_report_send_error">Unable to find an app to send bug report email</string>
+    <string name="setting_category_general_title">General</string>
+    <string name="setting_category_currency_change_button_title">Change currency (%s)</string>
+    <string name="setting_category_currency_change_button_message">Select the currency you want to use</string>
+    <string name="setting_category_currency_change_dialog_title">Select your currency</string>
+    <string name="setting_category_limit_set_button_title">Set low balance warning threshold (%s)</string>
+    <string name="setting_category_limit_set_button_message">Change the threshold at which you want to be warned about a low balance</string>
+    <string name="setting_category_app_version_title" translatable="false">EasyBudget %s</string>
+    <string name="setting_category_app_version_message">Made by @BenoitLetondor</string>
+    <string name="setting_category_share_app_title">Tell your friends</string>
+    <string name="setting_category_share_app_message">EasyBudget is free, so why not sharing it with your friends!</string>
+    <string name="setting_category_dev_title" translatable="false">Dev</string>
+    <string name="setting_category_show_welcome_screen_button_title" translatable="false">Show welcome screen</string>
+    <string name="setting_category_disable_animation_title" translatable="false">Animations</string>
+    <string name="setting_category_disable_animation_message" translatable="false">You can disable animations if you experience any bug or glitch</string>
+    <string name="setting_category_show_premium" translatable="false">Show premium screen</string>
+    <string name="setting_category_show_notif_daily_reminder" translatable="false">Show daily reminder opt-in notif</string>
+    <string name="setting_category_show_notif_monthly_report_premium" translatable="false">Show monthly report notif (Premium)</string>
+    <string name="setting_category_show_notif_monthly_report_notpremium" translatable="false">Show monthly report notif (Non premium)</string>
+    <string name="setting_category_premium_title">Premium</string>
+    <string name="setting_category_premium_status_title">You are premium!</string>
+    <string name="setting_category_premium_status_message">You have access to premium features</string>
+    <string name="setting_category_premium_redeem_title">Promo code</string>
+    <string name="setting_category_premium_redeem_message">Redeem a promo code</string>
+    <string name="setting_category_notifications_update_title">Updates</string>
+    <string name="setting_category_notifications_update_message">Get notified of new features of the app. Won\'t spam you, I promise!</string>
+    <string name="setting_category_notifications_daily_title">Daily reminder</string>
+    <string name="setting_category_notifications_daily_message">Receive a notification at the end of the day if you didn\'t enter your expenses</string>
+    <string name="setting_category_not_premium_status_title">Become a premium user</string>
+    <string name="setting_category_not_premium_status_message">Access all the premium features</string>
+    <string name="setting_category_notifications_monthly_title">Monthly report notification</string>
+    <string name="setting_category_notifications_monthly_message">Receive a notification when a new monthly report is complete</string>
+
+    <string name="premium_popup_premium_title">You are premium!</string>
+    <string name="premium_popup_premium_message">You have access to premium features:\n\n- Monthly report: Get a sum-up of your expenses and incomes of the month\n- Daily reminder if you forgot to enter your expenses during the day\n… and more premium features that will be added soon!</string>
+    <string name="premium_popup_not_premium_title">Become a premium user</string>
+    <string name="premium_popup_not_premium_message">Access all the premium features!</string>
+    <string name="premium_popup_not_premium_feature1_title">2. Daily reminder</string>
+    <string name="premium_popup_not_premium_feature1_message">Receive a notification at the end of the day if you didn\'t enter your expenses.</string>
+    <string name="premium_popup_not_premium_feature2_title">1. Monthly report</string>
+    <string name="premium_popup_not_premium_feature2_message">Get a sum-up of your expenses and incomes of the month and see how much you saved.</string>
+    <string name="premium_popup_not_premium_feature_more_title">… and more premium features that will be added soon!</string>
+    <string name="premium_popup_not_premium_cta">Purchase</string>
+    <string name="premium_popup_become_title">Become a premium user</string>
+    <string name="premium_popup_become_message">It seems that you like using EasyBudget!\nWould you like to take it to next level and discover premium features?</string>
+    <string name="premium_popup_become_cta">Discover</string>
+    <string name="premium_popup_become_not_now">Not now</string>
+    <string name="premium_popup_become_not_ask_again">Don\'t ask me again</string>
+    <string name="premium_notif_optin_message">New premium feature: Daily notification.\nReceive a reminder if you forgot to add your expenses during the day. Are you in?\n(You can change it later in settings)</string>
+    <string name="premium_notif_optin_message_ok">I\'m in</string>
+    <string name="premium_notif_optin_message_not_ok">No thanks</string>
+
+    <string name="iab_purchase_success_title">Thank you</string>
+    <string name="iab_purchase_success_message">Thank you so much for your support! You can now enjoy the premium features.</string>
+    <string name="iab_purchase_wait_title">Purchasing</string>
+    <string name="iab_purchase_wait_message">Please wait</string>
+    <string name="iab_purchase_error_title">Oops</string>
+    <string name="iab_purchase_error_message">An error occurred, try again later or contact me if the problem persists.\n(%s)</string>
+
+    <string name="voucher_redeem_dialog_title">Promo code</string>
+    <string name="voucher_redeem_dialog_message">Enter your promo code</string>
+    <string name="voucher_redeem_dialog_cta">Redeem</string>
+    <string name="voucher_redeem_dialog_loading_title">Redeeming</string>
+    <string name="voucher_redeem_dialog_loading_message">Please wait</string>
+    <string name="voucher_redeem_error_dialog_title">Oops</string>
+    <string name="voucher_redeem_error_code_invalid_dialog_message">Your promo code is invalid.</string>
+    <string name="voucher_redeem_error_no_internet_dialog_message">Network error. Please check your connection and try again.</string>
+    <string name="voucher_redeem_error_generic_dialog_message">An error occurred, try again later.</string>
+
+    <string name="rating_popup_question_title">What do you think of EasyBudget?</string>
+    <string name="rating_popup_question_message">I develop this app in my free time and provide it for free. There still might be things to improve and I would really appreciate your feedback.</string>
+    <string name="rating_popup_question_cta_negative">I don\'t like it</string>
+    <string name="rating_popup_question_cta_positive">I like it</string>
+    <string name="rating_popup_negative_title">:(</string>
+    <string name="rating_popup_negative_message">I\'m sad to hear that. Would you mind sending me your feedback?</string>
+    <string name="rating_popup_negative_cta_negative">No thanks</string>
+    <string name="rating_popup_negative_cta_positive">Sure</string>
+    <string name="rating_popup_positive_title">:)</string>
+    <string name="rating_popup_positive_message">I\'m glad you enjoy using EasyBudget. Would you mind giving it a positive review on the PlayStore?</string>
+    <string name="rating_popup_positive_cta_negative">No thanks</string>
+    <string name="rating_popup_positive_cta_positive">Sure</string>
+    <string name="rating_feedback_send_error">Unable to find an app to send feedback email.</string>
+    <string name="rating_feedback_email" translatable="false">easybudget@benoitletondor.com</string>
+    <string name="rating_feedback_send_subject" translatable="false">EasyBudget - Feedback</string>
+    <string name="rating_feedback_send_text"></string>
+    <string name="rating_popup_question_cta_dont_ask_again">Don\'t ask me again</string>
+
+    <string name="onboarding_screen_1_title">Welcome to EasyBudget</string>
+    <string name="onboarding_screen_1_message">The concept is simple: You enter your recurring and daily expenses and incomes and the app keeps track of how much money you have, had and will have at any given moment.\n\nIt\'s as simple as that.</string>
+    <string name="onboarding_screen_1_message2">Ready?</string>
+    <string name="onboarding_screen_1_cta">Yes!</string>
+
+    <string name="onboarding_screen_2_title">Let\'s get to know each other!</string>
+    <string name="onboarding_screen_2_message">Step 1: What currency do you use?\n(You can change it later in the settings)</string>
+    <string name="onboarding_screen_2_cta">Go with %s</string>
+
+    <string name="onboarding_screen_3_title">Let\'s get to know each other!</string>
+    <string name="onboarding_screen_3_message">Step 2: How much do you currently have on your account?\n(You can set and change it later)</string>
+    <string name="onboarding_screen_3_cta">Start with %s</string>
+
+    <string name="onboarding_screen_4_title">All set!</string>
+    <string name="onboarding_screen_4_message">(That was easy, huh?)</string>
+    <string name="onboarding_screen_4_message2">What do you have to do next?</string>
+    <string name="onboarding_screen_4_message3">1. Add recurring expenses and incomes (salary, rent, bills…)\n2. Don\'t forget to add your daily expenses and incomes during the day</string>
+    <string name="onboarding_screen_4_message4">Thank you for using EasyBudget, and welcome :)</string>
+    <string name="onboarding_screen_4_cta">Let\'s go!</string>
+
+    <string name="app_invite_title">Tell your friends!</string>
+    <string name="app_invite_message">You should try EasyBudget: An incredibly easy to use app to manage your budget!</string>
+    <!-- 100 chars or less -->
+    <string name="app_invite_referral" translatable="false">easybudget://referral?type=appinvite&amp;referrer=%s</string>
+    <string name="app_invite_welcome_title">Welcome to EasyBudget</string>
+    <string name="app_invite_welcome_message">It looks like a friend recommended this app to you. Welcome on board and don\'t forget to thank your friend for that great advice ;)</string>
+    <string name="app_invite_welcome_cta">Go!</string>
+
+    <string name="monthly_report_button_title">Monthly report</string>
+    <string name="monthly_report_month_title_format">MMMM yyyy</string>
+    <string name="expenses">Expenses</string>
+    <string name="revenues">Revenues</string>
+    <string name="expenses_total">Expenses total</string>
+    <string name="revenues_total">Revenues total</string>
+    <string name="balance">Balance</string>
+    <string name="monthly_report_no_entries_placeholder">Nothing for this month.</string>
+    <string name="monthly_report_notif_notpremium_text">New feature for premium users: Monthly report.\nGet a sum-up of your expenses and incomes of the month. Discover premium?</string>
+    <string name="monthly_report_notif_premium_text">New feature available: Monthly report.\nGet a sum-up of your expenses and incomes of the month. Tap to try</string>
+    <string name="monthly_report_hint">Psst: You can access monthly reports from this button!</string>
+
+    <!-- Keys, not for translations. -->
+    <string name="setting_category_bug_report_send_button_key" translatable="false">send_bug_report</string>
+    <string name="setting_category_show_welcome_screen_button_key" translatable="false">show_welcome_screen</string>
+    <string name="setting_category_limit_set_button_key" translatable="false">limit_set</string>
+    <string name="setting_category_currency_change_button_key" translatable="false">change_currency</string>
+    <string name="setting_category_disable_animation_key" translatable="false">disable_animation</string>
+    <string name="setting_category_dev_key" translatable="false">dev_category</string>
+    <string name="setting_category_rate_button_key" translatable="false">rate</string>
+    <string name="setting_category_app_version_key" translatable="false">app_version</string>
+    <string name="setting_category_share_app_key" translatable="false">share_app</string>
+    <string name="setting_category_premium_key" translatable="false">category_premium</string>
+    <string name="setting_category_not_premium_key" translatable="false">category_not_premium</string>
+    <string name="setting_category_premium_status_key" translatable="false">premium</string>
+    <string name="setting_category_premium_redeem_key" translatable="false">redeem</string>
+    <string name="setting_category_notifications_update_key" translatable="false">update_notifs</string>
+    <string name="setting_category_notifications_daily_key" translatable="false">daily_notifs</string>
+    <string name="setting_category_notifications_monthly_key" translatable="false">monthly_notifs</string>
+    <string name="setting_category_not_premium_status_key" translatable="false">not_premium</string>
+    <string name="setting_category_dev_show_premium_key" translatable="false">show_premium</string>
+    <string name="setting_category_show_notif_daily_reminder_key" translatable="false">show_daily_reminder_notif</string>
+    <string name="setting_category_show_notif_monthly_notpremium_key" translatable="false">show_montly_notpremium_notif</string>
+    <string name="setting_category_show_notif_monthly_premium_key" translatable="false">show_montly_premium_notif</string>
+</resources>

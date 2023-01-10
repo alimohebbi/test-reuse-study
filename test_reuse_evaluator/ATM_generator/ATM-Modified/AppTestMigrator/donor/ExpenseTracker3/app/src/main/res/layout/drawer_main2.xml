@@ -1,0 +1,13 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp"
+    android:fontFamily="sans-serif"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    tools:context="com.kvannli.simonkvannli.dailybudget.NavigationDrawerFragment"
+    android:id="@+id/drawer_list_view" />

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_width">240sp</dimen>
+
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_space_padding">4sp</dimen>
+    <dimen name="negative_margin_big">-25sp</dimen>
+    <dimen name="negative_margin_normal">-10sp</dimen>
+    <dimen name="negative_margin_small">-5sp</dimen>
+    <dimen name="listPreferredItemHeight">64sp</dimen>
+
+    <!-- Statistics -->
+    <dimen name="statistics_padding">12sp</dimen>
+    <dimen name="statistics_padding_small">4sp</dimen>
+
+    <!-- Lists -->
+    <dimen name="list_margin">16sp</dimen>
+    <dimen name="list_margin_big">32sp</dimen>
+    <dimen name="list_padding">8sp</dimen>
+    <dimen name="icon_padding">16sp</dimen>
+    <dimen name="icon_size">20sp</dimen>
+    <dimen name="foto_preview_size">50sp</dimen>
+    <dimen name="dialog_title_height">50sp</dimen>
+    <dimen name="card_corner_radius">4sp</dimen>
+    <dimen name="status_corner_radius">0sp</dimen>
+    <dimen name="status_width">4sp</dimen>
+
+    <!-- Tutorial -->
+    <dimen name="tutorial_icon_padding">10sp</dimen>
+    <dimen name="tutorial_icon_size">40sp</dimen>
+    <dimen name="dots_height">30sp</dimen>
+    <dimen name="dots_margin_bottom">20sp</dimen>
+    <dimen name="img_width_height">120sp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="slide_actions">20sp</dimen>
+    <dimen name="desc_padding">40sp</dimen>
+
+    <!-- Sort Dialog -->
+    <dimen name="dialog_padding">20sp</dimen>
+
+    <!-- Products-->
+    <dimen name="total_padding">16sp</dimen>
+
+    <!-- Products Dialog -->
+    <dimen name="dialog_padding_top">12sp</dimen>
+    <dimen name="dialog_padding_vertical">4sp</dimen>
+    <dimen name="dialog_padding_horizontal">8sp</dimen>
+    <dimen name="dialog_padding_horizontal_big">32sp</dimen>
+    <dimen name="dialog_margin_buttons">8sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16sp</dimen>
+    <dimen name="nav_header_height">160sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="fab_margin">16sp</dimen>
+</resources>

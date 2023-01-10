@@ -1,0 +1,244 @@
+<!--
+   Copyright 2015 Benoit LETONDOR
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<resources>
+
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_balance">Correggi il saldo</string>
+    <string name="fab_add_expense">Aggiungi un’entrata/uscita</string>
+    <string name="fab_add_monthly_expense">Aggiungi un’entrata/uscita ricorrente</string>
+    <string name="title_activity_add_expense">Aggiungi un’uscita</string>
+    <string name="title_activity_add_income">Aggiungi un’entrata</string>
+    <string name="title_activity_edit_expense">Modifica l’uscita</string>
+    <string name="title_activity_edit_income">Modifica l’entrata</string>
+    <string name="title_activity_recurring_expense_add">Aggiungi un’uscita ricorrente</string>
+    <string name="title_activity_recurring_income_add">Aggiungi un’entrata ricorrente</string>
+    <string name="title_activity_recurring_expense_edit">Modifica l’uscita ricorrente</string>
+    <string name="title_activity_monthly_income_edit">Modifica l’entrata ricorrente</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_activity_welcome">EasyBudget</string>
+    <string name="title_activity_premium">Premium</string>
+    <string name="title_activity_monthly_report">Rapporto mensile</string>
+    <string name="cancel">Annulla</string>
+    <string name="undo">ANNULLA</string>
+    <string name="ok">OK</string>
+    <string name="amount">Montante ( %s )</string>
+    <string name="description">Descrizione</string>
+    <string name="type">Tipo</string>
+    <string name="payment">Uscita</string>
+    <string name="income">Entrata</string>
+    <string name="date">Data</string>
+    <string name="first_occurence">Prima occorrenza</string>
+    <string name="no_expense_for_today">Nessuna uscita/entrata per il momento.</string>
+
+    <string name="no_description_error">Inserisci una descrizione</string>
+    <string name="no_amount_error">Inserisci un montante</string>
+    <string name="negative_amount_error">Il montante deve essere superiore a 0</string>
+    <string name="invalid_amount">Montante non valido</string>
+
+    <string name="dialog_edit_expense_title">Cosa vuoi fare?</string>
+    <string name="dialog_edit_income_title">Cosa vuoi fare?</string>
+    <string-array name="dialog_edit_expense_choices">
+        <item>Modifica l’uscita</item>
+        <item>Elimina l’uscita</item>
+    </string-array>
+    <string-array name="dialog_edit_income_choices">
+        <item>Modifica l’importo</item>
+        <item>Elimina l’importo</item>
+    </string-array>
+    <string name="dialog_edit_recurring_expense_title">Uscite ricorrente: Cosa vuoi fare?</string>
+    <string name="dialog_edit_recurring_income_title">Entrate ricorrente: Cosa vuoi fare?</string>
+    <string-array name="dialog_edit_recurring_expense_choices">
+        <item>Modifica questo elemento</item>
+        <item>Modifica soltanto questo elemento</item>
+        <item>Elimina tutti gli elementi seguenti</item>
+        <item>Elimina tutti gli elementi precedenti</item>
+        <item>Elimina tutto</item>
+    </string-array>
+    <string-array name="dialog_edit_recurring_income_choices">
+        <item>Modifica questo elemento</item>
+        <item>Modifica soltanto questo elemento</item>
+        <item>Elimina tutti gli elementi seguenti</item>
+        <item>Elimina tutti gli elementi precedenti</item>
+        <item>Elimina tutto</item>
+    </string-array>
+    <string name="expense_delete_snackbar_text">Uscita eliminata</string>
+    <string name="income_delete_snackbar_text">Entrata eliminata</string>
+
+    <string name="adjust_balance_title">Correggi il saldo</string>
+    <string name="adjust_balance_message">Correggi il saldo attuale del tuo conto</string>
+    <string name="adjust_balance_expense_title">Correggi il saldo</string>
+    <string name="adjust_balance_snackbar_text">Saldo corretto a %s</string>
+    <string name="account_balance_format">Saldo del %s:</string>
+    <string name="account_balance_date_format">dd MMM</string>
+    <string name="add_expense_date_format">dd MMM yyyy</string>
+    <string name="adjust_limit_warning_title">Cambia il valore di allerta di saldo basso</string>
+    <string name="adjust_limit_warning_message">Imposta il valore di allerta (Deve essere > 0)</string>
+    <string name="adjust_limit_warning_error_title">OPS!</string>
+    <string name="adjust_limit_warning_error_message">Il valore che hai inserito non è valido. Inserisci un numero positivo, superiore a 0</string>
+    <string name="adjust_balance_error_title">OPS!</string>
+    <string name="adjust_balance_error_message">Il valore che hai inserito non è valido.</string>
+
+    <string name="monthly">MENSILE</string>
+    <string name="weekly">SETTIMANALE</string>
+    <string name="bi_weekly">BISETTIMANALE</string>
+    <string name="yearly">ANNUALE</string>
+    <string name="recurring_expense_add_loading_title">Carico</string>
+    <string name="recurring_expense_add_loading_message">Creazione dell’uscita ricorrente…</string>
+    <string name="recurring_income_add_loading_message">Creazione dell’entrata ricorrente…</string>
+    <string name="recurring_expense_add_error_title">OPS!</string>
+    <string name="recurring_expense_add_error_message">Errore.</string>
+    <string name="recurring_expense_delete_success_message">Uscita ricorrente eliminata con successo.</string>
+    <string name="recurring_expense_delete_loading_title">Eliminando</string>
+    <string name="recurring_expense_delete_loading_message">Eliminando l’uscita ricorrente…</string>
+    <string name="recurring_expense_delete_error_title">OPS!</string>
+    <string name="recurring_expense_delete_error_message">Errore.</string>
+    <string name="recurring_expense_restoring_loading_title">Annulla</string>
+    <string name="recurring_expense_restoring_loading_message">Reinserisci l’uscita ricorrente…</string>
+    <string name="recurring_expense_restored_success_message">Uscita ricorrente reinserita con successo</string>
+    <string name="recurring_expense_restore_error_title">OPS!</string>
+    <string name="recurring_expense_restore_error_message">Errore.</string>
+    <string name="recurring_expense_delete_first_error_title">OPS!</string>
+    <string name="recurring_expense_delete_first_error_message">Non ci sono occorrenze prima di questa.</string>
+    <string name="expense_delete_error_title">OPS!</string>
+    <string name="expense_delete_error_message">Errore.</string>
+
+    <string name="recurring_expense_interval">Ripetizione</string>
+    <string name="recurring_interval_weekly">Ogni settimana</string>
+    <string name="recurring_interval_bi_weekly">Ogni 2 settimane</string>
+    <string name="recurring_interval_monthly">Ogni mese</string>
+    <string name="recurring_interval_yearly">Ogni anno</string>
+    <string name="recurring_update_notification">Nuova funzionalità: Come richiesto da molti di voi, ormai è possibile aggiungere le uscite settimanali, bisettimanali e annuali</string>
+
+    <string name="setting_category_app_title">App</string>
+    <string name="setting_category_rate_button_title">L’app ti piace?</string>
+    <string name="setting_category_rate_button_message">Dimmi che ne pensi</string>
+    <string name="setting_category_bug_report_send_button_title">Segnala un bug</string>
+    <string name="setting_category_bug_report_send_text">\n\n---\n*Non eliminare questa parte*\nEasyBudget id: %s</string>
+    <string name="setting_category_bug_report_send_error">Impossibile trovare un’app per inviare il rapporto di bug via email</string>
+    <string name="setting_category_general_title">Generale</string>
+    <string name="setting_category_currency_change_button_title">Cambia la valuta (%s)</string>
+    <string name="setting_category_currency_change_button_message">Seleziona la valuta che desideri utilizzare</string>
+    <string name="setting_category_currency_change_dialog_title">Seleziona la valuta</string>
+    <string name="setting_category_limit_set_button_title">Imposta un valore di allerta di saldo basso (%s)</string>
+    <string name="setting_category_limit_set_button_message">Cambia il valore di allerta di saldo basso</string>
+    <string name="setting_category_app_version_message">Realizzata da @BenoitLetondor</string>
+    <string name="setting_category_share_app_title">Condividi con i tuoi amici</string>
+    <string name="setting_category_share_app_message">EasyBudget è gratis! Non c’è motivo di non farla conoscere ai tuoi amici!</string>
+    <string name="setting_category_premium_title">Premium</string>
+    <string name="setting_category_premium_status_title">Sei… premium!</string>
+    <string name="setting_category_premium_status_message">Hai ora accesso alle funzionalità premium</string>
+    <string name="setting_category_premium_redeem_title">Codice promozionale</string>
+    <string name="setting_category_premium_redeem_message">Utilizza un codice promozionale</string>
+    <string name="setting_category_notifications_update_title">Aggiornamenti</string>
+    <string name="setting_category_notifications_update_message">Tieniti informato sulle novità dell’app. Niente spam, promesso!</string>
+    <string name="setting_category_notifications_daily_title">Allerta quotidiana</string>
+    <string name="setting_category_notifications_daily_message">Ricevi una notifica alla fine della giornata se non hai inserito le tue spese</string>
+    <string name="setting_category_not_premium_status_title">Diventa premium</string>
+    <string name="setting_category_not_premium_status_message">Accedi a tutte le funzionalità premium</string>
+    <string name="setting_category_notifications_monthly_title">Notifica di rapporto mensile</string>
+    <string name="setting_category_notifications_monthly_message">Ricevi una notifica quando un nuovo rapporto mensile è completo</string>
+
+    <string name="premium_popup_premium_title">Sei… premium!</string>
+    <string name="premium_popup_premium_message">Hai ora accesso alle funzionalità premium:\n\n- Rapporto mensile: Ricevi un rapporto delle entrate e delle uscite del mese\n- Allerta quotidiana se hai dimenticato di inserire le uscite del giorno\n…moltissime altre funzioni che si aggiungeranno poco a poco!</string>
+    <string name="premium_popup_not_premium_title">Diventa premium</string>
+    <string name="premium_popup_not_premium_message">Accedi a tutte le funzionalità premium!</string>
+    <string name="premium_popup_not_premium_feature1_title">2. Allerta quotidiana</string>
+    <string name="premium_popup_not_premium_feature1_message">Ricevi una notifica alla fine della giornata se non hai inserito le tue spese.</string>
+    <string name="premium_popup_not_premium_feature2_title">1. Rapporto mensile</string>
+    <string name="premium_popup_not_premium_feature2_message">Ricevi un rapporto delle entrate e delle uscite del mese e scopri quanto hai risparmiato.</string>
+    <string name="premium_popup_not_premium_feature_more_title">…moltissime altre funzioni che si aggiungeranno poco a poco!</string>
+    <string name="premium_popup_not_premium_cta">Acquista</string>
+    <string name="premium_popup_become_title">Diventa premium</string>
+    <string name="premium_popup_become_message">Si direbbe che EasyBudget ti piace!\nVuoi passare al livello successivo e scoprire le funzionalità premium?</string>
+    <string name="premium_popup_become_cta">Scopri</string>
+    <string name="premium_popup_become_not_now">Non ora</string>
+    <string name="premium_popup_become_not_ask_again">Non chiedermelo più</string>
+    <string name="premium_notif_optin_message">Nuova funzionalità premium: le notifiche quotidiane!\nRicevi una notifica se hai dimenticato di aggiungere le tue spese del giorno. Ti interessa?\n(Potrai cambiare più tardi nelle Impostazioni).</string>
+    <string name="premium_notif_optin_message_ok">Ok</string>
+    <string name="premium_notif_optin_message_not_ok">No, grazie</string>
+
+    <string name="iab_purchase_success_title">Grazie</string>
+    <string name="iab_purchase_success_message">Grazie mille per il tuo sostegno! Puoi ora goderti le funzionalità premium.</string>
+    <string name="iab_purchase_wait_title">Acquisto</string>
+    <string name="iab_purchase_wait_message">Attendi, prego</string>
+    <string name="iab_purchase_error_title">OPS!</string>
+    <string name="iab_purchase_error_message">Si è verificato un errore. Riprova più tardi o contattami se il problema persiste.\n(%s)</string>
+
+    <string name="voucher_redeem_dialog_title">Codice promozionale</string>
+    <string name="voucher_redeem_dialog_message">Inserisci il tuo codice promozionale</string>
+    <string name="voucher_redeem_dialog_cta">Utilizza</string>
+    <string name="voucher_redeem_dialog_loading_title">Convalida</string>
+    <string name="voucher_redeem_dialog_loading_message">Attendi, prego</string>
+    <string name="voucher_redeem_error_dialog_title">OPS!</string>
+    <string name="voucher_redeem_error_code_invalid_dialog_message">Il tuo codice non è valido.</string>
+    <string name="voucher_redeem_error_no_internet_dialog_message">Errore di rete. Controlla la tua connessione e prova ancora.</string>
+    <string name="voucher_redeem_error_generic_dialog_message">C’è stato un errore, prova di nuovo più tardi.</string>
+
+    <string name="rating_popup_question_title">Cosa pensi di EasyBudget?</string>
+    <string name="rating_popup_question_message">Lavoro a questa applicazione nel tempo libero e la propongo gratuitamente. Ci sono sicuramente cose da migliorare e la tua opinione conta molto per me! </string>
+    <string name="rating_popup_question_cta_negative">Non mi piace</string>
+    <string name="rating_popup_question_cta_positive">Mi piace</string>
+    <string name="rating_popup_negative_title">:(</string>
+    <string name="rating_popup_negative_message">Mi dispiace… Ti andrebbe di inviarmi un’email con le tue impressioni?</string>
+    <string name="rating_popup_negative_cta_negative">No, grazie</string>
+    <string name="rating_popup_negative_cta_positive">Certo!</string>
+    <string name="rating_popup_positive_title">:)</string>
+    <string name="rating_popup_positive_message">Sono contento che l’app ti piaccia. Ti piacerebbe darle un bel voto sul PlayStore?</string>
+    <string name="rating_popup_positive_cta_negative">No, grazie</string>
+    <string name="rating_popup_positive_cta_positive">Certo!</string>
+    <string name="rating_feedback_send_error">Impossibile trovare un’app per inviare i commenti via email.</string>
+    <string name="rating_feedback_send_text"></string>
+    <string name="rating_popup_question_cta_dont_ask_again">Non chiedermelo più</string>
+
+    <string name="onboarding_screen_1_title">Benvenuto su EasyBudget</string>
+    <string name="onboarding_screen_1_message">Il concetto è semplice: Inserisci entrate e uscite ricorrenti e occasionali, e l’app si occupa di monitorare quanto resta sul tuo conto… in qualsiasi momento!\n\nNiente di più semplice!</string>
+    <string name="onboarding_screen_1_message2">Pronto?</string>
+    <string name="onboarding_screen_1_cta">Sì</string>
+
+    <string name="onboarding_screen_2_title">Presentiamoci!</string>
+    <string name="onboarding_screen_2_message">Tappa n° 1: Quale valuta utilizzi?\n(Potrai cambiarla più tardi nelle Impostazioni).</string>
+    <string name="onboarding_screen_2_cta">Utilizzo %s</string>
+
+    <string name="onboarding_screen_3_title">Presentiamoci!</string>
+    <string name="onboarding_screen_3_message">Tappa n° 2: Di quanto disponi attualmente sul tuo conto?\n(Potrai cambiare la cifra più tardi).</string>
+    <string name="onboarding_screen_3_cta">Inizia con %s</string>
+
+    <string name="onboarding_screen_4_title">Perfetto!</string>
+    <string name="onboarding_screen_4_message">(È stato facile, no?)</string>
+    <string name="onboarding_screen_4_message2">Quali sono le prossime tappe?</string>
+    <string name="onboarding_screen_4_message3">1. Aggiungi le tue entrate e uscite ricorrente (stipendio, affitto, fatture…)\n2. Non dimenticare di aggiungere le entrate e uscite di ogni giorno!</string>
+    <string name="onboarding_screen_4_message4">Grazie di aver scelto EasyBudget, e benvenuto! :)</string>
+    <string name="onboarding_screen_4_cta">Avanti</string>
+
+    <string name="app_invite_title">Condividi con i tuoi amici</string>
+    <string name="app_invite_message">Ehy, dovresti provare EasyBudget, un’app semplicissima per gestire il tuo budget!</string> <!-- 100 chars or less -->
+    <string name="app_invite_welcome_title">Benvenuto su EasyBudget</string>
+    <string name="app_invite_welcome_message">Si direbbe che un buon amico ti ha raccomandato quest’app! Benvenuto! E non dimenticare di ringraziare il tuo amico per l’ottimo consiglio! :)</string>
+    <string name="app_invite_welcome_cta">Via!</string>
+
+    <string name="monthly_report_button_title">Rapporto mensile</string>
+    <string name="monthly_report_month_title_format">MMMM yyyy</string>
+    <string name="expenses">Uscite</string>
+    <string name="revenues">Entrate</string>
+    <string name="expenses_total">Totale delle uscite</string>
+    <string name="revenues_total">Totale delle entrate</string>
+    <string name="balance">Saldo</string>
+    <string name="monthly_report_no_entries_placeholder">Niente per questo mese.</string>
+    <string name="monthly_report_notif_notpremium_text">Nuova funzionalità PREMIUM: rapporto mensile.\nRicevi un rapporto delle entrate e uscite del mese. Vuoi scoprire la modalità premium?</string>
+    <string name="monthly_report_notif_premium_text">Nuova funzionalità disponibile: il rapporto mensile.\nRicevi un rapporto delle entrate e delle uscite del mese. Clicca per provare</string>
+    <string name="monthly_report_hint">Pssss: Puoi accedere ai rapporti da questo tasto</string>
+</resources>
