@@ -1,0 +1,2 @@
+word_embedding,training_set,algorithm,descriptors,src,target,error,test_exist
+edit_distance,empty,perfect,union,NoteTaking3,NoteTaking4,True,False

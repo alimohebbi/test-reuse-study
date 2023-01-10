@@ -1,0 +1,147 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.haringeymobile.ukweather.weather.WeatherInfoActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.haringeymobile.ukweather.settings.SettingsActivity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.haringeymobile.ukweather.MainActivity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.haringeymobile.ukweather.CityManagementActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.haringeymobile.ukweather.AboutActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.haringeymobile.ukweather.MainActivity"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "12",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "5",
+				"properties": {
+					"id": "mi_add_city",
+					"class": "android.view.MenuItem",
+					"text": "Add city",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "5",
+				"properties": {
+					"id": "mi_main_submenu",
+					"class": "android.view.MenuItem",
+					"text": "Extras",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "5",
+				"properties": {
+					"id": "mi_search_cities",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

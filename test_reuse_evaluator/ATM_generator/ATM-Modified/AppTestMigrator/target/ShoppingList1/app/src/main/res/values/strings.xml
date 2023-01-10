@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shopping_list_add">Add Shopping List</string>
+    <string name="title_activity_shopping_list_edit">Edit Shopping List</string>
+    <string name="title_activity_main">Your shopping lists</string>
+
+
+    <string name="hint_shopping_list_name">Shopping list name</string>
+    <string name="hint_shopping_list_description">Description</string>
+    <string name="button_add">Add</string>
+    <string name="button_save">Save</string>
+
+    <string name="error_name_too_short">Name should have at least 3 characters.</string>
+    <string name="error_no_record">Can\'t find record :(</string>
+
+    <string name="notify_shopping_list_added">Shopping list successfully created</string>
+    <string name="notify_shopping_list_updated">Shopping list successfully updated</string>
+    <string name="text_less_than_minute_ago">just now</string>
+    <string name="text_your_shopping_lists">Your shopping lists</string>
+
+    <string-array name="context_menu_main_activity">
+        <item>@string/edit</item>
+        <item>@string/delete</item>
+        <item>@string/share</item>
+    </string-array>
+
+
+    <string name="hint_item_name">Item name</string>
+    <string name="hint_item_quantity">Quantity</string>
+    <string name="title_activity_item_edit">Edit item</string>
+    <string name="title_activity_item_add">Add item</string>
+    <string name="text_quantity">Quantity</string>
+
+    <string name="radio_quantity_unit_pcs">pcs</string>
+
+    <string name="radio_quantity_unit_l" translatable="false">l</string>
+    <string name="radio_quantity_unit_ml" translatable="false">ml</string>
+    <string name="radio_quantity_unit_g" translatable="false">g</string>
+    <string name="radio_quantity_unit_kg" translatable="false">kg</string>
+    <string name="radio_quantity_unit_m" translatable="false">m</string>
+
+    <string name="radio_quantity_unit_fl_oz" translatable="false">fl oz</string>
+    <string name="radio_quantity_unit_gal" translatable="false">gal</string>
+    <string name="radio_quantity_unit_oz" translatable="false">oz</string>
+    <string name="radio_quantity_unit_lb" translatable="false">lb</string>
+    <string name="radio_quantity_unit_ft" translatable="false">ft</string>
+
+    <string-array name="quantity_units_array">
+        <item>@string/radio_quantity_unit_pcs</item>
+
+        <item>@string/radio_quantity_unit_l</item>
+        <item>@string/radio_quantity_unit_ml</item>
+        <item>@string/radio_quantity_unit_g</item>
+        <item>@string/radio_quantity_unit_kg</item>
+        <item>@string/radio_quantity_unit_m</item>
+
+        <item>@string/radio_quantity_unit_fl_oz</item>
+        <item>@string/radio_quantity_unit_gal</item>
+        <item>@string/radio_quantity_unit_oz</item>
+        <item>@string/radio_quantity_unit_lb</item>
+        <item>@string/radio_quantity_unit_ft</item>
+    </string-array>
+
+    <string-array name="quantity_units_codes_array" translatable="false">
+        <item>#pcs</item>
+
+        <item>#l</item>
+        <item>#ml</item>
+        <item>#g</item>
+        <item>#kg</item>
+        <item>#m</item>
+
+        <item>#fl oz</item>
+        <item>#gal</item>
+        <item>#oz</item>
+        <item>#lb</item>
+        <item>#ft</item>
+    </string-array>
+    <string name="description">Description</string>
+    <string name="notify_item_added">Item added</string>
+    <string name="notify_item_updated">Item updated</string>
+    <string name="share">Share</string>
+    <string name="menu_clear_checked">Delete checked items</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="move_to_another_list">Move to another list</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_default">Default</string>
+    <string name="moved_to">Moved to</string>
+    <string name="listview_main_empty_label">You have no shopping lists. Add one using the button below.</string>
+    <string name="listview_shoppinglistview_empty_label">You have no items on the list. Add one using the button below.</string>
+    <string name="no_other_shopping_lists">There are no other shopping lists</string>
+    <string name="percentCompleted">%1$.0f%% completed</string>
+    <string name="error_cant_parse_number">Enter a valid number</string>
+
+
+    <plurals name="numberOfItemsInShoppingList">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications" translatable="false">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+
+
+    <!-- Navigation drawer -->
+    <string name="nav_settings">Settings</string>
+    <string name="nav_share">Tell a friend</string>
+    <string name="nav_rate">Rate me</string>
+    <string name="nav_contact">Contact the author</string>
+
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="pref_title_language">Language</string>
+    <string name="pref_key_language" translatable="false">Language</string>
+
+    <string name="pref_cat_sharing">Sharing shopping lists via messsages</string>
+    <string name="pref_cat_info">Information</string>
+
+
+    <string name="pref_title_share_list_title">Name</string>
+    <string name="pref_summary_share_list_title">Include list name</string>
+    <string name="pref_key_share_list_title" translatable="false">Name</string>
+
+    <string name="pref_title_share_list_desc">Description</string>
+    <string name="pref_summary_share_list_desc">Include list description</string>
+    <string name="pref_key_share_list_desc" translatable="false">Description</string>
+
+    <string name="pref_title_version">Version</string>
+
+    <string name="share_app_string">Hi. I\'m using Shopping List, free app for having your shopping list everywhere you go. Download it from Play Store: http://play.google.com/store/apps/details?id=%s</string>
+    <string name="contact_email_address" translatable="false">mgr.inz.andrzej.grzyb@gmail.com</string>
+    <string name="contact_email_text">Please, leave your phone\'s properties below.</string>
+    <string name="continue_without_signin">Continue without signing in</string>
+    <string name="signed_out">Signed out</string>
+    <string name="desc_app_icon">Shopping List Logo</string>
+    <string name="signin_with_google">Sign in with Google</string>
+    <string name="server_client_id" translatable="false">918218334499-7g0hrs4mltn143a53mk5qj7c1g90itpe.apps.googleusercontent.com</string>
+    <string name="signed_in_as">Signed in as: %s</string>
+    <string name="loading">Loading...</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="continue_as">Continue as %s</string>
+    <string name="sign_out">Sign out</string>
+
+    <string-array name="pref_language_list_titles" translatable="false">
+        <item>@string/text_default</item>
+        <item>English</item>
+        <item>Polski</item>
+    </string-array>
+    <string-array name="pref_language_list_values" translatable="false">
+        <item></item>
+        <item>en</item>
+        <item>pl</item>
+    </string-array>
+    <string name="synchronize">Synchronize</string>
+    <string name="menu_sort">Sort...</string>
+    <string-array name="array_sort_dialog">
+        <item>A - Z</item>
+        <item>Unchecked - checked</item>
+        <item>Checked - unchecked</item>
+        <item>Newest - oldest</item>
+        <item>Oldest - newest</item>
+    </string-array>
+</resources>

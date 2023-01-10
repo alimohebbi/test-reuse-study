@@ -1,0 +1,49 @@
+<!--
+   Copyright 2015 Benoit LETONDOR
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<resources>
+    <color name="primary">#00897B</color>
+    <color name="primary_dark">#00695C</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="secondary">#2196F3</color>
+    <color name="secondary_dark">#1976D2</color>
+    <color name="secondary_light">#69a9e9</color>
+    <color name="accent">@color/primary</color>
+    <color name="accent_ripple">@color/primary_light</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="placeholder_text">#b5b5b5</color>
+    <color name="divider">#eeeeee</color>
+    <color name="fab_add_expense">#F44336</color>
+    <color name="fab_add_expense_pressed">#EF5350</color>
+    <color name="fab_add_monthly_expense">@color/secondary</color>
+    <color name="fab_add_monthly_expense_pressed">@color/secondary_light</color>
+
+    <color name="placeholder_background">#f0f0f0</color>
+    <color name="calendar_cell_selected">@color/primary_light</color>
+    <color name="calendar_cell_disabled_text_color">#eeeeee</color>
+    <color name="budget_green">#4CAF50</color>
+    <color name="budget_green_out">#7ed281</color>
+    <color name="budget_orange">#FF9800</color>
+    <color name="budget_red">#F44336</color>
+    <color name="budget_red_out">#f17970</color>
+
+    <color name="snackbar_action_undo">#4caf50</color>
+    <color name="premium_background">@color/primary</color>
+
+    <color name="monthly_report_disabled_month_button">@color/primary</color>
+    <color name="monthly_report_hint_background">#DD000000</color>
+</resources>

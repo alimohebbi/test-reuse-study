@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/test-recorder.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/stanford-corenlp-3.7.0.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/org.eclipse.swt-3.1.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/javaparser-core-3.0.0-alpha.10.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/groovy-all-2.2.0-beta-1.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/common.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/cloning-1.8.5.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Transcend/GUITestMigrator4/AppTestMigrator/lib/annotations-10.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

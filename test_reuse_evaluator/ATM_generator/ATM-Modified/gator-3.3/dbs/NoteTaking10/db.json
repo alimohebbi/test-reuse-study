@@ -1,0 +1,14 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "1",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			}
+		]		"relationships": [
+		]
+	}
+}

@@ -1,0 +1,129 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'jacoco'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.2'
+    defaultConfig {
+        applicationId 'com.blogspot.e_kanivets.moneytracker'
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 23
+        versionName '1.8.7'
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+    signingConfigs {
+        releaseConfig {
+            storeFile file('mt_keystore.jks')
+            storePassword('moneytracker')
+            keyAlias 'moneytracker'
+            keyPassword 'moneytracker'
+        }
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            signingConfig signingConfigs.releaseConfig
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled false
+            signingConfig signingConfigs.releaseConfig
+            testCoverageEnabled true
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+    productFlavors {
+    }
+}
+
+apply plugin: 'com.getkeepsafe.dexcount'
+
+jacoco { toolVersion = "0.7.4+" }
+
+task jacocoTestReport(type: JacocoReport) {
+    def coverageSourceDirs = [
+            '../app/src/main/java'
+    ]
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/debug',
+            excludes: ['**/R*.class',
+                       '**/*$InjectAdapter.class',
+                       '**/*$ModuleAdapter.class',
+                       '**/*$ViewInjector*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files("$buildDir/outputs/code-coverage/connected/coverage.exec")
+    doFirst {
+        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+            if (file.name.contains('$$')) {
+                file.renameTo(file.path.replace('$$', '$'))
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true
+    }
+
+    compile 'com.android.support:support-v4:27.1.0'
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:design:27.1.0'
+    compile 'com.jakewharton:butterknife:8.5.1' // View annotation bindings
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1' // ButterKnife compiler
+    compile 'com.google.dagger:dagger:2.0.1' // Dependency injection tool
+    compile 'com.github.PhilJay:MPAndroidChart:v2.2.4' // Charts
+    compile 'com.jakewharton.timber:timber:4.1.2' // Advanced logging tool
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.dropbox.core:dropbox-core-sdk:3.0.5' // Dropbox Core API
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.0.43-beta'
+    androidTestCompile 'com.crittercism.dexmaker:dexmaker:1.4'
+    androidTestCompile 'com.crittercism.dexmaker:dexmaker-dx:1.4'
+    androidTestCompile 'com.crittercism.dexmaker:dexmaker-mockito:1.4'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.0.1'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'design'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+}

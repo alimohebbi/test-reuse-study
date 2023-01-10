@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+apply plugin: 'jacoco'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+
+    defaultConfig {
+        applicationId "org.openintents.shopping"
+        minSdkVersion 14
+        targetSdkVersion 22
+
+        testApplicationId "org.openintents.shopping.test"
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+}
+
+jacoco { toolVersion = "0.7.5+" }
+
+task jacocoTestReport(type: JacocoReport) {
+    def coverageSourceDirs = [
+            '../app/src/main/java'
+    ]
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/debug',
+            excludes: ['**/R*.class',
+                       '**/*$InjectAdapter.class',
+                       '**/*$ModuleAdapter.class',
+                       '**/*$ViewInjector*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files("$buildDir/outputs/code-coverage/connected/coverage.exec")
+    doFirst {
+        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+            if (file.name.contains('$$')) {
+                file.renameTo(file.path.replace('$$', '$'))
+            }
+        }
+    }
+}
+
+dependencies {
+    compile project(':oIShoppingListLibrary')
+    compile files('libs/OIShoppingListMyBackupPro.jar')
+    compile files('libs/android-support-v2.jar')
+    compile files('libs/sensorsimulator-lib.jar')
+    compile 'com.github.openintents:distribution:1.2'
+    androidTestCompile 'com.android.support:recyclerview-v7:27.0.2'
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:3.1'
+    androidTestCompile files('libs/polidea_test_runner_1.2.jar')
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'design'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+}

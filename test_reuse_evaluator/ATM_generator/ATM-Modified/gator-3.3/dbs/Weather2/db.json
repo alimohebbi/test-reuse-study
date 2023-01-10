@@ -1,0 +1,231 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.SettingsActivity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.BaseActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.GraphsActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.asdtm.goodweather.GraphsActivity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.WeatherForecastActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.MainActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.LicenseActivity"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.asdtm.goodweather.SearchActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.asdtm.goodweather.MainActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.asdtm.goodweather.WeatherForecastActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "4",
+				"properties": {
+					"id": "main_menu_search_city",
+					"class": "android.view.MenuItem",
+					"text": "Search City",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "10",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "3",
+				"properties": {
+					"id": "action_refresh",
+					"class": "android.view.MenuItem",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "3",
+				"properties": {
+					"id": "action_toggle_yaxis",
+					"class": "android.view.MenuItem",
+					"text": "Toggle Y-Axis",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "11",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "3",
+				"properties": {
+					"id": "action_toggle_values",
+					"class": "android.view.MenuItem",
+					"text": "Toggle Values",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "7",
+				"properties": {
+					"id": "menu_forecast_refresh",
+					"class": "android.view.MenuItem",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "6",
+				"properties": {
+					"id": "main_menu_detect_location",
+					"class": "android.view.MenuItem",
+					"text": "Detect Location",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "6",
+				"properties": {
+					"id": "main_menu_refresh",
+					"class": "android.view.MenuItem",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "12",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

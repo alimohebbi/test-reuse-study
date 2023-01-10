@@ -1,0 +1,135 @@
+/*
+ *   Copyright 2015 Benoit LETONDOR
+ *
+ *   Licensed under the Apache License, Version 2.0 (the "License");
+ *   you may not use this file except in compliance with the License.
+ *   You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing, software
+ *   distributed under the License is distributed on an "AS IS" BASIS,
+ *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *   See the License for the specific language governing permissions and
+ *   limitations under the License.
+ */
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.21.6'
+    }
+}
+
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+apply plugin: 'jacoco'
+
+apply from: 'batch.gradle'
+apply from: 'iap.gradle'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url "http://maven.batch.com/release" }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    packagingOptions {
+                                exclude 'META-INF/*'
+                        }
+    defaultConfig {
+        applicationId "com.benoitletondor.easybudgetapp"
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionCode 45
+        versionName "1.5.2"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "DEBUG_LOG", "true"
+            buildConfigField "boolean", "CRASHLYTICS_ACTIVATED", "false"
+            buildConfigField "String", "BATCH_API_KEY", batch_devkey
+            buildConfigField "boolean", "ANALYTICS_ACTIVATED", "false"
+            buildConfigField "boolean", "DEV_PREFERENCES", "true"
+            buildConfigField "String", "LICENCE_KEY", licence_key
+            buildConfigField "String", "GCM_SENDER_ID", gcm_sender_id
+            testCoverageEnabled true
+        }
+        release {
+            buildConfigField "boolean", "DEBUG_LOG", "false"
+            buildConfigField "boolean", "CRASHLYTICS_ACTIVATED", "true"
+            buildConfigField "String", "BATCH_API_KEY", batch_livekey
+            buildConfigField "boolean", "ANALYTICS_ACTIVATED", "true"
+            buildConfigField "boolean", "DEV_PREFERENCES", "false"
+            buildConfigField "String", "LICENCE_KEY", licence_key
+            buildConfigField "String", "GCM_SENDER_ID", gcm_sender_id
+
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+jacoco { toolVersion = "0.7.5+" }
+
+task jacocoTestReport(type: JacocoReport) {
+    def coverageSourceDirs = [
+            '../app/src/main/java'
+    ]
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/debug',
+            excludes: ['**/R*.class',
+                       '**/*$InjectAdapter.class',
+                       '**/*$ModuleAdapter.class',
+                       '**/*$ViewInjector*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files("$buildDir/outputs/code-coverage/connected/coverage.exec")
+    doFirst {
+        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+            if (file.name.contains('$$')) {
+                file.renameTo(file.path.replace('$$', '$'))
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:percent:25.3.1'
+    compile 'com.google.android.gms:play-services-gcm:10.2.4'
+    compile 'com.google.android.gms:play-services-analytics:10.2.4'
+    compile 'com.google.android.gms:play-services-appinvite:10.2.4'
+    compile 'com.roomorama:caldroid:3.0.1'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') { transitive = true; }
+    compile 'com.batch.android:batch-sdk:1.8.0'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'design'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
+}

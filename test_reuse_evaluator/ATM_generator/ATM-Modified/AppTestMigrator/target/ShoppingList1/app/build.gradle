@@ -1,0 +1,96 @@
+plugins {
+    id "org.sonarqube" version "2.5"
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'jacoco'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "pl.com.andrzejgrzyb.shoppinglist"
+        minSdkVersion 9
+        targetSdkVersion 22
+        versionCode 2
+        versionName "1.0.1"
+//        multiDexEnabled true
+
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+    applicationVariants.all { variant ->
+        variant.resValue "string", "versionName", variant.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+}
+
+jacoco { toolVersion = "0.7.5+" }
+
+//task jacocoTestReport(type: JacocoReport) {
+//    def coverageSourceDirs = [
+//            '../app/src/main/java'
+//    ]
+//    group = "Reporting"
+//    description = "Generate Jacoco coverage reports after running tests."
+//    reports {
+//        xml.enabled = true
+//        html.enabled = true
+//    }
+//    classDirectories = fileTree(
+//            dir: './build/intermediates/classes/debug',
+//            excludes: ['**/R*.class',
+//                       '**/*$InjectAdapter.class',
+//                       '**/*$ModuleAdapter.class',
+//                       '**/*$ViewInjector*.class'
+//            ])
+//    sourceDirectories = files(coverageSourceDirs)
+//    executionData = files("$buildDir/outputs/code-coverage/connected/coverage.exec")
+//    doFirst {
+//        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+//            if (file.name.contains('$$')) {
+//                file.renameTo(file.path.replace('$$', '$'))
+//            }
+//        }
+//    }
+//}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "MyApplication2"
+        property "sonar.projectKey", "SQKey"
+        property "sonar.sources","src/main/java"
+        property "sonar.language","java"
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.java.binaries", "${project.buildDir}/intermediates/classes/debug"
+        property "sonar.tests", "./src/androidTest/"
+        property "sonar.jacoco.reportPath", fileTree(dir: project.projectDir, includes: ['**/*.exec'])
+        property "sonar.java.test.binaries", "${project.buildDir}/intermediates/classes/debug"
+        property "sonar.jacoco.reportPaths", fileTree(dir: project.projectDir, includes: ['**/*.ec'])
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile  'com.android.support:preference-v7:23.4.0'
+// Dependency for Google Sign-In
+
+//    compile 'com.google.android.gms:play-services:9.6.1'
+//    compile 'com.android.support:multidex:1.0.1'
+
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}

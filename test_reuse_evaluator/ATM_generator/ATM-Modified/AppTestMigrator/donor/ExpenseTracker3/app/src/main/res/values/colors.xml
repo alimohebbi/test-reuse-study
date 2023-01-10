@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="myBlue">#03899C</color>
+    <color name="myGreen">#36BBEC</color>
+    <color name="myBrown">#5FC0CE</color>
+    <color name="myPink">#df8fdc</color>
+
+    <color name="myBlue1">#00CBDD</color>
+    <color name="myDarkBlue1">#008995</color>
+    <color name="myWhite1">#E3FBFD</color>
+
+
+
+
+    <!--FINAL COLORS -->
+    <color name="backgroundBlue">#1897df</color>
+    <color name="lightBlue">#57a5d4</color>
+    <color name="white">#e7e7e7</color>
+    <color name="darkBlue">#0580c6</color>
+
+</resources>

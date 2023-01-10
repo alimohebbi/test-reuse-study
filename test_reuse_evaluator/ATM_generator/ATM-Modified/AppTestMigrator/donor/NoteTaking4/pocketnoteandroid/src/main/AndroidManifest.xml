@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="9" android:versionName="2.1" package="chan.android.app.pocketnote">
+
+    <uses-sdk android:minSdkVersion="14"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application android:icon="@drawable/note" android:label="@string/app_name" android:largeHeap="true" android:name=".PocketNoteApplication" android:theme="@style/Theme.MyTheme">
+        <activity android:label="@string/app_name" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".app.notes.EditNoteActivity"/>
+        <activity android:name=".app.settings.ChangePasswordActivity"/>
+        <activity android:name=".app.settings.NewPasswordActivity"/>
+        <activity android:name=".app.reminder.ReminderActivity"/>
+        <activity android:name=".app.PhotoViewActivity"/>
+
+        <provider android:authorities="chan.android.app.pocketnote.app.db.note" android:multiprocess="true" android:name="chan.android.app.pocketnote.app.db.NoteContentProvider"/>
+
+        <receiver android:name=".app.reminder.alarm.AlarmReceiver"/>
+    </application>
+</manifest>
