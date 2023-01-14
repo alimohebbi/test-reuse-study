@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Netejar la lista</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Pas cap</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Minuscul</item>
+        <item>Pichon</item>
+        <item>Per defaut</item>
+        <item>Grand</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Per defaut</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Not shown</item>
+        <item>Priority 1</item>
+        <item>Priority 1-2</item>
+        <item>Priority 1-3</item>
+        <item>Priority 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>unchecked first, alphabetical</item>
+        <item>alfabetic</item>
+        <item>novèl en primièr</item>
+        <item>ancian en primièr</item>
+        <item>Libellat per òrdre alfabetic</item>
+        <item>priority, tags alphabetical</item>
+        <item>pus car en primièr</item>
+        <item>unchecked first, tags alphabetical</item>
+        <item>unchecked first, priority, alphabetical</item>
+        <item>unchecked first, priority, tags alphabetical</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>novèl en primièr</item>
+        <item>ancian en primièr</item>
+    </string-array>
+</resources>

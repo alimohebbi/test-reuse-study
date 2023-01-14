@@ -1,0 +1,51 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_skip",
+    "text": "SKIP",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/fab_new_list",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/list_name",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "List"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OKAY",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "List",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "List"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Rensa lista</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Ingen</item>
+        <item>Per mening</item>
+        <item>Per ord</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Mycket liten</item>
+        <item>Liten</item>
+        <item>Standard</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Standard</item>
+        <item>Landskapsläge</item>
+        <item>Porträttläge</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Inte visad</item>
+        <item>Prioritet 1</item>
+        <item>Prioritet 1-2</item>
+        <item>Prioritet 1-3</item>
+        <item>Prioritet 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>obockat först, alfabetiskt</item>
+        <item>alfabetiskt</item>
+        <item>nyast först</item>
+        <item>äldst först</item>
+        <item>taggar alfabetiskt</item>
+        <item>prioritet, etiketter i alfabetsordning</item>
+        <item>dyraste först</item>
+        <item>obockat först, taggar alfabetiskt</item>
+        <item>omarkerade varor först, prioritet, alfabetisk ordning</item>
+        <item>omarkerade varor först, prioritet, etiketter i alfabetisk ordning</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>nyast först</item>
+        <item>äldst först</item>
+    </string-array>
+</resources>

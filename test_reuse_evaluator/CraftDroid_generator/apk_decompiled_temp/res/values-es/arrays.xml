@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Limpiar lista</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Ninguna</item>
+        <item>Por frase</item>
+        <item>Por palabra</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Muy pequeño</item>
+        <item>Pequeño</item>
+        <item>Predeterminado</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Predeterminado</item>
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>No se muestra</item>
+        <item>Prioridad 1</item>
+        <item>Prioridad 1-2</item>
+        <item>Prioridad 1-3</item>
+        <item>Prioridad 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>Primero no revisado, alfabeticamente</item>
+        <item>alfabeticamente</item>
+        <item>el más reciente primero</item>
+        <item>el último primero</item>
+        <item>etiquetas alfabeticamente</item>
+        <item>prioridad, etiquetas, alfabético</item>
+        <item>más costoso primero</item>
+        <item>Sin revisar primero, etiquetar alfabéticamente</item>
+        <item>los no seleccionados primero, por prioridad, por orden alfabético</item>
+        <item>sin marcar, prioridad, etiquetas, alfabético</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>el más reciente primero</item>
+        <item>el último primero</item>
+    </string-array>
+</resources>

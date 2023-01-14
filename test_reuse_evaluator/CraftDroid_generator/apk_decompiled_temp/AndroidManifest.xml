@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="org.openintents.shopping" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="org.openintents.shopping.READ_PERMISSION"/>
+    <uses-permission android:name="org.openintents.shopping.WRITE_PERMISSION"/>
+    <permission android:description="@string/oi_shopping_permission_read_descr" android:label="@string/oi_shopping_permission_read" android:name="org.openintents.shopping.READ_PERMISSION" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/oi_shopping_permission_write_descr" android:label="@string/oi_shopping_permission_write" android:name="org.openintents.shopping.WRITE_PERMISSION" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:backupAgent="org.openintents.shopping.ShoppingBackupAgent" android:debuggable="true" android:icon="@drawable/ic_launcher_shoppinglist" android:label="@string/app_name" android:largeHeap="true">
+        <meta-data android:name="com.a0soft.gphone.aTrackDog.testVersion" android:value="10036"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIyg1-9MfKF9MnoINzk-FPUGiXcqLuHLcMP3PvEg"/>
+        <meta-data android:name="org.openintents.about" android:resource="@xml/about"/>
+        <meta-data android:name="org.openintents.metadata.USES_INTENT" android:value="org.openintents.action.SHOW_ABOUT_DIALOG?org.openintents.extra.PACKAGE_NAME=org.openintents.shopping"/>
+        <meta-data android:name="org.openintents.themes" android:resource="@xml/themes"/>
+        <meta-data android:name="hideMarketLink" android:value="false"/>
+        <provider android:authorities="org.openintents.shopping" android:name="org.openintents.shopping.provider.ShoppingProvider"/>
+        <provider android:authorities="org.openintents.shopping.backup.MyBackupPro" android:name="org.openintents.shopping.backup.MyBackupPro"/>
+        <activity android:label="@string/app_name" android:name="org.openintents.shopping.ShoppingActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="org.openintents.category.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.openintents.shopping.item"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.openintents.shopping.item"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.openintents.shopping.list"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.openintents.shopping.ui.ShoppingListsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.openintents.shopping.list"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.openintents.action.INSERT_FROM_EXTRAS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="org.openintents.type/string.arraylist.shopping"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/share_settings" android:name="org.openintents.shopping.share.ListShareSettingsActivity" android:theme="@android:style/Theme.Dialog">
+            <intent-filter android:label="@string/share">
+                <action android:name="org.openintents.action.SET_SHARE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.openintents.shopping.list"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/add_location_alert" android:name="org.openintents.shopping.ui.AddLocationAlertActivity" android:theme="@android:style/Theme.Dialog">
+            <intent-filter android:label="@string/add_location_alert">
+                <action android:name="org.openintents.action.ADD_LOCATION_ALERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.openintents.shopping.list"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.openintents.shopping.automation.EditAutomationActivity">
+            <intent-filter>
+                <action android:name="org.openintents.action.EDIT_AUTOMATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="org.openintents.shopping.automation.AutomationReceiver">
+            <intent-filter>
+                <action android:name="org.openintents.action.RUN_AUTOMATION"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/preferences" android:name="org.openintents.shopping.ui.PreferenceActivity"/>
+        <activity android:label="@string/menu_pick_items" android:name="org.openintents.shopping.ui.PickItemsActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:label="@string/item_stores_activity_label" android:name="org.openintents.shopping.ui.ItemStoresActivity" android:theme="@android:style/Theme.Dialog"/>
+        <receiver android:label="@string/app_name" android:name="org.openintents.shopping.widgets.CheckItemsWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="org.openintents.shopping.widgets.ActionCheck"/>
+                <action android:name="org.openintents.shopping.widgets.ActionPrevPage"/>
+                <action android:name="org.openintents.shopping.widgets.ActionNextPage"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_check_items"/>
+        </receiver>
+        <activity android:name="org.openintents.shopping.widgets.CheckItemsWidgetConfig">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/oi_distribution_eula_title" android:name="org.openintents.distribution.EulaActivity"/>
+    </application>
+</manifest>

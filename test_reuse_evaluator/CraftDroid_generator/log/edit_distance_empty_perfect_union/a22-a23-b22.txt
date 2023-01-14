@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 106, in perform_actions
+    self.hide_keyboard()
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 296, in hide_keyboard
+    if self.driver.is_keyboard_shown():
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/extensions/keyboard.py", line 50, in is_keyboard_shown
+    return self.execute(Command.IS_KEYBOARD_SHOWN)['value']
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error finding softkeyboard. Original error: Error executing adbExec. Original error: 'Command '/Users/usiusi/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys input_method' exited with code 1'; Stderr: 'error: closed'; Code: '1'
+

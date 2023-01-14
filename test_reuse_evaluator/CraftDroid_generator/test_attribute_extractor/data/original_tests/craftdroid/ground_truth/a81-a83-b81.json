@@ -1,0 +1,70 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_skip",
+    "text": "SKIP",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/fab_new_list",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/list_name",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Grocery"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/list_notes",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Weekly grocery shopping"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OKAY",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/textview_list_name",
+    "text": "Grocery",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Grocery"
+    ]
+  }
+]

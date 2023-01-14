@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: a84
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '22'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  org/jacoco/agent/rt/internal_b0d6a23/asm/xml/asm-xml.dtd: '8'
+  org/jacoco/agent/rt/internal_b0d6a23/core/jacoco.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '10041'
+  versionName: 1.7.0.5

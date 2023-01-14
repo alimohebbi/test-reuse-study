@@ -1,0 +1,73 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7ffc32ae39e8>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /ranking (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffc32ae39e8>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 585, in start
+    is_done, failed_step = explorer.run()
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 153, in run
+    self.src_labels[self.current_src_index])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/WidgetUtil.py", line 303, in most_similar
+    similars = WidgetUtil.score_widgets(src_event, actionable_widget, target_labels, src_labels)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/WidgetUtil.py", line 313, in score_widgets
+    addFileNameToMatchObject(match_object)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/widget_process/file_name_adder.py", line 108, in addFileNameToMatchObject
+    TargetFileNameAdder.add_file_name_to_widgets(m_obj.candidates_map.values())
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/widget_process/file_name_adder.py", line 69, in add_file_name_to_widgets
+    best_activity = cls._find_best_activity(w['activity'], list(results.keys()))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/widget_process/file_name_adder.py", line 79, in _find_best_activity
+    scored_indexes = send_object(match_object.get_json())
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/matching_client/object_sender.py", line 6, in send_object
+    resp = requests.post(url='http://127.0.0.1:5000/ranking', json=math_object).json()
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /ranking (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffc32ae39e8>: Failed to establish a new connection: [Errno 61] Connection refused'))

@@ -1,0 +1,12 @@
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['wait_until_element_presence', 10, 'class', 'android.view.View', 'content-desc', 'UCI Donald Bren School of Information and Computer Sciences - logo'], 'get_element_by': [{'type': 'contentdescription', 'value': 'UCI Donald Bren School of Information and Computer Sciences - logo'}, {'type': 'classname', 'value': 'android.view.View'}]}
+
+
+
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['send_keys_and_enter', 'https://uci.edu'], 'get_element_by': [{'type': 'resource-id', 'value': 'com.stoutner.privacybrowser.standard:id/url_edittext'}, {'type': 'text', 'value': 'https://www.ics.uci.edu/'}, {'type': 'classname', 'value': 'android.widget.EditText'}]}
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :test_repo/a1/b12/base/a13.json.PLEASE CHECK THE ERROR LOG!

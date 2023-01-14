@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_translators">Launchpad Contributions: OpenIntents devs https://launchpad.net/~openintents-devs met https://launchpad.net/~dot-cis</string>
+    <string name="oi_distribution_about">O aplikaciji</string>
+    <string name="oi_distribution_aboutapp">OI About</string>
+    <string name="oi_distribution_aboutapp_get">Naloži OI About</string>
+    <string name="oi_distribution_aboutapp_not_available">Ni združljivega vstavka za prikaz vseh informacij (kontakt, zasluge, licenca).</string>
+    <string name="oi_distribution_app_name">OI distribucijska knjižnica</string>
+    <string name="oi_distribution_barcodescanner">Barcode OI Plugin</string>
+    <string name="oi_distribution_barcodescanner_not_available">No compatible barcode scanner is available.</string>
+    <string name="oi_distribution_download_market">Prenos z Android Market-a</string>
+    <string name="oi_distribution_download_market_message">Prosimo prenesite aplikacijo %s z Android Market-a ali z domače strani OpenIntents.</string>
+    <string name="oi_distribution_download_message">Prosimo prenesite aplikacijo %s z domače strani OpenIntents.</string>
+    <string name="oi_distribution_download_title">Prenesi %s</string>
+    <string name="oi_distribution_download_web">Prenos z domače strani</string>
+    <string name="oi_distribution_eula_accept">Sprejmi</string>
+    <string name="oi_distribution_eula_message">Prosimo preberite in potrdite pogoje uporabe za aplikacijo %s.</string>
+    <string name="oi_distribution_eula_refuse">Zavrni</string>
+    <string name="oi_distribution_eula_title">Pogoji uporabe aplikacije %s</string>
+    <string name="oi_distribution_filemanager">OI File Manager</string>
+    <string name="oi_distribution_filemanager_not_available">Ni združljivega urejevalca dokumentov.</string>
+    <string name="oi_distribution_info_activity_text">%s lahko uporabiš z naslednjimi aplikacijami:</string>
+    <string name="oi_distribution_info_instructions">Navodila</string>
+    <string name="oi_distribution_info_launch">Zaženi %s</string>
+    <string name="oi_distribution_info_not_available">%1$s potrebuje aplikacijo %2$s %3$s ali novejšo različico.</string>
+    <string name="oi_distribution_launch_error">Aplikacije ni možno zagnati</string>
+    <string name="oi_distribution_menu_update">Preveri za posodobitve</string>
+    <string name="oi_distribution_name_and_version">%1$s %2$s</string>
+    <string name="oi_distribution_newversion_continue">Nadaljuj</string>
+    <string name="oi_distribution_newversion_message">Dobrodošli v novi različici aplikacije %s.</string>
+    <string name="oi_distribution_newversion_recent_changes">Zadnje spremembe:</string>
+    <string name="oi_distribution_safe">OI Safe</string>
+    <string name="oi_distribution_safe_not_available">Ni združljive aplikacije za šifriranje.</string>
+    <string name="oi_distribution_safe_not_available_decrypt">"Ni zružljive aplikacije za šifriranje.
+
+Opomba: Za dostop do šifriranih podatkov potrebujete glavni ključ z varnostne kopije."</string>
+    <string name="oi_distribution_support">Support</string>
+    <string name="oi_distribution_supportapp">OI Support</string>
+    <string name="oi_distribution_supportapp_get">Get OI Support</string>
+    <string name="oi_distribution_supportapp_not_available">No compatible extension available to display full info (Help/FAQ, Contact Developers, Feature request, Donations).</string>
+    <string name="oi_distribution_update_app">OI Update</string>
+    <string name="oi_distribution_update_box_text">Za posodobitve preverite sami ali pa namestite OI Update za avtomatska opozorila.</string>
+    <string name="oi_distribution_update_check_now">Preveri zdaj</string>
+    <string name="oi_distribution_update_error">Aplikacije ne morete prenesti.</string>
+    <string name="oi_distribution_update_get_updater">Naloži OI Updater</string>
+</resources>

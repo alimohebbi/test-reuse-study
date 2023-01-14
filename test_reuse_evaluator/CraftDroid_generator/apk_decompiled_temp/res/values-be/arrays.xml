@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Ачысціць спіс</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Няма</item>
+        <item>Па сказу</item>
+        <item>Па слову</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Маленечкі</item>
+        <item>Малы</item>
+        <item>Па змаўчанні</item>
+        <item>Вялікі</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Па змаўчанні</item>
+        <item>Альбомная</item>
+        <item>Партрэтная</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Няма элементаў для адлюстравання</item>
+        <item>Прыярытэт 1</item>
+        <item>Прыярытэт 1-2</item>
+        <item>Прыярытэт 1-3</item>
+        <item>Прыярытэт 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>неадзначаныя спачатку, па алфавіту</item>
+        <item>па алфавіту</item>
+        <item>новыя спачатку</item>
+        <item>старыя спачатку</item>
+        <item>тэгі па алфавіту</item>
+        <item>прыярытэт, тэгі па алфавіту</item>
+        <item>самыя дарагія спачатку</item>
+        <item>неадзначаныя спачатку, тэгі па алфавіту</item>
+        <item>неадзначаныя спачатку, прыярытэт, па алфавіту</item>
+        <item>неадзначаныя спачатку, прыярытэт, тэгі па алфавіту</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>новыя спачатку</item>
+        <item>старыя спачатку</item>
+    </string-array>
+</resources>

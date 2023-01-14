@@ -1,0 +1,91 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_skip",
+    "text": "SKIP",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/fab_new_list",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/list_name",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "List1"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OKAY",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "list1",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "list1"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/fab_new_product",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/product_name",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Item1"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OKAY",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/textview_product_name",
+    "text": "item1",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "item1"
+    ]
+  }
+]

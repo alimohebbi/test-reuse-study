@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_translators">Launchpad Contributions: Almin Islamović https://launchpad.net/~almin-islamovic</string>
+    <string name="oi_distribution_about">O programu</string>
+    <string name="oi_distribution_aboutapp">OI About</string>
+    <string name="oi_distribution_aboutapp_get">Preuzmi OI o programu</string>
+    <string name="oi_distribution_aboutapp_not_available">Nema kompatibilne extenzije dostupne za prikaz cijele informacije (kontakti, license, kredit)</string>
+    <string name="oi_distribution_app_name">OI biblioteka distribucije</string>
+    <string name="oi_distribution_barcodescanner">OI plugin za Barkod</string>
+    <string name="oi_distribution_barcodescanner_not_available">Nema kompatibilnog barkod skenera</string>
+    <string name="oi_distribution_download_market">Market preuzimanja</string>
+    <string name="oi_distribution_download_market_message">Molimo skinite %s sa Marketa ili OpenIntents websajta</string>
+    <string name="oi_distribution_download_message">Molimo skinite %s sa OpenIntents websajta</string>
+    <string name="oi_distribution_download_title">Preuzimanje %s</string>
+    <string name="oi_distribution_download_web">Web Preuzimanje</string>
+    <string name="oi_distribution_eula_accept">Prihvati</string>
+    <string name="oi_distribution_eula_message">Molimo pričitajte i prihvatite sljedeće Licencni ugovor s krajnjim korisnikom (EULA) za %s.</string>
+    <string name="oi_distribution_eula_refuse">Odustani</string>
+    <string name="oi_distribution_eula_title">%s EULA</string>
+    <string name="oi_distribution_filemanager">OI Fajl Meneger</string>
+    <string name="oi_distribution_filemanager_not_available">No compatible file manager is available.</string>
+    <string name="oi_distribution_info_activity_text">%s moguće je koristit sa sljedećim aplikacijama:</string>
+    <string name="oi_distribution_info_instructions">Instrukcije</string>
+    <string name="oi_distribution_info_launch">Pokreni %s</string>
+    <string name="oi_distribution_info_not_available">%1$s requires %2$s %3$s or higher.</string>
+    <string name="oi_distribution_launch_error">Aplikaciju je nemoguće pokrenuti</string>
+    <string name="oi_distribution_menu_update">Provjeri Update:</string>
+    <string name="oi_distribution_name_and_version">%1$s %2$s</string>
+    <string name="oi_distribution_newversion_continue">Nastavi</string>
+    <string name="oi_distribution_newversion_message">Dobrodošli na novu verziju %s.</string>
+    <string name="oi_distribution_newversion_recent_changes">Nedavne promjene:</string>
+    <string name="oi_distribution_safe">OI sigurnost</string>
+    <string name="oi_distribution_safe_not_available">Nema kompatibilne aplikacije za enkripcije</string>
+    <string name="oi_distribution_safe_not_available_decrypt">"No compatible application for decryption is available.
+
+Note: You have to restore the master key from a backup file in order to access previously encrypted data."</string>
+    <string name="oi_distribution_support">Support</string>
+    <string name="oi_distribution_supportapp">OI Support</string>
+    <string name="oi_distribution_supportapp_get">Get OI Support</string>
+    <string name="oi_distribution_supportapp_not_available">No compatible extension available to display full info (Help/FAQ, Contact Developers, Feature request, Donations).</string>
+    <string name="oi_distribution_update_app">OI Update</string>
+    <string name="oi_distribution_update_box_text">Provjeri manualno za update ili instalirajte OI update zaautomatske obavijesti</string>
+    <string name="oi_distribution_update_check_now">Provjeri sada</string>
+    <string name="oi_distribution_update_error">Download application not available.</string>
+    <string name="oi_distribution_update_get_updater">Preuzmi OI updater</string>
+</resources>

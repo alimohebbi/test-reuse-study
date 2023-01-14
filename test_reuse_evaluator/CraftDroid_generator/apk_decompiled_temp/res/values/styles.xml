@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" />
+    <style name="Theme.Notepad.Android" parent="@style/Theme.ShoppingList.Android">
+        <item name="backgroundPadding">5.0dip</item>
+        <item name="textColor">#ff00ff00</item>
+        <item name="lineMode">3</item>
+        <item name="lineColor">#ff606060</item>
+    </style>
+    <style name="Theme.Notepad.Classic" parent="@style/Theme.ShoppingList.Classic">
+        <item name="lineMode">0</item>
+    </style>
+    <style name="Theme.ShoppingList" parent="@style/Theme">
+        <item name="background">?android:background</item>
+        <item name="backgroundPadding">0.0dip</item>
+        <item name="divider">0</item>
+        <item name="textTypeface"></item>
+        <item name="textUpperCaseFont">false</item>
+        <item name="textSizeSmall">18.0sp</item>
+        <item name="textSizeMedium">23.0sp</item>
+        <item name="textSizeLarge">28.0sp</item>
+        <item name="textColor">#ffffffff</item>
+        <item name="textColorPrice">#ffcccccc</item>
+        <item name="textColorPriority">#ffcccccc</item>
+        <item name="textColorChecked">#ffcccccc</item>
+        <item name="textStrikethroughChecked">false</item>
+        <item name="textSuffixUnchecked">@string/empty</item>
+        <item name="textSuffixChecked">@string/empty</item>
+        <item name="showCheckBox">true</item>
+    </style>
+    <style name="Theme.ShoppingList.Android" parent="@style/Theme.ShoppingList">
+        <item name="backgroundPadding">0.0dip</item>
+        <item name="divider">0</item>
+        <item name="textTypeface">fonts/Crysta.ttf</item>
+        <item name="textUpperCaseFont">true</item>
+        <item name="textSizeSmall">21.0sp</item>
+        <item name="textSizeMedium">26.0sp</item>
+        <item name="textSizeLarge">31.0sp</item>
+        <item name="textColor">#ffffff66</item>
+        <item name="textColorPrice">#ffcccccc</item>
+        <item name="textColorPriority">#ffeecc88</item>
+        <item name="textColorChecked">#ff66ff66</item>
+        <item name="textStrikethroughChecked">false</item>
+        <item name="textSuffixChecked">@string/suffix_checked</item>
+        <item name="showCheckBox">false</item>
+    </style>
+    <style name="Theme.ShoppingList.Classic" parent="@style/Theme.ShoppingList">
+        <item name="background">@drawable/shoppinglist01d</item>
+        <item name="backgroundPadding">-1.0px</item>
+        <item name="divider">-1</item>
+        <item name="textTypeface">fonts/AnkeHand.ttf</item>
+        <item name="textUpperCaseFont">false</item>
+        <item name="textSizeSmall">15.0sp</item>
+        <item name="textSizeMedium">20.0sp</item>
+        <item name="textSizeLarge">25.0sp</item>
+        <item name="textColor">#ff000000</item>
+        <item name="textColorPrice">#ff444444</item>
+        <item name="textColorPriority">#ffaa8844</item>
+        <item name="textColorChecked">#ff008800</item>
+        <item name="textStrikethroughChecked">true</item>
+        <item name="showCheckBox">false</item>
+    </style>
+</resources>

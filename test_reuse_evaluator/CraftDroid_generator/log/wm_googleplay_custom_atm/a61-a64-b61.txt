@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 584, in start
+    explorer = Explorer(config_id, appium_port, udid, logfile)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 30, in __init__
+    self.src_events, self.src_labels = Util.load_events(self.config.id, 'base_from')
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Util.py", line 110, in load_events
+    src_events = Util.run_source_test(fpath)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Util.py", line 101, in run_source_test
+    extractor = CraftdroidExtractor(file)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/test_attribute_extractor/test_attribute_extractor.py", line 22, in __init__
+    caps, self.app_package = get_caps(self.name)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/test_attribute_extractor/utils/utils.py", line 90, in get_caps
+    app_package, app_activity, no_reset = get_package_activity(fname)
+ValueError: not enough values to unpack (expected 3, got 2)

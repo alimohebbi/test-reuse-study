@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Liste aufräumen</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Keine</item>
+        <item>Nach jeden Satz</item>
+        <item>Nach jeden Wort</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Sehr klein</item>
+        <item>Klein</item>
+        <item>Standard</item>
+        <item>Groß</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Standard</item>
+        <item>Querformat</item>
+        <item>Hochformat</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Wird nicht angezeigt</item>
+        <item>Wichtig 1</item>
+        <item>Wichtig 1-2</item>
+        <item>Wichtig 1-3</item>
+        <item>Wichtig 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>nicht erledigte zuerst, alphabetisch</item>
+        <item>alphabetisch</item>
+        <item>neueste zuerst</item>
+        <item>älteste zuerst</item>
+        <item>Stichwörter alphabetisch</item>
+        <item>Wichtigkeit, Stichwörter alphabetisch</item>
+        <item>teuerstes zuerst</item>
+        <item>nicht erledigte zuerst, Stichwörter alphabetisch</item>
+        <item>nicht markierte zuerst, Wichtigkeit, alphabetisch</item>
+        <item>nicht markierte zu erst, Wichtigkeit, Stichwörter alphabetisch</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>Alphabetisch aufsteigend</item>
+        <item>Alphabetisch absteigend</item>
+        <item>neueste zuerst</item>
+        <item>älteste zuerst</item>
+    </string-array>
+</resources>

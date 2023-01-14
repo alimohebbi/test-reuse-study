@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>सूची खाली करें</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>कोई नहीं</item>
+        <item>हर एक वाक्य</item>
+        <item>हर एक शब्द</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>छोटा</item>
+        <item>छोटा</item>
+        <item>तयशुदा</item>
+        <item>बड़ा</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>तयशुदा</item>
+        <item>परिदृश्य</item>
+        <item>पोर्ट्रेट</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>नयी दिखाया</item>
+        <item>प्रधानता १</item>
+        <item>प्रधानता १-२</item>
+        <item>प्रधानता १-३</item>
+        <item>प्रधानता १-४</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>अचिन्हित पहले, वर्णमाला</item>
+        <item>वर्णमाला</item>
+        <item>नया सबसे पहले</item>
+        <item>पुराना सबसे पहले</item>
+        <item>टाग्स वर्णमाला के तोर पे</item>
+        <item>प्रधानता, टाग्स वर्णमाला के तोर पे</item>
+        <item>सबसे महँगा पहले</item>
+        <item>अचिन्हित पहले, टाग्स वर्णमाला के तोर पे</item>
+        <item>अचिन्हित पहले, प्रधानता, वर्णमाला</item>
+        <item>अचिन्हित पहले, प्रधानता, टाग्स वर्णमाला के तोर पे</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>नया सबसे पहले</item>
+        <item>पुराना सबसे पहले</item>
+    </string-array>
+</resources>

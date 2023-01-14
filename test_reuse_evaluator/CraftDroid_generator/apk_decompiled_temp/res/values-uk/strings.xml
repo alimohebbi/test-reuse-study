@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_translators">Launchpad Contributions: Андрій Бандура https://launchpad.net/~andriykopanytsia</string>
+    <string name="oi_distribution_about">Про програму</string>
+    <string name="oi_distribution_aboutapp">Про OI</string>
+    <string name="oi_distribution_aboutapp_get">Отримати про OI</string>
+    <string name="oi_distribution_aboutapp_not_available">Нема доступного сумісного розширення для відображення повної інформації (контакти, подяки, ліцензії).</string>
+    <string name="oi_distribution_app_name">Бібліотека OI Distribution</string>
+    <string name="oi_distribution_barcodescanner">Модуль штрих-коду OI</string>
+    <string name="oi_distribution_barcodescanner_not_available">Нема доступного сумісного сканера штрих-коду</string>
+    <string name="oi_distribution_download_market">Завантажте з Маркету</string>
+    <string name="oi_distribution_download_market_message">Будь ласка, завантажте % S з Маркету або OpenIntents сайту.</string>
+    <string name="oi_distribution_download_message">Будь ласка, завантажте % S з OpenIntents сайту.</string>
+    <string name="oi_distribution_download_title">Завантажити %s</string>
+    <string name="oi_distribution_download_web">Завантаження з інтернету</string>
+    <string name="oi_distribution_eula_accept">Прийняти</string>
+    <string name="oi_distribution_eula_message">Будь ласка, прочитайте і прийміть таку ліцензійну угоду кінцевого користувача (EULA) для %s.</string>
+    <string name="oi_distribution_eula_refuse">Відміна</string>
+    <string name="oi_distribution_eula_title">%s EULA</string>
+    <string name="oi_distribution_filemanager">Менеджер файлів OI</string>
+    <string name="oi_distribution_filemanager_not_available">Нема доступного сумісного менеджера файлів.</string>
+    <string name="oi_distribution_info_activity_text">%s можна використовувати з наступними програмами:</string>
+    <string name="oi_distribution_info_instructions">Вказівки</string>
+    <string name="oi_distribution_info_launch">Запустити %s</string>
+    <string name="oi_distribution_info_not_available">%1$s потребує %2$s %3$s або вище.</string>
+    <string name="oi_distribution_launch_error">Програма не може запуститися</string>
+    <string name="oi_distribution_menu_update">Перевірити оновлення</string>
+    <string name="oi_distribution_name_and_version">%1$s %2$s</string>
+    <string name="oi_distribution_newversion_continue">Продовжити</string>
+    <string name="oi_distribution_newversion_message">Ласкаво просимо до цієї нової версії %s.</string>
+    <string name="oi_distribution_newversion_recent_changes">Поточні зміни:</string>
+    <string name="oi_distribution_safe">Безпека OI</string>
+    <string name="oi_distribution_safe_not_available">Нема доступної сумісної програми шифрування</string>
+    <string name="oi_distribution_safe_not_available_decrypt">"Нема доступної сумісної програми шифрування. 
+
+Примітка: Ви повинні відновити головний ключ з файлу резервної копії для того, щоб отримати доступ до раніше зашифрованих даних."</string>
+    <string name="oi_distribution_support">Support</string>
+    <string name="oi_distribution_supportapp">OI Support</string>
+    <string name="oi_distribution_supportapp_get">Get OI Support</string>
+    <string name="oi_distribution_supportapp_not_available">No compatible extension available to display full info (Help/FAQ, Contact Developers, Feature request, Donations).</string>
+    <string name="oi_distribution_update_app">Оновлення OI</string>
+    <string name="oi_distribution_update_box_text">Перевірити вручну оновлення або встановити OI Update для автоматичних сповіщень.</string>
+    <string name="oi_distribution_update_check_now">Перевірити зараз</string>
+    <string name="oi_distribution_update_error">Завантаження програми не доступне.</string>
+    <string name="oi_distribution_update_get_updater">Отримати OI Updater</string>
+</resources>

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 584, in start
+    explorer = Explorer(config_id, appium_port, udid, logfile)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 30, in __init__
+    self.src_events, self.src_labels = Util.load_events(self.config.id, 'base_from')
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Util.py", line 111, in load_events
+    all_labels = list(map(get_src_labels, src_events))
+TypeError: 'NoneType' object is not iterable

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themes
+  xmlns:oi="http://schemas.openintents.org/android/themes">
+    <attributeset oi:name="org.openintents.shoppinglist">
+        <theme oi:title="@string/theme_default" oi:style="@style/Theme.ShoppingList" />
+        <theme oi:title="@string/theme_classic" oi:style="@style/Theme.ShoppingList.Classic" />
+        <theme oi:title="@string/theme_bugdroid" oi:style="@style/Theme.ShoppingList.Android" />
+    </attributeset>
+    <attributeset oi:name="org.openintents.notepad">
+        <theme oi:title="@string/theme_classic_export" oi:style="@style/Theme.Notepad.Classic" />
+        <theme oi:title="@string/theme_bugdroid_export" oi:style="@style/Theme.Notepad.Android" />
+    </attributeset>
+</themes>

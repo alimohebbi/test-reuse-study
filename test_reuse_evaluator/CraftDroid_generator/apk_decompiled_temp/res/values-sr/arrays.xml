@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Расчисти листу</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Никаква</item>
+        <item>Прво слово реченице</item>
+        <item>Прво слово речи</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Сићушна</item>
+        <item>Мала</item>
+        <item>Подразумевана</item>
+        <item>Велика</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Подразумевана</item>
+        <item>Хоризонтална</item>
+        <item>Вертикална</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Није приказано</item>
+        <item>1 Приоритет</item>
+        <item>1-2 Приоритет</item>
+        <item>1-3 Приоритет</item>
+        <item>1-4 Приоритет</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>прво нештиклиране па по абецедном реду</item>
+        <item>по абецедном реду</item>
+        <item>прво најновије</item>
+        <item>прво најстарије</item>
+        <item>по ознакама по абецедном реду</item>
+        <item>по приоритету па по ознакама по абецедном реду</item>
+        <item>прво по најскупљим ставкама</item>
+        <item>прво нештиклизане па по ознакама по абецедном реду</item>
+        <item>прво нештиклиране, па по приоритету па по абецедном реду</item>
+        <item>прво нештиклиране, па по приоритету па по ознакама по абецедном реду</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>прво најновије</item>
+        <item>прво најстарије</item>
+    </string-array>
+</resources>

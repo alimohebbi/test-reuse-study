@@ -1,0 +1,42 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/fab",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/shoppingListNameEditText",
+    "text": "Shopping list name",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "list"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/addShoppingListButton",
+    "text": "SAVE",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/shoppingListNameTextView",
+    "text": "list",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "list"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.kvannli.simonkvannli.dailybudget:id/imageButton",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.kvannli.simonkvannli.dailybudget:id/input_note",
+    "text": "Note (Optional)",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Entertainment"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.kvannli.simonkvannli.dailybudget:id/input_amount",
+    "text": "Amount",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "45"
+    ]
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEY_BACK"
+    ],
+    "event_type": "SYS_EVENT"
+  }
+]

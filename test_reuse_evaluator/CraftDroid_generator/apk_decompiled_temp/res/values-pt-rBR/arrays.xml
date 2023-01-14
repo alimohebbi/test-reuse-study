@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Limpar lista</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Nenhum</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Muito pequeno</item>
+        <item>Pequeno</item>
+        <item>Padrão</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Padrão</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Not shown</item>
+        <item>Priority 1</item>
+        <item>Priority 1-2</item>
+        <item>Priority 1-3</item>
+        <item>Priority 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>desmarcados primeiro, ordem alfabética</item>
+        <item>ordem alfabética</item>
+        <item>mais recentes primeiro</item>
+        <item>mais antigos primeiro</item>
+        <item>marcas em ordem alfabética</item>
+        <item>priority, tags alphabetical</item>
+        <item>mais caros primeiro</item>
+        <item>unchecked first, tags alphabetical</item>
+        <item>unchecked first, priority, alphabetical</item>
+        <item>unchecked first, priority, tags alphabetical</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>mais recentes primeiro</item>
+        <item>mais antigos primeiro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>تىزىمنى تازىلا</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>يوق</item>
+        <item>ھەر بىر جۈملە</item>
+        <item>ھەر بىر سۆز</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>كىچىكرەك</item>
+        <item>كىچىك</item>
+        <item>كۆڭۈلدىكى</item>
+        <item>چوڭ</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>كۆڭۈلدىكى</item>
+        <item>توغرا يۆنىلىش</item>
+        <item>بوي يۆنىلىش</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>كۆرسىتىلمىگەن</item>
+        <item>ئالدىنلىق 1</item>
+        <item>ئالدىنلىق 1-2</item>
+        <item>ئالدىنلىق 1-2</item>
+        <item>ئالدىنلىق 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>تاللانمىغىنى ئالدىدا، ئېلىپبە تەرتىپىدە</item>
+        <item>ئېلىپبە تەرتىپى</item>
+        <item>يېڭىسى ئالدىدا</item>
+        <item>كونىسى ئالدىدا</item>
+        <item>بەلگە ئېلىپبە تەرتىپىدە</item>
+        <item>ئالدىنلىق، بەلگە ئېلىپبە تەرتىپىدە</item>
+        <item>ئەڭ قىممەتلىرى ئالدىدا</item>
+        <item>تاللانمىغىنى ئالدىدا، بەلگە ئېلىپبە تەرتىپىدە</item>
+        <item>تاللانمىغىنى ئالدىدا، ئالدىنلىق، ئېلىپبە تەرتىپىدە</item>
+        <item>تاللانمىغىنى ئالدىدا، ئالدىنلىق، بەلگە ئېلىپبە تەرتىپىدە</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>يېڭىسى ئالدىدا</item>
+        <item>كونىسى ئالدىدا</item>
+    </string-array>
+</resources>

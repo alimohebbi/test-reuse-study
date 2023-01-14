@@ -1,0 +1,9 @@
+toml==0.10.2
+Appium-Python-Client==0.50
+pandas==1.2.4
+PyYAML==5.4.1
+python-Levenshtein==0.12.2
+pathlib==1.0.1
+fastDamerauLevenshtein==1.0.7
+python-dateutil==2.8.1
+pydateinfer==0.3.0

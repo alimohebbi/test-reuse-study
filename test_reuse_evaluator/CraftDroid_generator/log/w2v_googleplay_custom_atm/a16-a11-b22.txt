@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 584, in start
+    explorer = Explorer(config_id, appium_port, udid, logfile)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 29, in __init__
+    self.config = Configuration(config_id)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Configuration.py", line 21, in __init__
+    assert self.id, 'Invalid config_id'
+AssertionError: Invalid config_id

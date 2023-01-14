@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Nettoyer la liste</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Aucun</item>
+        <item>Par phrase</item>
+        <item>Par mot</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Très petite</item>
+        <item>Petit</item>
+        <item>Défaut</item>
+        <item>Grand</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Défaut</item>
+        <item>Paysage</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Non affiché</item>
+        <item>Priorité 1</item>
+        <item>Priorité 1-2</item>
+        <item>Priorité 1-3</item>
+        <item>Priorité 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>Non coché en premier, ordre alphabétique</item>
+        <item>alphabétique</item>
+        <item>nouveau en premier</item>
+        <item>ancien en premier</item>
+        <item>Libellé par ordre alphabétique</item>
+        <item>priorité, tags</item>
+        <item>plus cher en premier</item>
+        <item>Non coché en premier, libellé par ordre alphabétique</item>
+        <item>"Non coché d'abord, priorité, alphabétique"</item>
+        <item>unchecked first, priority, tags alphabetical</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>nouveau en premier</item>
+        <item>ancien en premier</item>
+    </string-array>
+</resources>

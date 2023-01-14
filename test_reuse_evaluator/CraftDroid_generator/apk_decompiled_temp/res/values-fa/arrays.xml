@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>پاک کردن لیست</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>هیچ کدام</item>
+        <item>در هر جمله</item>
+        <item>هر کلمه</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>پیش فرض</item>
+        <item>بزرگ</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>پیش فرض</item>
+        <item>افقی</item>
+        <item>عمودی</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>نشان داده نشده است</item>
+        <item>اولویت 1</item>
+        <item>اولویت 1-2</item>
+        <item>اولویت 1-3</item>
+        <item>اولویت 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>ابتدا بررسی نشده ها، الفبایی</item>
+        <item>الفبایی</item>
+        <item>ابتدا جدیدترین</item>
+        <item>ابتدا قدیمی ترین</item>
+        <item>برچسب ها الفبایی</item>
+        <item>اولویت، برچسب ها بر اساس حروف الفبا</item>
+        <item>ابتدا گران ترین ها</item>
+        <item>ابتدا علامت نخورده ها باشد، برچسب ها به ترتیب حروف الفبا</item>
+        <item>ابتدا علامت نخورده ها باشد، اولويت ، برچسب ها به ترتیب حروف الفبا</item>
+        <item>بدون کنترل، اولویت، برچسب ها بر اساس حروف الفبا</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>ابتدا جدیدترین</item>
+        <item>ابتدا قدیمی ترین</item>
+    </string-array>
+</resources>

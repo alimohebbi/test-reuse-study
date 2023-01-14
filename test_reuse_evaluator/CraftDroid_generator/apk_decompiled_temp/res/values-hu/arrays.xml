@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Lista ürítése</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Nélkül</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Apró</item>
+        <item>Kicsi</item>
+        <item>Alapértelmezett</item>
+        <item>Nagy</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Alapértelmezett</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Not shown</item>
+        <item>Priority 1</item>
+        <item>Priority 1-2</item>
+        <item>Priority 1-3</item>
+        <item>Priority 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>kipipálatlanok először, abc sorrend</item>
+        <item>abc sorrend</item>
+        <item>legújabbak elöl</item>
+        <item>legrégebbiek elöl</item>
+        <item>címkék abc sorrendben</item>
+        <item>priority, tags alphabetical</item>
+        <item>legköltségesebb elöl</item>
+        <item>unchecked first, tags alphabetical</item>
+        <item>unchecked first, priority, alphabetical</item>
+        <item>unchecked first, priority, tags alphabetical</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>legújabbak elöl</item>
+        <item>legrégebbiek elöl</item>
+    </string-array>
+</resources>

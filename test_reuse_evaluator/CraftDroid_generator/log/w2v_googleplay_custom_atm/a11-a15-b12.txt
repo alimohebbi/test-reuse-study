@@ -1,0 +1,198 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 130, in perform_actions
+    WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located(locator))
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 141, in perform_actions
+    assert False, "Failed WAIT_UNTIL action"
+AssertionError: Failed WAIT_UNTIL action

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Vyčistit seznam</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Nic</item>
+        <item>Po větách</item>
+        <item>Po slovech</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Malinké</item>
+        <item>Malé</item>
+        <item>Výchozí</item>
+        <item>Velké</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Výchozí</item>
+        <item>Na šířku</item>
+        <item>Na výšku</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Nezobrazeno</item>
+        <item>Priorita 1</item>
+        <item>Priorita 1-2</item>
+        <item>Priorita 1-3</item>
+        <item>Priorita 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>nejprve nepřeškrtnuté, abecedně</item>
+        <item>abecedně</item>
+        <item>nejprve nejnovější</item>
+        <item>nejprve nejstarší</item>
+        <item>abecedně podle štítků</item>
+        <item>priorita, abecedně podle štítků</item>
+        <item>nejprve nejdražší</item>
+        <item>nejprve nepřeškrtnuté, abecedně podle štítků</item>
+        <item>nejprve nepřeškrtnuté, priorita, abecedně</item>
+        <item>nejprve nepřeškrtnuté, priorita, abecedně podle štítků</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>nejprve nejnovější</item>
+        <item>nejprve nejstarší</item>
+    </string-array>
+</resources>

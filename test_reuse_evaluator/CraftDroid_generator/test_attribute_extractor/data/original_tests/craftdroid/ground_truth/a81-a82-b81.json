@@ -1,0 +1,61 @@
+[
+  {
+    "class": "android.widget.TableRow",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Grocery"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OK",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "br.com.activity:id/edDescription",
+    "text": "Add an item",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Weekly grocery shopping"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "br.com.activity:id/action_done",
+    "text": "",
+    "content-desc": "Add item",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/action_bar_title",
+    "text": "Grocery",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Grocery"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "me.writeily:id/fab_expand_menu_button",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "me.writeily:id/create_note",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "me.writeily:id/edit_note_title",
+    "text": "Title",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "title1"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "me.writeily:id/note_content",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Note1"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "me.writeily:id/note_title",
+    "text": "title1",
+    "content-desc": "",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "title1"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+
+Traceback (most recent call last):
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 124, in run
+    dom, pkg, act = self.execute_target_events([])
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Explorer.py", line 338, in execute_target_events
+    self.runner.perform_actions(self.tgt_events, require_wait, reset=True, cgp=self.cgp)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 159, in perform_actions
+    self.perform_send_keys(action, ele, is_for_confirm)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/Runner.py", line 196, in perform_send_keys
+    ele.set_value(value_for_input)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/webelement.py", line 205, in set_value
+    self._execute(Command.SET_IMMEDIATE_VALUE, data)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: Cached elements 'By.id: park.outlook.sign.in.client:id/edit_text_cc_bcc' do not exist in DOM anymore
+

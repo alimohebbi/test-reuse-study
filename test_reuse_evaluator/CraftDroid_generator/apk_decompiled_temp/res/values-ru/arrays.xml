@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Очистить список</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Нет</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Крошечный</item>
+        <item>Маленький</item>
+        <item>По умолчанию</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>По умолчанию</item>
+        <item>Альбомная</item>
+        <item>Портретная</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Нет элементов для отображения</item>
+        <item>Приоритет 1</item>
+        <item>Приоритет 1-2</item>
+        <item>Приоритет 1-3</item>
+        <item>Приоритет 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>сначала неотмеченные, алфавитный</item>
+        <item>алфавитный</item>
+        <item>Сначала новые</item>
+        <item>сначала старые</item>
+        <item>по меткам, алфавитный</item>
+        <item>приоритету, тегам в алфавитном порядке</item>
+        <item>по цене</item>
+        <item>сначала неотмеченные, по меткам, алфавитный</item>
+        <item>невыполненные первые, приоритету, в алфавитном порядке</item>
+        <item>невыполненные первые, приоритету, тегам в алфавитном порядке</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>Сначала новые</item>
+        <item>сначала старые</item>
+    </string-array>
+</resources>

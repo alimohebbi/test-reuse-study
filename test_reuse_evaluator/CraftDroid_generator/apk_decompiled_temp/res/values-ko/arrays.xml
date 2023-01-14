@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>목록 정리하기</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>없음</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>아주 작게</item>
+        <item>작은</item>
+        <item>기본값</item>
+        <item>큰</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>기본값</item>
+        <item>가로 방향</item>
+        <item>세로 방향</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>보여지지 않음</item>
+        <item>우선순위 1</item>
+        <item>우선순위 1-2</item>
+        <item>우선순위 1-3</item>
+        <item>우선순위 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>체크되지 않은 항목 먼저, 알파벳 순</item>
+        <item>일파벳 순</item>
+        <item>최근 항목 순</item>
+        <item>오래된 항목 순</item>
+        <item>태그 알파벳 순</item>
+        <item>우선 순위, 알파벳 순</item>
+        <item>비싼 항목 순</item>
+        <item>체크되지 않은 항목 먼저, 태그 알파벳 순</item>
+        <item>체크되지 않은 항목 먼저, 우산 순위, 알파벳 순</item>
+        <item>체크되지 않은 항목 먼저, 우선 순위, 태그 일파벳 순</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>최근 항목 순</item>
+        <item>오래된 항목 순</item>
+    </string-array>
+</resources>

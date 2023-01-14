@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>清除列表</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>无</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>微小</item>
+        <item>小</item>
+        <item>默认</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>默认</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>不显示</item>
+        <item>优先1</item>
+        <item>优先1-2</item>
+        <item>优先1-3</item>
+        <item>优先1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>优先列出未检查物品，按其字母顺序排序</item>
+        <item>按字母排序</item>
+        <item>优先最新的</item>
+        <item>优先最旧的</item>
+        <item>按标签的字母顺序排序</item>
+        <item>按字母顺序排列优先</item>
+        <item>优先最贵的</item>
+        <item>优先列出未检查物品， 按标签的字母顺序排序</item>
+        <item>未经检查的优先，按字母顺序排列</item>
+        <item>未经检查的优先，按字母顺序排列优先</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>优先最新的</item>
+        <item>优先最旧的</item>
+    </string-array>
+</resources>

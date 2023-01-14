@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Εκκαθάριση λίστας</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Καμία</item>
+        <item>Ανά πρόταση</item>
+        <item>Ανά λέξη</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Ελάχιστο</item>
+        <item>Μικρό</item>
+        <item>Προεπιλογή</item>
+        <item>Μεγάλο</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Προεπιλογή</item>
+        <item>Οριζόντια</item>
+        <item>Κατακόρυφα</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Δεν εμφανίζεται</item>
+        <item>Προτεραιότητα 1</item>
+        <item>Προτεραιότητα 1-2</item>
+        <item>Προτεραιότητα 1-3</item>
+        <item>Προτεραιότητα 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>μη επιλεγμένα, με αλφαβητική σειρά</item>
+        <item>με αλφαβητική σειρά</item>
+        <item>πιο πρόσφατα</item>
+        <item>παλαιότερα</item>
+        <item>ετικέτες με αλφαβητική σειρά</item>
+        <item>προτεραιότητα, αλφαβητικά κατά ετικέτα</item>
+        <item>πιο ακριβά</item>
+        <item>μη σημειωμένα αρχικά, αλφαβητικά κατά ετικέτα</item>
+        <item>μη σημειωμένα αρχικά, προτεραιότητα, αλφαβητικά</item>
+        <item>μη σημειωμένα αρχικά, προτεραιότητα, αλφαβητικά κατά ετικέτα</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>πιο πρόσφατα</item>
+        <item>παλαιότερα</item>
+    </string-array>
+</resources>

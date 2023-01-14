@@ -1,0 +1,199 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 2.2.3
+
+Name: res/layout/activity_edit_automation.xml
+SHA1-Digest: hY/PNf27EfZVeyUoMHdTfN7q0Ns=
+
+Name: res/drawable-hdpi-v11/ic_menu_cleanup.png
+SHA1-Digest: 2Ddz8L9VcotmzTKiHvMpAjuepEk=
+
+Name: res/drawable-hdpi-v11/ic_menu_add_list.png
+SHA1-Digest: NFIIfRVeIM1XPmHV6TCEi/QOI0s=
+
+Name: res/layout/list_menu_item_radio.xml
+SHA1-Digest: h/C4e12GIsdPxC/DRuVoRAeSHNU=
+
+Name: res/drawable/theme_android.9.png
+SHA1-Digest: U1sHwisWvykwkgKOQ7hLav8gMDs=
+
+Name: res/anim/shake.xml
+SHA1-Digest: NuDsLZl5xrUXrwkyOjV4LcjkmCU=
+
+Name: res/xml/themes.xml
+SHA1-Digest: Jrk6Prb7OD7cnEM+Z2qOTHC4UN4=
+
+Name: res/drawable-ldpi-v5/ic_launcher_shoppinglist.png
+SHA1-Digest: oPmvLLGt5sBXY6EjFbFOy7o7Kmw=
+
+Name: res/layout/dialog_edit_item.xml
+SHA1-Digest: uYV3dFZrWDhovT7OTOT+B20Tt1Y=
+
+Name: res/drawable-hdpi-v5/ic_launcher_shoppinglist.png
+SHA1-Digest: 4XS0Hb+oBKcx2iRu62kq9QlZO94=
+
+Name: res/layout/list_item_shopping_list.xml
+SHA1-Digest: BrLMaC8lN4744CrEMaRQjkd96bI=
+
+Name: res/layout/activity_itemstores.xml
+SHA1-Digest: 2eDz3rT1sUvC1NpJaV3OggkK6u4=
+
+Name: res/drawable/ic_menu_add.png
+SHA1-Digest: QJxKk2ew4d/YknPZBtKBfltlZ7g=
+
+Name: res/drawable-xhdpi-v11/ic_menu_cleanup.png
+SHA1-Digest: oE+rC2Jxolhmxg/vn/lKiu7xito=
+
+Name: org/jacoco/agent/rt/internal_b0d6a23/core/jacoco.properties
+SHA1-Digest: B8QvmH88EaCWsLgaun18npxXrtg=
+
+Name: res/xml/about.xml
+SHA1-Digest: mjfbZinfDZ4NT4Y1fk4ZgbI/Xg0=
+
+Name: res/layout/list_item_shopping_item.xml
+SHA1-Digest: V7eO+Po3fCxXQbhFdNXkH6kvDKg=
+
+Name: res/raw/oi_distribution_buttonbar.xml
+SHA1-Digest: irOZyXnvzoIBXb1oG4wg3XFenb8=
+
+Name: res/drawable-xhdpi-v5/ic_launcher_shoppinglist.png
+SHA1-Digest: Dt/FvHadWwQJIKLRwFHovl1+Z7Q=
+
+Name: res/layout/activity_add_location_alert.xml
+SHA1-Digest: 4kc8QgdaPw2nMqAjVWaIGlCKXfg=
+
+Name: res/drawable-mdpi-v11/ic_menu_add_list.png
+SHA1-Digest: KcVFnD5YnDW0hWQE/gHzh0QN264=
+
+Name: res/layout-xlarge-v11/fragment_shopping_list_filter.xml
+SHA1-Digest: lOzm3XyE3/rQ5i6Op2FZnbjIcyc=
+
+Name: res/layout/dialog_theme_settings.xml
+SHA1-Digest: Z+4/k21QK8uOuZhms5ar4P2QS9U=
+
+Name: res/drawable/ic_menu_add_list.png
+SHA1-Digest: euw5q9NilAe2g3CNhtO6vcnFekY=
+
+Name: res/layout/activity_pick_items.xml
+SHA1-Digest: 0PpqIRPgn8/0+XgJdPJKO8OV9iA=
+
+Name: res/drawable-hdpi-v4/ic_launcher_notepad_small.png
+SHA1-Digest: fPVk69T+1q+D/T98To/bQw6MyMQ=
+
+Name: res/layout/list_menu_item_layout.xml
+SHA1-Digest: TP8gFd5DRC+lYMqLiPlFFgvkKmE=
+
+Name: resources.arsc
+SHA1-Digest: bNd8l3WPfMN8J6RR8267mG6m2XM=
+
+Name: res/layout/list_menu_item_checkbox.xml
+SHA1-Digest: Kc6dZRRcPoToNWBdiaeg5yLAr1g=
+
+Name: res/layout/list_item_shopping_item_small.xml
+SHA1-Digest: 8RbrWhb8vNn/ndTuwm3nxE+PVWs=
+
+Name: res/drawable-ldpi-v11/ic_menu_add_list.png
+SHA1-Digest: dql58UExvwsLZ+7/gxvVchYFyUU=
+
+Name: res/anim/cycle_7.xml
+SHA1-Digest: OKJW/lYeqEUTuq/KgnVxZXSYae0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: nxIdW+q64auYL7tZ6kFa3cgltfY=
+
+Name: res/layout/oi_distribution_eula.xml
+SHA1-Digest: 1uQrkgF9+P9RY0kE+slG0v/lA8I=
+
+Name: res/drawable-mdpi-v11/ic_menu_cleanup.png
+SHA1-Digest: fbWE1jieUjX1uf3L6ANQKOnSk5c=
+
+Name: res/layout/popup_menu_item_layout.xml
+SHA1-Digest: lmLGfEXfF5ZbkfpbV0jWSx5B0Kg=
+
+Name: res/drawable-mdpi-v4/ic_launcher_notepad_small.png
+SHA1-Digest: OG2IV/54TymMy604A6hI3b2nnRs=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: BbPklKwt3wUL66Nvaa3F8t0EW8A=
+
+Name: res/drawable-mdpi-v5/ic_launcher_shoppinglist.png
+SHA1-Digest: nPPN19R2czgunkAvsee6MBCa+oQ=
+
+Name: res/layout/dialog_rename_list.xml
+SHA1-Digest: 7fp+alDlG6WnW13vCRi8wgzWo2c=
+
+Name: res/drawable/ic_launcher_shoppinglist.png
+SHA1-Digest: 8StovOb3Fzz0lAVm2SUHMZktifE=
+
+Name: res/drawable-xhdpi-v11/ic_menu_add_list.png
+SHA1-Digest: o/3fpBHtkmrv+tr6ZXTdZS72CNc=
+
+Name: res/layout/activity_list_share_settings.xml
+SHA1-Digest: u5nOm0SWpvhxEliY7dkwu3rtMYM=
+
+Name: res/layout-xlarge-v11/activity_shopping.xml
+SHA1-Digest: q2TIvWmPcZI/e4J+Gkp5NOcF3cA=
+
+Name: res/layout/list_menu_item_icon.xml
+SHA1-Digest: iKQsHH9FlcAd9g5dMM2mGC4Nflg=
+
+Name: res/drawable-ldpi-v11/ic_menu_cleanup.png
+SHA1-Digest: 3nWqA2fmoWBWRsDjP+Ryup0gJaQ=
+
+Name: res/layout/widget_check_items.xml
+SHA1-Digest: fw9FFzGLR8uFtsHODyc76/EHlu8=
+
+Name: res/layout/oi_distribution_infoactivity.xml
+SHA1-Digest: Zr8GeNdCgnWBHbPVXztJoZ7BcYI=
+
+Name: res/drawable/shoppinglist01d.9.png
+SHA1-Digest: /+qR8VWkjd+NWFeKeS1l6eJXdsQ=
+
+Name: res/layout/menu_item.xml
+SHA1-Digest: 0tdZ64oknZXWObhhONFMg9BJ4xg=
+
+Name: res/raw/recent_changes.txt
+SHA1-Digest: VlLrqtBdboD0fiTT17tsQpACG4Q=
+
+Name: assets/shoppinglist.csv
+SHA1-Digest: VNc/49QNW3O+gLsX/AAFKZANufE=
+
+Name: res/layout-v14/oi_distribution_buttonbar.xml
+SHA1-Digest: vcL3RXWFlZfZwp+hymKqFWhCeWw=
+
+Name: res/drawable/widget_check_items.xml
+SHA1-Digest: GbCBJ9m3kDXpHv044lHxKoGv3oY=
+
+Name: assets/fonts/AnkeHand.ttf
+SHA1-Digest: rtMO/UQAlBgEjFM8da6EzA9BIJE=
+
+Name: res/drawable/ic_launcher_notepad_small.png
+SHA1-Digest: OG2IV/54TymMy604A6hI3b2nnRs=
+
+Name: res/raw/license_short.txt
+SHA1-Digest: U47+fq/VGIhIGfo7ER3Hkln6Dp4=
+
+Name: res/layout/activity_shopping.xml
+SHA1-Digest: xSB6/HAPYIZTXxupVxv8BQ+yhjk=
+
+Name: res/anim/simple_anim.xml
+SHA1-Digest: OXfnAL6cdudT1YomIVlrNc8Uh7s=
+
+Name: res/layout/list_item_store.xml
+SHA1-Digest: S3mkchIdKTt+dPDf2HIF/W7o7nE=
+
+Name: res/drawable/ic_menu_cleanup.png
+SHA1-Digest: zDGzRBg2K1m4NyiFXiHEzRtxTLE=
+
+Name: org/jacoco/agent/rt/internal_b0d6a23/asm/xml/asm-xml.dtd
+SHA1-Digest: Yd4wqoCaMdr9L76b0rg+X7rcl9o=
+
+Name: assets/fonts/Crysta.ttf
+SHA1-Digest: +RsqmQ4JpVGZ2R4d7k9ZQQxzCFY=
+
+Name: classes.dex
+SHA1-Digest: OSpfbg7OiSWWcKQ07TudzhLyH1k=
+
+Name: res/xml/widget_check_items.xml
+SHA1-Digest: Tsw2sZfdm6F830+V0Hu6K4oMmMc=
+

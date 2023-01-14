@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/filters" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/spinner_listfilter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:layout_weight="1.0" />
+        <Button android:id="@id/listfilter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/list" android:layout_weight="1.0" />
+        <Button android:id="@id/tagfilter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tags" android:layout_weight="1.0" />
+        <Button android:id="@id/storefilter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/stores" android:layout_weight="1.0" />
+    </LinearLayout>
+    <org.openintents.shopping.ui.widget.ShoppingItemsView android:id="@id/list_items" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/total_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/total_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/total_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="right" android:id="@id/total_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <AutoCompleteTextView android:id="@id/autocomplete_add_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/button_add_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" />
+    </LinearLayout>
+</LinearLayout>

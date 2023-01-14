@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>רשימת ניקיון</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>כלום</item>
+        <item>Per sentence</item>
+        <item>Per word</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>זעיר</item>
+        <item>קטן</item>
+        <item>בררת מחדל</item>
+        <item>גדול</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>בררת מחדל</item>
+        <item>נוף</item>
+        <item>דיוקן</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>לא מוצג</item>
+        <item>עדיפות 1</item>
+        <item>עדיפות 1-2</item>
+        <item>עדיפות 1-3</item>
+        <item>עדיפות 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>פריטים שלא סומנו ראשונים, אלפביתי</item>
+        <item>אלפביתי</item>
+        <item>החדש ביותר ראשון</item>
+        <item>הישן ביותר ראשון</item>
+        <item>תגיות אלפביתי</item>
+        <item>סדר עדיפות, תגיות אלפביתי</item>
+        <item>היקר ביותר קודם</item>
+        <item>פריטים שלא סומנו, תגיות אלפביתי</item>
+        <item>פריטים שלא סומנו, סדר עדיפויות, אלפביתי</item>
+        <item>פריטים שלא סומנו, סדר עדיפויות, תגיות אלפביתי</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>החדש ביותר ראשון</item>
+        <item>הישן ביותר ראשון</item>
+    </string-array>
+</resources>

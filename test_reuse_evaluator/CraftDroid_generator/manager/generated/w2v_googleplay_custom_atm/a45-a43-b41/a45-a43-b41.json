@@ -1,0 +1,104 @@
+[
+  {
+    "bounds": "[817,73][943,199]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/toolbar_action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[817,73][943,199]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/toolbar_action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[158,108][943,165]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "ru.mail.mailapp:id/search_text",
+    "text": "Search Text",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "search_text"
+    ]
+  },
+  {
+    "bounds": "[158,108][943,165]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "ru.mail.mailapp:id/search_text",
+    "text": "Search Text",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_enter",
+      "Automated"
+    ]
+  },
+  {
+    "bounds": "[231,499][1038,604]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/snippet",
+    "text": "\u2026 PM Subject: Automated Software Engineering To: &lt;anonymized.author1@gmail.com&gt; Automated Software Engineering",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Automated Software Engineering"
+    ]
+  }
+]

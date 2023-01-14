@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="automation_actions">
+        <item>Wyczyść listę</item>
+    </string-array>
+    <string-array name="preference_capitalization_entries">
+        <item>Brak</item>
+        <item>Każde zdanie</item>
+        <item>Każde słowo</item>
+    </string-array>
+    <string-array name="preference_fontsize_entries">
+        <item>Najmniejszy</item>
+        <item>Mały</item>
+        <item>Domyślny</item>
+        <item>Duży</item>
+    </string-array>
+    <string-array name="preference_orientation_entries">
+        <item>Domyślny</item>
+        <item>Pozioma</item>
+        <item>Pionowa</item>
+    </string-array>
+    <string-array name="preference_prioritytotal_entries">
+        <item>Nie pokazano</item>
+        <item>Priority 1</item>
+        <item>Priority 1-2</item>
+        <item>Priority 1-3</item>
+        <item>Priority 1-4</item>
+    </string-array>
+    <string-array name="preference_sortorder_entries">
+        <item>najpierw niezaznaczone, alfabetycznie</item>
+        <item>alfabetycznie</item>
+        <item>najpierw najnowsze</item>
+        <item>najpierw najstarsze</item>
+        <item>znaczniki alfabetycznie</item>
+        <item>priorytet, znaczniki alfabetycznie</item>
+        <item>najdroższe najpierw</item>
+        <item>najpierw nieodznaczone, znaczniki alfabetycznie</item>
+        <item>nieukończone pierwsze, priorytet, alfabetycznie</item>
+        <item>niezaznaczone, priorytet, znaczniki alfabetycznie</item>
+    </string-array>
+    <string-array name="preference_sortorder_slists">
+        <item>alphabetical ascending</item>
+        <item>alphabetical descending</item>
+        <item>najpierw najnowsze</item>
+        <item>najpierw najstarsze</item>
+    </string-array>
+</resources>
