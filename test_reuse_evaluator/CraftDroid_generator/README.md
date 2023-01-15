@@ -19,8 +19,7 @@ Location of output:
 
 > Install the subject applications on the emulator
 
-### Python Packages
-You can use the same virtual environment as the `isolation` package.
+> Mail client application require login before use 
 
 ### Run
 1. Run semantic matching server
