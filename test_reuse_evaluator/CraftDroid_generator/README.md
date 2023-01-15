@@ -16,20 +16,6 @@ Location of output:
 - Status of migrations: `manager/results.csv`
 
 ### Requirements
-- Java 8
-- Java 
-- python 3.7
-- pip3
-- python3.7-dev
-- 8 GB RAM
-- Android Emulator for Android 6 API 23
-- Neo4j 4.3.2 Community Edition
-- gradle
-- Appium 1.21.0
-
-> Install android emulator 
-> Emulator should be accessible from command line. 
-> For example running `emualtor -avd emulator1` should result in running the emulator.
 
 > Install the subject applications on the emulator
 

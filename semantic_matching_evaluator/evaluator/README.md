@@ -2,43 +2,22 @@ This artifact evaluates different configurations of semantic matching in isolati
 Configurations include those which are used by three stat-of-art approaches (ATM, Craftdroid, Adapatdroid) as well as new configurations introduced by this study.
 There are 253 configurations in total.
 Each configuration is evaluated by two metrics: MRR and Top1.
- 
-### Requirements
-- python 3.7
-- pip3
-- python3.7-dev
-- 8 GB RAM
- 
+
+**Input:**
+- Descriptors of source events: `events/src_events`
+- Descriptors of target events: `events/target_events`
+- Mapping of correct matching: `events/index_map.csv`
+
+**Output:**
+- Result of semantic matching in isolation `results.csv`
+- Similarity score of each candidate grouped by semantic matching configuration: `sim_scores`
+
+
 > Note: You need 20 GB RAM to use FAST embedding approach with the standard train set
  
-> Note: Required os packages can be install by following command:
-```
-sudo apt-get install python3.7 pip3 python3.7-dev
-```
- 
 ### Python Packages
-First you need to setup a new virtual environment
-1. Update pip
-   ```
-   pip3 install --upgrade pip
-   ```
-1. Install the virtualenv package
-   ```
-   pip3 install virtualenv
-   ```
-1. Create a virtual environment
-   ```
-   virtualenv --python=python3.7 venv
-   ```
-1. Activate the environment (If it is not activated automatically)
-   ```
-   source venv/bin/activate
-   ```
-1. Now you can install required packages
-    ```
-    pip install -r requirements.txt
-    ```
-1. Run text_pre_process.py to download few packages:
+1. Activate the virtual environment
+1. Run text_pre_process.py to download additional packages:
     ```
     python -m text_pre_process
     ```
@@ -48,7 +27,6 @@ First you need to setup a new virtual environment
     download is completed!
     ```
  
-  > Note: You can use any other virtual environment of your choice
  
 > Note: You can skip the below section if you don't want to run the configurations that include BERT technique. 
  
@@ -98,7 +76,7 @@ For example: (SemFinder, Union, w2v, googleplay) is a configuration.
    ```
    python run_all_combinations.py
    ```
-1. Results are saved in the `results_rank.csv` file.
+1. Results are saved in the `results.csv` file.
  
 > Note: if you stop the framework while it is evaluating configurations, in the next run it will resume from the last evaluated configuration.
  
@@ -126,6 +104,5 @@ custom-intersection-android-wm already exist
 >Note: You can run the framework only for one (or more) configuration.
 To do so you should comment all the instances of the four components in the config file except the one you like to evaluate.
 Remove the intermediary and the final result related to the configuration. Then run the framework.
- 
  
  
