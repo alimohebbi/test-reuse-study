@@ -1,0 +1,12 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'empty_hint'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'This directory is empty'], 'get_element_by': [{'type': 'resource-id', 'value': 'empty_hint'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'empty_hint'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'This directory is empty'], 'get_element_by': [{'type': 'resource-id', 'value': 'empty_hint'}]}
+
+
+

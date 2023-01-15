@@ -1,0 +1,25 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'welcome_view_pager'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_blogs_atm_craftdroid/ExpenseTracker4-ExpenseTracker1/AppTestMigrator_expenseTrackerTest1_3.java.PLEASE CHECK THE ERROR LOG!
+on'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_blogs_atm_craftdroid/ExpenseTracker4-ExpenseTracker1/AppTestMigrator_expenseTrackerTest1_3.java.PLEASE CHECK THE ERROR LOG!
+on'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_blogs_atm_craftdroid/ExpenseTracker4-ExpenseTracker1/AppTestMigrator_expenseTrackerTest1_3.java.PLEASE CHECK THE ERROR LOG!

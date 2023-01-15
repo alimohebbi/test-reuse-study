@@ -1,0 +1,12 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '- 0 NON'], 'get_element_by': [{'type': 'xpath', 'value': '/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.ExpandableListView/android.widget.LinearLayout/android.view.View[2]'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': '6'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/random_empty_random_intersection/ExpenseTracker3-ExpenseTracker4/AppTestMigrator_expenseTrackerTest10_3.java.PLEASE CHECK THE ERROR LOG!

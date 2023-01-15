@@ -1,0 +1,17 @@
+src_app,target_app,tp,tn,fp,fn,effort_leveneshtein,effort_damerau_levenshtein,accuracy,precision,recall,f1_score,reduction_leveneshtein,reduction_damerau_leveneshtein
+ExpenseTracker1,ExpenseTracker3,1,5,26,3,26,26,0.17142857142857143,0.037037037037037035,0.25,0.06451612903225806,-5.5,-5.5
+ExpenseTracker1,ExpenseTracker4,1,5,6,3,7,7,0.4,0.14285714285714285,0.25,0.18181818181818182,-0.75,-0.75
+ExpenseTracker2,ExpenseTracker1,0,0,17,6,17,17,0.0,0.0,0.0,,-0.5454545454545454,-0.5454545454545454
+ExpenseTracker2,ExpenseTracker3,2,2,29,2,30,30,0.11428571428571428,0.06451612903225806,0.5,0.1142857142857143,-6.5,-6.5
+ExpenseTracker2,ExpenseTracker4,0,0,1,6,6,6,0.0,0.0,0.0,,0.0,0.0
+ExpenseTracker3,ExpenseTracker4,0,1,5,6,7,7,0.08333333333333333,0.0,0.0,,0.0,0.0
+ExpenseTracker4,ExpenseTracker3,0,1,4,6,7,7,0.09090909090909091,0.0,0.0,,0.0,0.0
+NoteTaking2,NoteTaking4,0,1,5,4,5,5,0.1,0.0,0.0,,-0.25,-0.25
+NoteTaking4,NoteTaking2,3,0,14,1,15,15,0.16666666666666666,0.17647058823529413,0.75,0.2857142857142857,-2.0,-2.0
+ShoppingList1,ShoppingList2,1,0,11,3,12,12,0.06666666666666667,0.08333333333333333,0.25,0.125,-1.4,-1.4
+ShoppingList1,ShoppingList3,0,0,0,4,6,6,0.0,,0.0,,0.0,0.0
+ShoppingList2,ShoppingList1,0,0,3,3,3,3,0.0,0.0,0.0,,0.0,0.0
+ShoppingList2,ShoppingList3,0,0,0,3,4,4,0.0,,0.0,,0.0,0.0
+ShoppingList3,ShoppingList1,3,1,2,0,2,2,0.6666666666666666,0.6,1.0,0.7499999999999999,0.3333333333333333,0.3333333333333333
+ShoppingList4,ShoppingList1,5,3,7,0,8,8,0.5333333333333333,0.4166666666666667,1.0,0.5882352941176471,-0.14285714285714285,-0.14285714285714285
+ShoppingList4,ShoppingList2,4,3,6,1,7,7,0.5,0.4,0.8,0.5333333333333333,-0.4,-0.4

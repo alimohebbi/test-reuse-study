@@ -1,0 +1,2 @@
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/jaccard_empty_adaptdroid_union/ExpenseTracker3-ExpenseTracker2/AppTestMigrator_expenseTrackerTest10_3.java.PLEASE CHECK THE ERROR LOG!

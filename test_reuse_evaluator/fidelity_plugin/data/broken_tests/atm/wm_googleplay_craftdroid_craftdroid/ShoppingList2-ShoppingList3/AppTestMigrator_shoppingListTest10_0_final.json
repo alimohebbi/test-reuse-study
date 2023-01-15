@@ -1,0 +1,17 @@
+[
+  {
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "text",
+      "Skip"
+    ],
+    "get_element_by": [
+      {
+        "type": "resource-id",
+        "value": "btn_skip"
+      }
+    ],
+    "oracle_pass": false
+  }
+]

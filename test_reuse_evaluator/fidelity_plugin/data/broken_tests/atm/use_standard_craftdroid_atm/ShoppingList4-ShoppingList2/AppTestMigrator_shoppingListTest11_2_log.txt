@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'xpath', 'value': '/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.TextView'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/use_standard_craftdroid_atm/ShoppingList4-ShoppingList2/AppTestMigrator_shoppingListTest11_2.java.PLEASE CHECK THE ERROR LOG!

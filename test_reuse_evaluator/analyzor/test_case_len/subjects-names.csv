@@ -1,0 +1,36 @@
+﻿id,package,name
+ExpenseTracker1,com.benoitletondor.easybudgetapp,EasyBudget
+ExpenseTracker2,luankevinferreira.expenses,Expenses
+ExpenseTracker3,com.kvannli.simonkvannli.dailybudget,Daily Budget
+ExpenseTracker4,com.blogspot.e_kanivets.moneytracker,Open Money
+NoteTaking2,com.moonpi.swiftnotes,Swiftnotes
+NoteTaking3,me.writeily,Writely Pro
+NoteTaking4,chan.android.app.pocketnote,Pocket Note
+ShoppingList1,pl.com.andrzejgrzyb.shoppinglist,Shop.List1
+ShoppingList2,br.com.activity,Shop.List2
+ShoppingList3,privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist,Shop.List3
+ShoppingList4,org.openintents.shopping,OI Shop. List
+a11,acr.browser.lightning,Lightning
+a13,com.stoutner.privacybrowser.standard,Privacy Br.
+a14,de.baumann.browser,FOSS
+a15,org.mozilla.focus,FirefoxFocus
+a21,com.rubenroy.minimaltodo,Minimal
+a22,douzifly.list,Clear List
+a23,org.secuso.privacyfriendlytodolist,Todo List
+a24,kdk.android.simplydo,Simply Do
+a25,com.woefe.shoppinglist,Shop. List
+a33,com.rainbowshops,Rainbow t1
+a35,com.yelp.android,Yelp t1
+a43,ru.mail.mailapp,Mail.ru t1
+a44,com.my.mail,myMail t1
+a45,park.outlook.sign.in.client,AnyMail t1
+a51,anti.tip,TipCalculator
+a52,com.appsbyvir.tipcalculator,TipCalc
+a53,com.tleapps.simpletipcalculator,Simple Tip
+a54,com.zaidisoft.teninone,TipCalc.Plus
+a55,com.jpstudiosonline.tipcalculator,FreeTipCalc.
+a332,com.rainbowshops,Rainbow t2
+a352,com.yelp.android,Yelp t2
+a432,ru.mail.mailapp,Mail.ru t2
+a442,com.my.mail,myMail t2
+a452,park.outlook.sign.in.client,AnyMail t2

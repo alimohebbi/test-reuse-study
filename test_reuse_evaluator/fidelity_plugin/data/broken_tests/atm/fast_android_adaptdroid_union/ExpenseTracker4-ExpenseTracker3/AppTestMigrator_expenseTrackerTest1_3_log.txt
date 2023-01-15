@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'contentdescription', 'value': 'Open navigation drawer'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/fast_android_adaptdroid_union/ExpenseTracker4-ExpenseTracker3/AppTestMigrator_expenseTrackerTest1_3.java.PLEASE CHECK THE ERROR LOG!

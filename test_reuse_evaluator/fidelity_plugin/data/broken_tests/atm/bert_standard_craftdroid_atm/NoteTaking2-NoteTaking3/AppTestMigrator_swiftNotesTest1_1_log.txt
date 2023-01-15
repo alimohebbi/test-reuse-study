@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['wait_until_element_presence', 10, 'text', 'Last modified: 4/4/2022, 2:07 AM'], 'get_element_by': [{'type': 'resource-id', 'value': 'note_extra'}, {'type': 'text', 'value': 'Last modified: 4/4/2022, 2:07 AM'}]}
+
+
+
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['wait_until_element_presence', 10, 'text', 'Note1'], 'get_element_by': [{'type': 'resource-id', 'value': 'note_title'}, {'type': 'text', 'value': 'Note1'}]}
+
+
+

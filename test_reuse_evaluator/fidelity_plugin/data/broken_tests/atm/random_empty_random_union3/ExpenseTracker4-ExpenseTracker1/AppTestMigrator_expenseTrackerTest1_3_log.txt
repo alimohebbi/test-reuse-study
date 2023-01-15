@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Go with $'], 'get_element_by': [{'type': 'resource-id', 'value': 'currency_cell_title_tv'}, {'type': 'text', 'value': 'CHF - Swiss Franc'}]}
+
+
+

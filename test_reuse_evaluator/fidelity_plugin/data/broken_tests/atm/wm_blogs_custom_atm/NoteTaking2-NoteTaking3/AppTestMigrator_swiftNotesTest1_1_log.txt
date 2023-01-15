@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Note1'], 'get_element_by': [{'type': 'resource-id', 'value': 'note_title'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Last modified: 4/7/2022, 2:09 PM'], 'get_element_by': [{'type': 'resource-id', 'value': 'note_extra'}]}
+
+
+

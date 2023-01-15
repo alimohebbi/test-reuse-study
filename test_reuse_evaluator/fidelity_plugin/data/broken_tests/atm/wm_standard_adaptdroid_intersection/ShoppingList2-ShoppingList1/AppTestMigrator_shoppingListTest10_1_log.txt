@@ -1,0 +1,6 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'empty_listview_textview'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'You have no shopping lists. Add one using the button below.'], 'get_element_by': [{'type': 'resource-id', 'value': 'empty_listview_textview'}]}
+
+
+

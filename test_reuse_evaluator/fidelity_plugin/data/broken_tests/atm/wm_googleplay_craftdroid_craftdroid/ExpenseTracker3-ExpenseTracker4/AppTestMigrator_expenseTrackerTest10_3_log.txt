@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Records'], 'get_element_by': [{'type': 'resource-id', 'value': 'tv_total'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Records'], 'get_element_by': [{'type': 'resource-id', 'value': 'tv_total'}]}
+
+
+

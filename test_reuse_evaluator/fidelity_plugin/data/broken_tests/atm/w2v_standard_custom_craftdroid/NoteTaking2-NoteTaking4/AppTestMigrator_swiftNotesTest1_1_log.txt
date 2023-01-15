@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Pocket Note'], 'get_element_by': [{'type': 'xpath', 'value': '/android.widget.FrameLayout/android.view.ViewGroup'}]}
+
+
+

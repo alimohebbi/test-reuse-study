@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'contentdescription', 'value': 'Navigate up'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_blogs_adaptdroid_atm/ExpenseTracker1-ExpenseTracker4/AppTestMigrator_easyBudgetTest10_1.java.PLEASE CHECK THE ERROR LOG!

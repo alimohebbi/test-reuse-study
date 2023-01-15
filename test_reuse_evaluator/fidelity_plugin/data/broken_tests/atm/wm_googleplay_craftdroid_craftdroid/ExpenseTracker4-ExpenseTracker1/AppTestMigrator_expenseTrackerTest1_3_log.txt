@@ -1,0 +1,25 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '(That was easy, huh?)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_next_button'}]}
+
+
+

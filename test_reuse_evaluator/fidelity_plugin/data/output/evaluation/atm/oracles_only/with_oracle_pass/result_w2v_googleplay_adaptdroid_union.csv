@@ -1,0 +1,9 @@
+src_app,target_app,tp,tn,fp,fn,effort_leveneshtein,effort_damerau_levenshtein,accuracy,precision,recall,f1_score,reduction_leveneshtein,reduction_damerau_leveneshtein
+ExpenseTracker2,ExpenseTracker1,0,0,0,1,1,1,0.0,,0.0,,0.0,0.0
+ExpenseTracker2,ExpenseTracker4,0,0,0,1,1,1,0.0,,0.0,,0.0,0.0
+ExpenseTracker3,ExpenseTracker4,0,1,3,1,3,3,0.2,0.0,0.0,,-2.0,-2.0
+ExpenseTracker4,ExpenseTracker1,0,2,0,1,1,1,0.6666666666666666,,0.0,,0.0,0.0
+NoteTaking4,NoteTaking2,0,0,0,1,1,1,0.0,,0.0,,0.0,0.0
+ShoppingList3,ShoppingList1,0,0,0,1,1,1,0.0,,0.0,,0.0,0.0
+ShoppingList3,ShoppingList2,0,0,0,1,1,1,0.0,,0.0,,0.0,0.0
+ShoppingList4,ShoppingList3,0,0,0,2,2,2,0.0,,0.0,,0.0,0.0

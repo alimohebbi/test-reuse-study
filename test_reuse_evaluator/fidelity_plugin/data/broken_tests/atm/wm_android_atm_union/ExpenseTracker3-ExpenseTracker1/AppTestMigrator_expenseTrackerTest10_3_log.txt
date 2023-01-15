@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen4_top_layout'}]}
+
+
+

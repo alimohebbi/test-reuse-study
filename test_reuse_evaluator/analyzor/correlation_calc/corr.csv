@@ -1,0 +1,7 @@
+Name,Corr MRR,p_value_m,Corr Top1,p_value_t
+craftdroid_atm_oracle_included_full,0.15050,0.22057,0.22328,0.06721
+craftdroid_all_oracle_included_full,0.39063,0.00099,0.51028,0.00001
+atm_atm_oracle_included_passfree_full,0.33981,0.00458,0.42692,0.00028
+atm_atm_oracle_excluded_full,0.34433,0.00404,0.45241,0.00011
+craftdroid_all_oracle_excluded_full,0.39569,0.00084,0.49171,0.00002
+craftdroid_atm_oracle_excluded_full,0.15759,0.19934,0.24503,0.04402

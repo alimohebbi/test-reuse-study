@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'contentdescription', 'value': 'Open navigation drawer'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/use_standard_craftdroid_atm/ShoppingList3-ShoppingList1/AppTestMigrator_shoppingListTest10_1.java.PLEASE CHECK THE ERROR LOG!

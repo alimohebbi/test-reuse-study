@@ -1,0 +1,13 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'empty_listview_textview'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'You have no shopping lists. Add one using the button below.', 'isDisplayed', 'true', 'isEnabled', 'true'], 'get_element_by': [{'type': 'resource-id', 'value': 'empty_listview_textview'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'contentdescription', 'value': 'Open navigation drawer'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/glove_standard_custom_intersection/ShoppingList4-ShoppingList1/AppTestMigrator_shoppingListTest11_2.java.PLEASE CHECK THE ERROR LOG!

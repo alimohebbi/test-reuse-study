@@ -1,0 +1,7 @@
+---
+test_reuse_full: 'analyzor/aggrigator/full'
+test_reuse_plot: 'analyzor/aggrigator/forplot'
+craft_gt: 'matching-server/prefrect_matcher/craft_gt/'
+atm_gt: 'matching-server/prefrect_matcher/atm_gt/'
+evaluator_results: 'fidelity_plugin/data/output/evaluation/'
+semantic_matching_results: 'analyzor/semantic_matching_results/'

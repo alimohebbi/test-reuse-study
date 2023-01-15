@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['wait_until_element_presence', 10, 'text', 'Note1'], 'get_element_by': [{'type': 'resource-id', 'value': 'note_title'}, {'type': 'text', 'value': 'Note1'}]}
+
+
+

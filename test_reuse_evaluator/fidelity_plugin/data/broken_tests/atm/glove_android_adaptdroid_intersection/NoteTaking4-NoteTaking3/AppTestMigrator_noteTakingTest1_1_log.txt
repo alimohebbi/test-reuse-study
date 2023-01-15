@@ -1,0 +1,2 @@
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/glove_android_adaptdroid_intersection/NoteTaking4-NoteTaking3/AppTestMigrator_noteTakingTest1_1.java.PLEASE CHECK THE ERROR LOG!

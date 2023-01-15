@@ -1,0 +1,13 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': 'Welcome to EasyBudget'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "The concept is simple: You enter your recurring and daily expenses and incomes and the app keeps track of how much money you have, had and will have at any given moment.It's as simple as that."], 'get_element_by': [{'type': 'text', 'value': 'Welcome to EasyBudget'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'onboarding_screen1_next_button'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_googleplay_adaptdroid_union/ExpenseTracker3-ExpenseTracker1/AppTestMigrator_expenseTrackerTest10_3.java.PLEASE CHECK THE ERROR LOG!

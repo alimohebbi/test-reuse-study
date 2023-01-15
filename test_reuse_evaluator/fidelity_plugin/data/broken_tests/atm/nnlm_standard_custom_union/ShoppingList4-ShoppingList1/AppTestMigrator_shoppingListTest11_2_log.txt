@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Add Shopping List', 'isDisplayed', 'true', 'isEnabled', 'true'], 'get_element_by': [{'type': 'xpath', 'value': '/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup'}]}
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/nnlm_standard_custom_union/ShoppingList4-ShoppingList1/AppTestMigrator_shoppingListTest11_2.java.PLEASE CHECK THE ERROR LOG!

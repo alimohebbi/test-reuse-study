@@ -1,0 +1,61 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.moonpi.swiftnotes:id/newNote",
+    "text": "",
+    "content-desc": "New note",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.moonpi.swiftnotes:id/titleEdit",
+    "text": "Title",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "To-do"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.moonpi.swiftnotes:id/bodyEdit",
+    "text": "Note",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "Go shopping"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "YES",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.moonpi.swiftnotes:id/titleView",
+    "text": "To-do",
+    "content-desc": "",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "text",
+      "To-do"
+    ]
+  }
+]

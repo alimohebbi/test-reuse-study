@@ -1,0 +1,6 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'onboarding_screen1_top_layout'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Welcome to EasyBudget'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen1_top_layout'}]}
+
+
+

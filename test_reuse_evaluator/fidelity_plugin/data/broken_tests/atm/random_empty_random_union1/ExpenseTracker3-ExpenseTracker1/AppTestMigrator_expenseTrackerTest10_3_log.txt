@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Step 2: How much do you currently have on your account?(You can set and change it later)'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen_3_top_layout'}]}
+
+
+

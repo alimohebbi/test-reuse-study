@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'isDisplayed', 'true', 'text', 'list1', 'isEnabled', 'true'], 'get_element_by': [{'type': 'resource-id', 'value': 'imageview_sort'}]}
+
+
+

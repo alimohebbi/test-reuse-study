@@ -1,0 +1,2 @@
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/w2v_googleplay_adaptdroid_union/ExpenseTracker2-ExpenseTracker3/AppTestMigrator_expensesTest3_1.java.PLEASE CHECK THE ERROR LOG!

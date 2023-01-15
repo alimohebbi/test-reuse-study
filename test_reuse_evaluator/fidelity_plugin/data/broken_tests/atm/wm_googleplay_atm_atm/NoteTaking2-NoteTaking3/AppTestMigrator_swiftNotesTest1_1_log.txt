@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['click'], 'get_element_by': [{'type': 'resource-id', 'value': 'title'}, {'type': 'text', 'value': 'Import from device'}]}
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/wm_googleplay_atm_atm/NoteTaking2-NoteTaking3/AppTestMigrator_swiftNotesTest1_1.java.PLEASE CHECK THE ERROR LOG!

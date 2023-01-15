@@ -1,0 +1,17 @@
+[
+  {
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "text",
+      "The concept is simple: You enter your recurring and daily expenses and incomes and the app keeps track of how much money you have, had and will have at any given moment.It's as simple as that."
+    ],
+    "get_element_by": [
+      {
+        "type": "text",
+        "value": "The concept is simple: You enter your recurring and daily expenses and incomes and the app keeps track of how much money you have, had and will have at any given moment.It's as simple as that."
+      }
+    ],
+    "oracle_pass": false
+  }
+]

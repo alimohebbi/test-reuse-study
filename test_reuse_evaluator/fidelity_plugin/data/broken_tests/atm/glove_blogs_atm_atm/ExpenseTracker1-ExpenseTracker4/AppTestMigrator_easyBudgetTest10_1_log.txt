@@ -1,0 +1,6 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': '28'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '28'], 'get_element_by': [{'type': 'text', 'value': '28'}]}
+
+
+

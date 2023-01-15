@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Welcome to EasyBudget'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen1_next_button'}]}
+
+
+

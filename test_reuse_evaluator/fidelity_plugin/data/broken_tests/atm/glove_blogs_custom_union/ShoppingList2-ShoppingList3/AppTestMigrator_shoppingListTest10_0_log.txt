@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Next'], 'get_element_by': [{'type': 'resource-id', 'value': 'textView2'}, {'type': 'text', 'value': '... delete multiple lists?'}]}
+
+
+

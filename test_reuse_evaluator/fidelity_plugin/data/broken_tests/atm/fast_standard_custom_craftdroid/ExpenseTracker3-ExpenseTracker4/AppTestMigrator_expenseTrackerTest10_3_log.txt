@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Backup/Restore'], 'get_element_by': [{'type': 'text', 'value': 'Total expense'}]}
+
+
+

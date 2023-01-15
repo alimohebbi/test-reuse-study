@@ -1,0 +1,5 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'With this app you can create and manage shopping lists. Lists can be prioritized, have deadlines, reminders and more.'], 'get_element_by': [{'type': 'resource-id', 'value': 'btn_skip'}]}
+
+
+

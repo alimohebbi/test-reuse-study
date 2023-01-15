@@ -1,0 +1,2 @@
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/fast_android_atm_intersection/ExpenseTracker1-ExpenseTracker4/AppTestMigrator_easyBudgetTest10_1.java.PLEASE CHECK THE ERROR LOG!

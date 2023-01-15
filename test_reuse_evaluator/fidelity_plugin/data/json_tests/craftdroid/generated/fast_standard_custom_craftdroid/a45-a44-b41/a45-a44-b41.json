@@ -1,0 +1,30 @@
+[
+  {
+    "bounds": "[220,1007][1220,1459]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.my.mail",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.my.mail:id/message",
+    "text": "Please pay your attention that we have updated our Terms and Privacy Policy.\nBy clicking Accept, you confirm that you have read updated documents carefully and agree to them.",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

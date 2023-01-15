@@ -1,0 +1,13 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': 'SETTINGS'}, was found on this page source.
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'SETTINGS'], 'get_element_by': [{'type': 'text', 'value': 'SETTINGS'}]}
+
+
+
+######################################## ERROR! ########################################
+No element with selector: {'type': 'resource-id', 'value': 'likeViewClick'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/glove_standard_custom_intersection/ExpenseTracker4-ExpenseTracker3/AppTestMigrator_expenseTrackerTest1_3.java.PLEASE CHECK THE ERROR LOG!

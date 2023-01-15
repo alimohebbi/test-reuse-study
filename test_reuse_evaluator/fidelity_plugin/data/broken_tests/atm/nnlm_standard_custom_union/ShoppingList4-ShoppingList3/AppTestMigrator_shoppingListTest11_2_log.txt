@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'list1', 'isDisplayed', 'true', 'isEnabled', 'true'], 'get_element_by': [{'type': 'resource-id', 'value': 'imageview_search'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'isDisplayed', 'true', 'text', 'New List', 'isEnabled', 'true'], 'get_element_by': [{'type': 'xpath', 'value': '/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView'}]}
+
+
+

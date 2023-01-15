@@ -1,0 +1,17 @@
+UNABLE TO GRAB THE DRIVER WITH CAPABILITIES: {'platformName': 'Android', 'platformVersion': '6.0', 'deviceName': 'emulator1', 'appPackage': 'chan.android.app.pocketnote', 'appActivity': 'chan.android.app.pocketnote.MainActivity', 'autoGrantPermissions': True, 'noReset': False, 'newCommandTimeout': 50000}.
+Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Traceback (most recent call last):
+  File "/root/test-reuse/atm/test_attribute_extractor/test_attribute_extractor.py", line 57, in check_run_possible
+    driver = webdriver.Remote('http://localhost:4723/wd/hub', caps)
+  File "/root/test-reuse/atm/test_attribute_extractor/evaluation/venv/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 147, in __init__
+    super(WebDriver, self).__init__(
+  File "/root/test-reuse/atm/test_attribute_extractor/evaluation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/root/test-reuse/atm/test_attribute_extractor/evaluation/venv/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 227, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, parameters)
+  File "/root/test-reuse/atm/test_attribute_extractor/evaluation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/root/test-reuse/atm/test_attribute_extractor/evaluation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+

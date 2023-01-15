@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+None of the elements fully matches the given widget selectors in line: {'action': ['click'], 'get_element_by': [{'type': 'resource-id', 'value': 'title'}, {'type': 'text', 'value': 'Adjust current balance'}]}
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/edit_distance_empty_custom_atm/ExpenseTracker3-ExpenseTracker1/AppTestMigrator_expenseTrackerTest10_3.java.PLEASE CHECK THE ERROR LOG!

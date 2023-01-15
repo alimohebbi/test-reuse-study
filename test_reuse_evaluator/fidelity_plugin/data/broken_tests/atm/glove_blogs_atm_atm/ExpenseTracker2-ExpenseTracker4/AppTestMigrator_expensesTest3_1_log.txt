@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': '3'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/glove_blogs_atm_atm/ExpenseTracker2-ExpenseTracker4/AppTestMigrator_expensesTest3_1.java.PLEASE CHECK THE ERROR LOG!

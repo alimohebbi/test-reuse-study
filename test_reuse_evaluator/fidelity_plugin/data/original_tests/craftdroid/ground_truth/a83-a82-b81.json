@@ -1,0 +1,42 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "br.com.activity:id/action_add",
+    "text": "",
+    "content-desc": "New list",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "action": [
+      "send_keys",
+      "grocery"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OK",
+    "content-desc": "",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/action_bar_title",
+    "text": "grocery",
+    "content-desc": "",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "text",
+      "grocery"
+    ]
+  }
+]

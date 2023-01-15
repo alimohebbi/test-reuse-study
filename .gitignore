@@ -4,3 +4,5 @@ __pycache__/
 venv/
 venv_bert/
 .idea
+.gradle
+build

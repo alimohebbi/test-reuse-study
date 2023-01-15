@@ -1,0 +1,24 @@
+[
+  {
+    "bounds": "[252,135][561,228]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "park.outlook.sign.in.client:id/folder_name",
+    "text": "Inbox 120",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      15,
+      "text",
+      "Inbox"
+    ]
+  }
+]

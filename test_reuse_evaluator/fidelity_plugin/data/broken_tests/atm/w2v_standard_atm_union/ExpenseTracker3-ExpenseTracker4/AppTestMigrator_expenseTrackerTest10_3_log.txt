@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', '- 0 NON'], 'get_element_by': [{'type': 'resource-id', 'value': 'toolbar'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Week'], 'get_element_by': [{'type': 'resource-id', 'value': 'toolbar'}]}
+
+
+

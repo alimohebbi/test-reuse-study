@@ -1,0 +1,17 @@
+[
+  {
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "text",
+      "Total of month expenses"
+    ],
+    "get_element_by": [
+      {
+        "type": "resource-id",
+        "value": "total_month_description"
+      }
+    ],
+    "oracle_pass": false
+  }
+]

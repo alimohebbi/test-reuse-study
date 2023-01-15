@@ -1,0 +1,50 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Start with $0.00'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen3_initial_amount_money_tv'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Start with $0.00'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen3_initial_amount_money_tv'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Start with $0.00'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen3_initial_amount_money_tv'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Start with $0.00'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen3_initial_amount_money_tv'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Start with $0.00'], 'get_element_by': [{'type': 'resource-id', 'value': 'onboarding_screen3_initial_amount_money_tv'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', "1. Add recurring expenses and incomes (salary, rent, bills…)2. Don't forget to add your daily expenses and incomes during the day"], 'get_element_by': [{'type': 'resource-id', 'value': 'welcome_view_pager'}]}
+
+
+

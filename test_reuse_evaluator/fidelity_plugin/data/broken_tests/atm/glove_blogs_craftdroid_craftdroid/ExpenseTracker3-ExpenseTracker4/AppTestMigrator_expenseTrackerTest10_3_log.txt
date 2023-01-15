@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Date'], 'get_element_by': [{'type': 'text', 'value': 'Account'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Add income'], 'get_element_by': [{'type': 'resource-id', 'value': 'btn_add_expense'}]}
+
+
+

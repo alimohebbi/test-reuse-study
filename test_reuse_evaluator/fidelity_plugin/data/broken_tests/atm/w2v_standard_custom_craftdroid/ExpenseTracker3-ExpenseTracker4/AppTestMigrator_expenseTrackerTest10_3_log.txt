@@ -1,0 +1,10 @@
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Accounts'], 'get_element_by': [{'type': 'resource-id', 'value': 'tv_total_expense'}]}
+
+
+
+######################################## ERROR! ########################################
+Conditions not fully satisfied in: {'action': ['wait_until_element_presence', 10, 'text', 'Backup/Restore'], 'get_element_by': [{'type': 'resource-id', 'value': 'tv_total_expense'}]}
+
+
+

@@ -1,0 +1,7 @@
+######################################## ERROR! ########################################
+No element with selector: {'type': 'text', 'value': 'Total income'}, was found on this page source.
+
+
+
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/random_empty_random_craftdroid/ExpenseTracker2-ExpenseTracker4/AppTestMigrator_expensesTest3_1.java.PLEASE CHECK THE ERROR LOG!

@@ -1,0 +1,2 @@
+STOPPING THE EXECUTION OF THE TEST!
+UNABLE TO RUN THE WHOLE TEST FOR THE FILE :../data/original_tests/atm/generated/wm_blogs_custom_atm/ExpenseTracker1-ExpenseTracker2/AppTestMigrator_easyBudgetTest10_1.java.PLEASE CHECK THE ERROR LOG!
