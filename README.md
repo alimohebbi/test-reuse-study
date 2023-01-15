@@ -27,6 +27,7 @@ We describe role of each module in the pipeline below.
 
 
 ## Requirements
+- Ubuntu 18 or Mac
 - python 3.7
 - pip3
 - python3.7-dev
@@ -40,7 +41,7 @@ We describe role of each module in the pipeline below.
 
 
 
-> Note: Required os packages can be install by following command:
+> Note: Required OS packages can be installed on `Ubuntu` by following command:
 
 ```
 sudo apt-get install python3.7 pip3 python3.7-dev
