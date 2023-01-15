@@ -18,9 +18,6 @@ This artifact generates test cases by using ATM test generator for given semanti
 
 > Use `neo4j_installation.md` file to install and run neo4j
 
-### Python Packages
-You can use the same virtual environment as the `isolation` package.
-
 ### Run
 1. Run semantic matching server
 1. Run Neo4j
