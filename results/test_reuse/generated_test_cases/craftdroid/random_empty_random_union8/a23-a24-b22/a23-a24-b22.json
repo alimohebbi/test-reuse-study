@@ -1,0 +1,180 @@
+[
+  {
+    "bounds": "[1275,172][1440,346]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1275,172][1440,346]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,172][1275,346]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "kdk.android.simplydo:id/AddListEditText",
+    "text": "New List Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "bounds": "[1275,172][1440,346]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[35,381][1295,484]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "kdk.android.simplydo:id/text1",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "bounds": "[35,381][1295,484]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "kdk.android.simplydo:id/text1",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "long_press"
+    ]
+  },
+  {
+    "bounds": "[250,1390][1197,1493]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Delete",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[142,1369][723,1537]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "kdk.android.simplydo",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "Yes",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "",
+    "checkable": "",
+    "checked": "",
+    "enabled": "",
+    "long-clickable": "",
+    "package": "kdk.android.simplydo",
+    "scrollable": "",
+    "selected": "",
+    "class": "",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "",
+    "password": "",
+    "action": [
+      "wait_until_text_invisible",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  }
+]

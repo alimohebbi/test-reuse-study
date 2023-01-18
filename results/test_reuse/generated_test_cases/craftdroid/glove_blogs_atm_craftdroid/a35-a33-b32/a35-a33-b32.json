@@ -1,0 +1,167 @@
+[
+  {
+    "bounds": "[1097,98][1265,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[566,1461][874,1629]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/btn_error_retry",
+    "text": "Retry",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "btn_error_retry"
+    ]
+  },
+  {
+    "bounds": "[566,1461][874,1629]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/btn_error_retry",
+    "text": "Retry",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[412,1350][1027,1405]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/text_error_message",
+    "text": "Unable to load search results",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "text_error_message"
+    ]
+  },
+  {
+    "bounds": "[412,1350][1027,1405]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/text_error_message",
+    "text": "Unable to load search results",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[252,84][1272,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/search",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "search"
+    ]
+  },
+  {
+    "bounds": "[252,84][1272,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/search",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "1qaz2ws"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[566,1461][874,1629]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/btn_error_retry",
+    "text": "Retry",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

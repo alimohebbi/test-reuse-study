@@ -1,0 +1,142 @@
+[
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "45"
+    ]
+  },
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "restaurant"
+    ]
+  },
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[623,2306][655,2338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[625,140][814,329]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.benoitletondor.easybudgetapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageView",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.widget.Button",
+      "text",
+      "$45.00"
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "bounds": "[720,1260][1168,1456]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Join",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "bounds": "[720,1260][1168,1456]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Join",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,2140][1384,2336]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "bounds": "[56,2140][1384,2336]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,1180][1384,1338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_password",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "text_password"
+    ]
+  },
+  {
+    "bounds": "[56,1180][1384,1338]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_password",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "send_keys",
+      "1qaz2ws"
+    ]
+  },
+  {
+    "bounds": "[56,889][1384,1047]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_email",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "uci.seal@gmail.com"
+    ]
+  },
+  {
+    "bounds": "[281,336][439,391]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.rainbowshops",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

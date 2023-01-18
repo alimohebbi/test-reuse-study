@@ -1,0 +1,227 @@
+[
+  {
+    "bounds": "[252,135][561,228]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/folder_name",
+    "text": "Inbox 209",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      15,
+      "text",
+      "Inbox"
+    ]
+  },
+  {
+    "bounds": "[0,84][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "ru.mail.mailapp:id/coordinator_layout",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[350,561][1143,622]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/text",
+    "text": "anonymized.author1@gmail.com",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1286,777][1398,889]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "ru.mail.mailapp:id/search_all_mails",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[210,144][1258,220]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "ru.mail.mailapp:id/search_text",
+    "text": "anonymized.author1@gmail.com",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "search_text"
+    ]
+  },
+  {
+    "bounds": "[210,144][1258,220]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "ru.mail.mailapp:id/search_text",
+    "text": "anonymized.author1@gmail.com",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "anonymized.author1@gmail.com "
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[0,84][1440,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "ru.mail.mailapp:id/toolbar",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1258,98][1426,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/toolbar_action_cancel",
+    "text": "",
+    "content-desc": "Cancel",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[14,126][210,238]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[14,126][210,238]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[308,389][1384,465]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "ru.mail.mailapp",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "ru.mail.mailapp:id/subject",
+    "text": "ICSTSuperCool",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      20,
+      "text",
+      "ICSTSuperCool"
+    ]
+  }
+]

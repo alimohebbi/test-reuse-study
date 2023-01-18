@@ -1,0 +1,102 @@
+[
+  {
+    "bounds": "[1188,2140][1384,2336]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "luankevinferreira.expenses:id/fab",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[109,1035][1331,1111]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "Food",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[109,2158][1331,2210]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "Others",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,84][196,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

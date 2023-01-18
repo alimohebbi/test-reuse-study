@@ -1,0 +1,81 @@
+[
+  {
+    "bounds": "[858,1198][1412,1339]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/billAmountET",
+    "text": "0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "bounds": "[858,1608][1412,1749]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/guestNumberET",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "bounds": "[0,84][196,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "drawer open",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[70,357][696,430]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Hear from top officials",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "bounds": "[1188,2140][1384,2336]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "luankevinferreira.expenses:id/fab",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[215,795][1384,982]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "luankevinferreira.expenses:id/date_picker",
+    "text": "04-10-2022",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[958,1922][1182,2090]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[215,795][1384,982]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "luankevinferreira.expenses:id/date_picker",
+    "text": "04-10-2022",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1008,760][1176,928]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "android:id/next",
+    "text": "",
+    "content-desc": "Next month",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1008,760][1176,928]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "android:id/next",
+    "text": "",
+    "content-desc": "Next month",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1008,760][1176,928]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "android:id/next",
+    "text": "",
+    "content-desc": "Next month",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[687,1922][958,2090]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button2",
+    "text": "Cancel",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,84][196,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "bounds": "[1132,2224][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_next",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[98,1613][519,1689]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "High priority list",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[98,1613][519,1689]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "High priority list",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[98,1765][1270,1841]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Reminder is set. Notifications are turned  off.  ",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1132,2224][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_next",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,933][657,1009]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/textView",
+    "text": "... add a new product?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,2213][1440,2217]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[0,933][657,1009]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/textView",
+    "text": "... add a new product?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,1633][578,1709]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/textView5",
+    "text": "... check products?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.widget.TextView",
+      "text",
+      "item1"
+    ]
+  }
+]

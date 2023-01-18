@@ -1,0 +1,197 @@
+[
+  {
+    "bounds": "[1050,98][1299,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "Week",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1050,770][1356,938]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "All time",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1050,98][1352,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "All time",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1050,770][1356,938]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/text1",
+    "text": "All time",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[0,0][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,0][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,2214][720,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.blogspot.e_kanivets.moneytracker:id/btn_add_income",
+    "text": "Add income",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,767][1384,925]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.blogspot.e_kanivets.moneytracker:id/et_title",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "Entertainment"
+    ]
+  },
+  {
+    "bounds": "[56,571][1384,729]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.blogspot.e_kanivets.moneytracker:id/et_price",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "45"
+    ]
+  },
+  {
+    "bounds": "[0,84][196,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.blogspot.e_kanivets.moneytracker",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

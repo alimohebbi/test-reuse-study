@@ -1,0 +1,43 @@
+[
+  {
+    "bounds": "[56,1377][1384,2077]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageView",
+    "resource-id": "com.yelp.android:id/nearby_business_suggestion_image",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "nearby_business_suggestion_image"
+    ]
+  },
+  {
+    "bounds": "[56,1377][1384,2077]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageView",
+    "resource-id": "com.yelp.android:id/nearby_business_suggestion_image",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[147,1594][1293,1762]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "park.outlook.sign.in.client:id/sign_in",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

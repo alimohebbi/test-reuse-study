@@ -1,0 +1,53 @@
+[
+  {
+    "bounds": "[0,280][1440,455]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "product image Beneteau Oceanis 4... product image Cranchi 28 | Ola ",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,84][1440,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.zaidisoft.teninone",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "com.zaidisoft.teninone:id/toolbar",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

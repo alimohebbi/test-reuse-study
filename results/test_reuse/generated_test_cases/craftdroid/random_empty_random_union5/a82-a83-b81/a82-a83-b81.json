@@ -1,0 +1,46 @@
+[
+  {
+    "bounds": "[0,2224][308,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_skip",
+    "text": "Skip",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[0,84][196,280]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Open navigation drawer",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

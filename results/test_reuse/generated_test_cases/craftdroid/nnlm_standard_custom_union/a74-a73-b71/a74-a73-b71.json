@@ -1,0 +1,85 @@
+[
+  {
+    "bounds": "[308,736][1105,826]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "me.writeily:id/note_title",
+    "text": "Note1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[252,84][1104,286]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "me.writeily:id/edit_note_title",
+    "text": "Note1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "to-do"
+    ]
+  },
+  {
+    "bounds": "[0,286][1440,2231]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "me.writeily:id/note_content",
+    "text": "***************************************something\nNote1\nNote1\nNote1\nNote1\nNote1\nNote1\nNote1\nNote1*\nNote1*\nNote1*\nNote1*\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\nTitle1\n",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "Go shopping"
+    ]
+  },
+  {
+    "bounds": "[1272,98][1440,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "me.writeily:id/action_preview",
+    "text": "",
+    "content-desc": "Preview",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.widget.TextView",
+      "text",
+      "to-do"
+    ]
+  }
+]

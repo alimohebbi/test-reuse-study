@@ -1,0 +1,182 @@
+[
+  {
+    "bounds": "[252,135][561,228]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "park.outlook.sign.in.client:id/folder_name",
+    "text": "Inbox 102",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      15,
+      "text",
+      "Inbox"
+    ]
+  },
+  {
+    "bounds": "[0,84][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "park.outlook.sign.in.client:id/coordinator_layout",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[350,563][1143,624]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "park.outlook.sign.in.client:id/text",
+    "text": "anonymized.author1@gmail.com",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[252,795][1090,871]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "park.outlook.sign.in.client:id/contact_email",
+    "text": "anonymized.author1@gmail.com",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1171,300][1234,402]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "park.outlook.sign.in.client:id/edit_text_to",
+    "text": "\u200b",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "edit_text_to"
+    ]
+  },
+  {
+    "bounds": "[1171,300][1234,402]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "park.outlook.sign.in.client:id/edit_text_to",
+    "text": "\u200b",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "anonymized.author1@gmail.com "
+    ]
+  },
+  {
+    "bounds": "[252,789][1237,884]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "park.outlook.sign.in.client:id/subject",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "ICSTSuperCool"
+    ]
+  },
+  {
+    "bounds": "[56,958][1384,1195]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "park.outlook.sign.in.client:id/mailbox_create_new_body",
+    "text": "\n\n--\nSent from Outlook Email App for Android",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "ICSTSuperCoolBody"
+    ]
+  },
+  {
+    "bounds": "[1258,98][1426,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "park.outlook.sign.in.client",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "park.outlook.sign.in.client:id/toolbar_action_send",
+    "text": "",
+    "content-desc": "Send",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

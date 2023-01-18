@@ -1,0 +1,43 @@
+[
+  {
+    "bounds": "[1092,2021][1440,2097]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/collection_title",
+    "text": "Fine Dining To-Go",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "collection_title"
+    ]
+  },
+  {
+    "bounds": "[1092,2021][1440,2097]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/collection_title",
+    "text": "Fine Dining To-Go",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

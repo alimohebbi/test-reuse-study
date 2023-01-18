@@ -1,19 +1,21 @@
-This artifact evaluates different configurations of semantic matching in isolation from test reuse.
-Configurations include those which are used by three stat-of-art approaches (ATM, Craftdroid, Adapatdroid) as well as new configurations introduced by this study.
-There are 253 configurations in total.
+# Semantic Matching Evaluator
+
+This artifact evaluates different semantic matching configurations of semantic matching in isolation.
+Configurations include those that are used by the three stat-of-art test reuse approaches (ATM, Craftdroid, Adapatdroid) as well as new configurations introduced in this study.
+In total there are 337 configurations.
 Each configuration is evaluated by two metrics: MRR and Top1.
 
 **Input:**
 - Descriptors of source events: `events/src_events`
 - Descriptors of target events: `events/target_events`
-- Mapping of correct matching: `events/index_map.csv`
+- Mapping of correct matches between source to target events: `events/index_map.csv`
 
 **Output:**
 - Result of semantic matching in isolation `results.csv`
-- Similarity score of each candidate grouped by semantic matching configuration: `sim_scores`
+- Similarity score of each candidate grouped by semantic matching configurations: `sim_scores`
 
 
-> Note: You need 20 GB RAM to use FAST embedding approach with the standard train set
+> Note: FAST embedding approach requires 20 GB RAM in case of the standard train set
  
 ### Python Packages
 1. Activate the virtual environment
@@ -45,31 +47,18 @@ I:VENTILATOR:[__i:_ru:164]:all set, ready to serve request!
 ```
  
 > Note: We used the [bert_as_service](https://github.com/hanxiao/bert-as-service) implementation of bert embedding technique
- 
- 
- 
-## Terminology
-We define the terms that we use in the rest of the document as follow:
-- **Semantic Matching Components**: Semantic matching has four components a) algorithm b) descriptors c) word embedding d) train set. Components work together to match a source event to a target event among multiple target candidates.
- 
-- **Component Instance**: A concrete implementation of a component is an instance of that component. For example `SemFinder` is an instance of the algorithm component.
- 
-- **Matching Configuration**: A combination of component instances is a semantic matching configuration.
-For example: (SemFinder, Union, w2v, googleplay) is a configuration.
- 
-- **Descriptor**: Set of attributes that describe the widget that an event executes on it
- 
+
 > Note: The code refers to `SemFinder` with the alias `custom`.
  
  
  
 ## Run
  
-1. Activate virtual environment(s)
+1. Activate virtual environment
  
 1. Set the directory of the word embedding models inside `config.yml` under `model_dir` key. This directory should have a structure similar to the `model_path` section in the `config.yml` file.
  
-1. In the `config.yml` file un-comment instances you like to be considered for the semantic matching configuration. Components are active_techniques, train_set, algorithm and descriptors. active_techniques refers to embedding techniques.
+1. In the `config.yml` file uncomment instances you like to be used for the semantic matching configuration. Components are active_techniques, train_set, algorithm and descriptors. active_techniques refers to embedding techniques.
  
 1. Execute the below command to start the evaluation. The framework starts evaluating all the possible configurations, given the desired instances (instances that are not commented).
  
@@ -101,8 +90,5 @@ custom-union-android-wm already exist
 custom-intersection-android-wm already exist
 ```
  
->Note: You can run the framework only for one (or more) configuration.
-To do so you should comment all the instances of the four components in the config file except the one you like to evaluate.
-Remove the intermediary and the final result related to the configuration. Then run the framework.
- 
+>Note: You can run the framework only for one (or more) configuration. 
  

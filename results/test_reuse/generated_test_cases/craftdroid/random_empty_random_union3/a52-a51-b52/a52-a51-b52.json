@@ -1,0 +1,65 @@
+[
+  {
+    "bounds": "[720,131][1440,347]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "anti.tip",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "anti.tip:id/bill",
+    "text": "0.00",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "bounds": "[720,563][1440,779]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "anti.tip",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "anti.tip:id/percent",
+    "text": "15",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "bounds": "[720,1427][1440,1643]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "anti.tip",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "anti.tip:id/total",
+    "text": "65.09",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

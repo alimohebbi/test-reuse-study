@@ -1,0 +1,119 @@
+[
+  {
+    "bounds": "[1036,1321][1306,1489]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "Accept",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[685,581][1280,729]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.tleapps.simpletipcalculator:id/editTextBill",
+    "text": "100.00",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "bounds": "[685,931][808,1054]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.tleapps.simpletipcalculator:id/buttonSplitMinus",
+    "text": "-",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1350,437][1440,574]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Boutique, Antiques, Primitives, Floral,\nCoastal Cottage, Farmhouse Country,\ngifts & more",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  },
+  {
+    "bounds": "[566,1109][874,1277]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.tleapps.simpletipcalculator:id/buttonShare",
+    "text": "Share",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1336,437][1440,549]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Pour vous ou pour votre \u00e9quipe, tout le monde\npeut recevoir plusieurs clients potentiels",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  }
+]

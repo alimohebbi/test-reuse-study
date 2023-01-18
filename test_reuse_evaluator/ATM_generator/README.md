@@ -1,10 +1,12 @@
-This artifact generates test cases by using ATM test generator for given semantic matching configurations.
+#ATM Test Generator
+
+This artifact generates test cases by using ATM test generator for the given semantic matching configurations.
 
 **Input:**
 - Source applications code: `ATM-Modified/AppTestMigrator/donor`
 - Target applications code: `ATM-Modified/AppTestMigrator/target`
 - Source application Java test cases: Inside the test package of each source application
-- Migrations Info: `migrations.csv` It specifies which source test cases should be migrated for which target application
+- Migrations Info: `migrations.csv` It specifies which source test cases should be migrated to which target application
 - Semantic Matching Configurations: `config_sample.csv`
 
 **Output:**
@@ -21,8 +23,8 @@ This artifact generates test cases by using ATM test generator for given semanti
 ### Run
 1. Run semantic matching server
 1. Run Neo4j
-1. Set the configuration that ATM should use to migrate test cases in `migrations.csv`
-1. Set the migrations that ATM should use to migrate test cases in `config_sample.csv`
+1. Set the migration that ATM should use in `migrations.csv`
+1. Set the semantic matching configurations that ATM should use to migrate test cases in `config_sample.csv`
 1. Run ATM
     ```shell
     python atm_runner.py

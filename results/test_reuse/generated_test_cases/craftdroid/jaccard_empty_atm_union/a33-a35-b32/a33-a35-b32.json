@@ -1,0 +1,107 @@
+[
+  {
+    "bounds": "[0,2196][288,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "true",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_nearby",
+    "text": "Nearby",
+    "content-desc": "Nearby",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "hot_button_nearby"
+    ]
+  },
+  {
+    "bounds": "[0,2196][288,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "true",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_nearby",
+    "text": "Nearby",
+    "content-desc": "Nearby",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[252,308][1384,476]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/search_text",
+    "text": "Cleaners, movers, delivery, sushi, etc.",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "search_text"
+    ]
+  },
+  {
+    "bounds": "[252,308][1384,476]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/search_text",
+    "text": "Cleaners, movers, delivery, sushi, etc.",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "bounds": "[0,2196][288,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "true",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_nearby",
+    "text": "Nearby",
+    "content-desc": "Nearby",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

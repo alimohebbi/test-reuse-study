@@ -1,0 +1,74 @@
+[
+  {
+    "bounds": "[1132,98][1300,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageView",
+    "resource-id": "me.writeily:id/search_button",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[208,119][1132,245]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "me.writeily:id/search_src_text",
+    "text": "Search notes",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "to-do"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  },
+  {
+    "action": [
+      "KEY_BACK"
+    ],
+    "class": "SYS_EVENT"
+  },
+  {
+    "bounds": "[56,135][152,228]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "me.writeily",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Writeily Pro",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.widget.TextView",
+      "text",
+      "to-do"
+    ]
+  }
+]

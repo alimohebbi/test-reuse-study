@@ -1,0 +1,24 @@
+[
+  {
+    "bounds": "[1300,98][1440,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.jpstudiosonline.tipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageView",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "More options",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

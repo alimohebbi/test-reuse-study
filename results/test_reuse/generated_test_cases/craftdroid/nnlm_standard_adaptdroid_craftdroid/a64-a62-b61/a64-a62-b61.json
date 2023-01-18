@@ -1,0 +1,141 @@
+[
+  {
+    "bounds": "[56,752][1384,1627]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "luankevinferreira.expenses:id/graph",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,752][1384,1627]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "luankevinferreira.expenses:id/graph",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,0][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "1500"
+    ]
+  },
+  {
+    "bounds": "[56,752][1384,1627]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "luankevinferreira.expenses:id/graph",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,0][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "GRA"
+    ]
+  },
+  {
+    "bounds": "[0,0][1440,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.ViewGroup",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "General"
+    ]
+  },
+  {
+    "bounds": "[56,752][1384,1627]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "luankevinferreira.expenses",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "luankevinferreira.expenses:id/graph",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

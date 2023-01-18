@@ -1,0 +1,126 @@
+[
+  {
+    "bounds": "[720,1037][1052,1094]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/title",
+    "text": "Home Cleaners",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,126][196,322]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,802][1022,942]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/nav_item_text",
+    "text": "Check In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "nav_item_text"
+    ]
+  },
+  {
+    "bounds": "[0,802][1022,942]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/nav_item_text",
+    "text": "Check In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,1034][1384,1196]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editPassword",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "activity_login_editPassword"
+    ]
+  },
+  {
+    "bounds": "[56,1034][1384,1196]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editPassword",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "send_keys",
+      "p198573se@sxwabw.al.net"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

@@ -1,3 +1,5 @@
+# Fidelity Plugin
+
 This artifact evaluates generated test cases by ATM or CraftDroid. 
 
 **Input:** 
@@ -21,20 +23,20 @@ This artifact evaluates generated test cases by ATM or CraftDroid.
 
 
 ### Run for evaluating ATM test cases
-- Set value of `algorithm` entry in `evaluation/config.toml` to `atm`
-- Run appium server
-- Run following command to convert ATM java test cases to json test cases
-```shell
-python evaluation/original_test_converter.py
-```
-- Run following command to evaluate the test cases 
-```shell
-python evaluation/run_evaluate.py
-```
+1. Set value of `algorithm` entry in `evaluation/config.toml` to `atm`
+1. Run appium server
+1. Run following command to convert ATM java test cases to json test cases
+    ```shell
+    python evaluation/original_test_converter.py
+    ```
+1. Run following command to evaluate the test cases 
+    ```shell
+    python evaluation/run_evaluate.py
+    ```
 
 ### Run for evaluating CraftDroid test cases
-- Set value of `algorithm` entry in `evaluation/config.toml` to `craftdroid`
-- Run following command to evaluate the test cases
-```shell
-python evaluation/run_evaluate.py
-```
+1. Set value of `algorithm` entry in `evaluation/config.toml` to `craftdroid`
+1. Run following command to evaluate the test cases
+    ```shell
+    python evaluation/run_evaluate.py
+    ```

@@ -1,0 +1,61 @@
+[
+  {
+    "bounds": "[1036,1321][1306,1489]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "Accept",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[685,581][1280,729]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.tleapps.simpletipcalculator:id/editTextBill",
+    "text": "100.00",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "bounds": "[230,493][737,514]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.tleapps.simpletipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "100 targeted leads.",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  }
+]

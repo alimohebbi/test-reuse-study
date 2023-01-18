@@ -1,0 +1,177 @@
+[
+  {
+    "bounds": "[0,2224][308,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/btn_skip",
+    "text": "Skip",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1188,2140][1384,2336]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/fab_new_task",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[91,808][1349,966]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/et_new_task_name",
+    "text": "Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "bounds": "[1016,1761][1384,1929]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_new_task_ok",
+    "text": "Okay",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[1132,98][1300,266]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/ac_add",
+    "text": "",
+    "content-desc": "List",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[649,1367][1016,1535]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_newtodolist_cancel",
+    "text": "Cancel",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[193,315][1440,400]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "bounds": "[193,315][1440,400]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "swipe_right"
+    ]
+  },
+  {
+    "bounds": "[70,539][430,623]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_add_subtask",
+    "text": "Add Subtask",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

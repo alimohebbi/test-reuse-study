@@ -1,0 +1,139 @@
+[
+  {
+    "bounds": "[357,103][1125,261]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[357,103][1125,261]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_enter",
+      "https://www.ics.uci.edu"
+    ]
+  },
+  {
+    "bounds": "[283,1029][1197,1116]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "2nd Annual ICS Project Expo",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.view.View",
+      "content-desc",
+      "UCI Donald Bren School of Information and Computer Sciences - logo"
+    ]
+  },
+  {
+    "bounds": "[357,103][1125,261]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://www.ics.uci.edu/",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_enter",
+      "https://uci.edu"
+    ]
+  },
+  {
+    "bounds": "[35,1333][301,1473]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Resources",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.view.View",
+      "content-desc",
+      "University of California, Irvine"
+    ]
+  },
+  {
+    "action": [
+      "KEY_BACK"
+    ],
+    "class": "SYS_EVENT"
+  },
+  {
+    "bounds": "[87,1673][1354,1771]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.stoutner.privacybrowser.standard",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "News Highlights",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.view.View",
+      "content-desc",
+      "UCI Donald Bren School of Information and Computer Sciences - logo"
+    ]
+  }
+]

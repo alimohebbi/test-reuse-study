@@ -1,9 +1,12 @@
-This artifact provides the semantic matcher for test generator. 
-The semantic matching server answers queries that ATM and CraftDroid test generator sends.
+# Semantic Matching Server
 
-**Input:** A query send by a test generator.
+This artifact provides the semantic matcher functionality for the test generators. 
+The semantic matching server answers queries that ATM and CraftDroid test generator send.
 
-**Output:** Ordered descriptors and their similarity scores.
+**Input:** http request containing a semantic matching query send by a test generator
+
+**Output:** http response containing ordered descriptors and their similarity scores
+
 
 ### Run
 1. Specify path to the word embedding models in `config.yml`

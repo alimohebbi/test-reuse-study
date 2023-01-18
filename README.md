@@ -2,29 +2,30 @@
 
 This repository provides the replication package of our paper "Semantic Matching in GUI Test Reuse" submitted 
 to the Empirical Software Engineering 2023.
-It includes the codes, results and inputs.
+It includes the codes, results and input data.
 
 ## Work Flow
-The replication package contains two evaluator frameworks: Semantic Matching Evaluator and Test Reuse Evaluator.
-Each framework consist of few modules which working as a pipeline to produce results of the paper.
-We describe role of each module in the pipeline below.
+The replication package contains two evaluator frameworks introduced in the paper: Semantic Matching Evaluator and Test Reuse Evaluator.
+Each framework consist of few modules which are working as a pipeline to produce results of the study.
+Each module below has the following role:
 
 ### Semantic Matching Evaluator
-1. `evaluator`: evaluates MRR and Top1 score of configurations for the given queries
-1. `analyzor`:  creates table of plot of semantic matching in isolation by analyzing semantic matching configurations MRR and Top1 metrics
+1. `evaluator`: evaluates the input data set (semantic matching queries) and calculated MRR and Top1 score of configurations. 
+1. `analyzor`:  creates tables and plot of semantic matching in isolation by analyzing output of the evaluator.
 
 
 ### Test Reuse Evaluator
-1. `ATM_generator` migrates test cases by using ATM test generator
-1. `CraftDroid_generator` migrates test cases by using CraftDroid test generator
-1. `semantic_matching_server` ATM and CraftDroid generators send queries to the server to rank target candidates
-1. `fidelity_plugin` calculates fidelity metrics for given test cases grouped by semantic matching configurations
-1. `analyzor` creates table of plot of semantic matching in test reuse context by analyzing fidelity metrics
+1. `ATM_generator`: migrates test cases by using ATM test generator
+1. `CraftDroid_generator`: migrates test cases by using CraftDroid test generator
+1. `semantic_matching_server`: ATM and CraftDroid generators send queries to the server to rank target candidates
+1. `fidelity_plugin`: calculates fidelity metrics for given test cases grouped by semantic matching configurations
+1. `analyzor`: creates tables and plot of semantic matching in test reuse context by analyzing fidelity metrics
 
 
-> Input and output of each module contains the currents results. Therefore, modules can be executed each module independently.
-> In case of new inputs module should be executed in the above order.
+> Input and output of each module contains the currents results. Therefore, modules can be executed independently.
+> In case of new input, modules should be executed in the above order.
 
+> Each module contains specific `README.md` file that provides execution instructions. 
 
 ## Requirements
 - Ubuntu 18 or Mac
@@ -33,11 +34,11 @@ We describe role of each module in the pipeline below.
 - python3.7-dev
 - 8 GB RAM
 - Android Emulator for Android 6 API 23
+- sdkmanager 21, 23, 25
 - Appium 1.21.0
 
-> Install android emulator
-> Emulator should be accessible from command line.
-> For example running `emualtor -avd emulator1` should result in running the emulator.
+> Install android emulator and sdkmanager ([download link](https://developer.android.com/studio)) and make sure emulator is accessible from command line.
+> Execution of `emualtor -avd emulator1` in terminal should result in running the emulator.
 
 
 
@@ -47,12 +48,12 @@ We describe role of each module in the pipeline below.
 sudo apt-get install python3.7 pip3 python3.7-dev
 ```
 
->Shared packages between all modules are indicated in `requirement.txt` file.
-However, each module may need additional packages or requirements indicated in corresponding README file.
+>
 
 ### Python Packages
-
-First you need to setup a new virtual environment
+Shared packages between all modules are indicated in `requirement.txt` file.
+However, each module may need additional packages or requirements indicated in corresponding `README` file.
+First you need to setup a new virtual environment and then install the packages as described below.
 
 1. Update pip
    ```
@@ -75,5 +76,5 @@ First you need to setup a new virtual environment
     pip install -r requirements.txt
     ```
 
-
-> Semantic Matching Evaluator and Server require word embedding models that are available in the [download link](https://zenodo.org/record/4725222/files/models.zip).
+### Word Embedding Models
+Semantic Matching Evaluator and Server require word embedding models that are available in the [download link](https://zenodo.org/record/4725222/files/models.zip).

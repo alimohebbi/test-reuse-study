@@ -1,0 +1,43 @@
+[
+  {
+    "bounds": "[1092,2111][1440,2196]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/collection_description",
+    "text": "Time to bust out the white tablecloth and fancy dishware... Bring the local fine dining experience into your own home by ordering from these South Bay establishments. If you have a business to add to this Collection, let us know at sb@yelp.com. #SupportLocal",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "collection_description"
+    ]
+  },
+  {
+    "bounds": "[1092,2111][1440,2196]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/collection_description",
+    "text": "Time to bust out the white tablecloth and fancy dishware... Bring the local fine dining experience into your own home by ordering from these South Bay establishments. If you have a business to add to this Collection, let us know at sb@yelp.com. #SupportLocal",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

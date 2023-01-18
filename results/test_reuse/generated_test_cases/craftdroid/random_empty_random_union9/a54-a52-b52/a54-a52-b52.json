@@ -1,0 +1,84 @@
+[
+  {
+    "bounds": "[930,847][1380,1003]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.appsbyvir.tipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+    "text": "# of ways",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "bounds": "[930,270][1380,426]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.appsbyvir.tipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  },
+  {
+    "bounds": "[930,1408][1380,1564]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.appsbyvir.tipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/finalBillEditText",
+    "text": "17.25",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "bounds": "[930,1574][1380,1730]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.appsbyvir.tipcalculator",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+    "text": "17.25",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT"
+  }
+]

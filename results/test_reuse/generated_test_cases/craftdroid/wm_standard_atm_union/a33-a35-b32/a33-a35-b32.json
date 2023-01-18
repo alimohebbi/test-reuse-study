@@ -1,0 +1,162 @@
+[
+  {
+    "bounds": "[864,2196][1152,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_feed",
+    "text": "Activity",
+    "content-desc": "Activity",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[576,2196][864,2392]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_profile",
+    "text": "Me",
+    "content-desc": "Me",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[28,1575][1412,1743]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/log_in_button",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "log_in_button"
+    ]
+  },
+  {
+    "bounds": "[28,1575][1412,1743]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/log_in_button",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[56,834][1384,996]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editPassword",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "activity_login_editPassword"
+    ]
+  },
+  {
+    "bounds": "[56,834][1384,996]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editPassword",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "bounds": "[56,620][1384,782]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editUsername",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "uci.seal@gmail.com"
+    ]
+  },
+  {
+    "bounds": "[1097,1024][1373,1192]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.yelp.android",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/activity_login_btnLogin",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  }
+]

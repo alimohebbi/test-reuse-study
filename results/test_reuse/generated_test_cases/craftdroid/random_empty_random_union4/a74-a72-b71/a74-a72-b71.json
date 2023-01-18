@@ -1,0 +1,91 @@
+[
+  {
+    "bounds": "[1107,2059][1335,2287]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.moonpi.swiftnotes",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.moonpi.swiftnotes:id/newNote",
+    "text": "",
+    "content-desc": "New note",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "bounds": "[0,483][1440,568]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.moonpi.swiftnotes",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.moonpi.swiftnotes:id/bodyEdit",
+    "text": "Note",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "to-do"
+    ]
+  },
+  {
+    "bounds": "[0,280][1440,455]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "true",
+    "package": "com.moonpi.swiftnotes",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.EditText",
+    "resource-id": "com.moonpi.swiftnotes:id/titleEdit",
+    "text": "Title",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "send_keys",
+      "Go shopping"
+    ]
+  },
+  {
+    "action": [
+      "KEY_BACK"
+    ],
+    "class": "SYS_EVENT"
+  },
+  {
+    "bounds": "[858,1238][1082,1406]",
+    "checkable": "false",
+    "checked": "false",
+    "enabled": "true",
+    "long-clickable": "false",
+    "package": "com.moonpi.swiftnotes",
+    "scrollable": "false",
+    "selected": "false",
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button2",
+    "text": "No",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "class",
+      "android.widget.TextView",
+      "text",
+      "to-do"
+    ]
+  }
+]
