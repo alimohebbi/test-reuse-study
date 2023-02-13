@@ -341,7 +341,7 @@ def analyse(data: DataFrame):
     components_names.remove("value")
     positions = []
     for top in [0.01, 0.05, 0.10, 0.25, 0.50, 0.75]:
-        positions.append(top * 253)
+        positions.append(top * 337)
     # build blox plots_p values
     col_index = 0
     result_string = ""
