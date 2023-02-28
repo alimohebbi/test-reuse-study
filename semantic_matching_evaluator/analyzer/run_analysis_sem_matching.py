@@ -115,7 +115,8 @@ def plot_boxes_std(data: DataFrame, title: str, x_axis_label: str, y_axis_label:
                           marker='o',
                           alpha=0.7,
                           color='black', size=3)
-    bplot.set_xlabel("MRR", fontsize=11, fontweight='bold')
+    x_axis_name = 'MRR' if mrr else 'Top1'
+    bplot.set_xlabel(x_axis_name, fontsize=11, fontweight='bold')
     bplot.set_ylabel("SD", fontsize=11, fontweight='bold')
     bplot.tick_params(labelsize=8)
     bplot.set(xticklabels=[])
@@ -395,8 +396,8 @@ def analyse(data: DataFrame):
                             significance_test(el1, el2, res_fix_comp_all.get(el1), res_fix_comp_all.get(el2), col)
                             combination.add(el1 + "<->" + el2)
                             combination.add(el2 + "<->" + el1)
-
-    plot_boxes(res_fix_comp_all, "MRR distribution for the components", "components", 'Top1'
+    y_axis_name = 'MRR' if mrr else 'Top1'
+    plot_boxes(res_fix_comp_all, "MRR distribution for the components", "components", y_axis_name
                , "all-value-distribution", component_to_elements)
 
     # do impact analysis

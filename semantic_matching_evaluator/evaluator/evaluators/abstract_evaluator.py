@@ -138,7 +138,7 @@ class AbstractEvaluator(ABC):
         top_n_number = 0
         for name, group in groups:
             top_n_number += self.is_between_top_n(group, self.active_technique, self.config.top_n)
-        result[self.active_technique] = top_n_number
+        result[self.active_technique] = top_n_number / self.correct_number
         return result
 
     def evaluate_by_mrr(self):

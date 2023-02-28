@@ -1,32 +1,37 @@
 ## SDK
-1. Download command line tools
-1. Place it at $ANDROID_SDK_ROOT/cmdline-tools/latest
-
-1. Give permission to download packages
-```
-sudo chown $USER:$USER $ANDROID_HOME -R
-```
-1. Run at latest/bin
-```
-sdkmanager --licenses
-./sdkmanager platform-tools emulator
-```
+1. Download command line tools ([download link](https://developer.android.com/studio#command-tools))
 1. Set environment variables in ~/.bashrc
-```
-export ANDROID_SDK_ROOT = Path to your SDK folder
-export ANDROID_HOME = The same as ANDROID_SDK_ROOT
-```
-1. Add to path variable
-```
-PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/build-tools/25.0.3/
-```
+   ```
+   export ANDROID_SDK_ROOT = Path to an empty folder that you want install sdk there
+   export ANDROID_HOME = The same path as ANDROID_SDK_ROOT
+   ``` 
+1. Unzip command line tool in `$ANDROID_SDK_ROOT/cmdline-tools/latest`. Create `cmdline-tools` and `latest` folders manually.
+1. Give permission to download packages
+   ```
+   sudo chown -R $USER: $ANDROID_HOME
+   ```
+1. Run at latest/bin
+   ```
+   sdkmanager --licenses
+   ./sdkmanager platform-tools emulator
+   ```
+   > Java version should be compatible with the command sdk manger. We used Java 8.
 
-1. Install platfrom:The platform packages are required to compile your app for the specified API level
-```
-sdkmanager "platforms;android-25"
-sdkmanager "platforms;android-23"
-sdkmanager "platforms;android-21"
-```
+1. Add to path variable
+   ```
+   PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/build-tools/25.0.3/
+   ```
+   In Zsh you may use:
+   ```shell
+   PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/build-tools/25.0.3/:$PATH
+   ```
+
+1. Install platform packages that are listed below. They are required to compile your subject applications.
+   ```
+   sdkmanager "platforms;android-25"
+   sdkmanager "platforms;android-23"
+   sdkmanager "platforms;android-21"
+   ```
 
 ## Emulator
 
