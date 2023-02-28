@@ -11,32 +11,32 @@ eval_repeat: 1
 cache_size: 10
 active_techniques:
   - wm
-  - w2v
-  - nnlm
-  - use
-  - bert
-  - glove
-  - fast
-  - jaccard
-  - edit_distance
+#  - w2v
+#  - nnlm
+#  - use
+#  - bert
+#  - glove
+#  - fast
+#  - jaccard
+#  - edit_distance
 #  - random
 train_set:
   - android
-  - blogs
-  - standard
-  - empty
-  - googleplay
+#  - blogs
+#  - standard
+#  - empty
+#  - googleplay
 algorithm:
   - craftdroid
-  - custom
-  - atm_0
-  - adaptdroid_0
+#  - custom
+#  - atm_0
+#  - adaptdroid_0
 #  - random
 descriptors:
   - union
-  - intersection
-  - craftdroid
-  - atm
+#  - intersection
+#  - craftdroid
+#  - atm
 model_path:
   w2v_android: "w2v/w2v-manuals.model"
   w2v_googleplay: "w2v/w2v-googleplay.model"

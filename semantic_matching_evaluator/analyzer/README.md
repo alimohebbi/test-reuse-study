@@ -4,6 +4,8 @@ This artifact produce tables and figures of the study related to semantic matchi
 
 **Input:** 
 - Result of semantic matching in isolation `results.csv`
+> The file is output of semantic matching evaluator that exist in following directory 
+> `semantic_matching_evaluator/evaluator/results.csv`
 
 **Output:** Figures and tables related to semantic matching in isolation. 
 The analyzor prints the tables in console and save plots and statistical test in `mrr` and `top1` folders.

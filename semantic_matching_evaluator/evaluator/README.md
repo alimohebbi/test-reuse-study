@@ -19,12 +19,11 @@ Each configuration is evaluated by two metrics: MRR and Top1.
  
 ### Python Packages
 1. Activate the virtual environment
-1. Run text_pre_process.py to download additional packages:
+1. Run `descriptor_processes/text_pre_process.py` to download additional packages:
     ```
     python -m text_pre_process
     ```
-    You should see:
-    
+    The script prints the following message when downloading is finished:
     ```
     download is completed!
     ```

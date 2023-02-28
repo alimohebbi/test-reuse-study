@@ -1,15 +1,15 @@
 import json
 import os
-import sys
 import warnings
+
+import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import yaml
 from pandas import DataFrame, Series
-import matplotlib.patches as mpatches
 from scipy import stats
-from scipy.stats import ttest_ind, mannwhitneyu
+from scipy.stats import mannwhitneyu
 
 from stat_matrix import all_matrixes
 
@@ -18,6 +18,7 @@ with open(r'config.yaml') as file:
 
 mrr = True
 results_dir = ''
+
 
 def get_sorted_axis(data):
     train_sets = ['blogs', 'manuals', 'googleplay']
@@ -456,7 +457,6 @@ def run(input_file_path):
     df = pd.read_csv(input_file_path, sep=',', index_col=None)
     df = make_df_plot_friendly(df)
     analyse(df)
-
 
 
 if __name__ == "__main__":

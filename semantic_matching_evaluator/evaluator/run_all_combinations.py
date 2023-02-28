@@ -81,7 +81,7 @@ def run():
         df = evaluate_config(df)
         save(df)
         df.drop(df.index, inplace=True)
-        print(config_key + ' : ' + str(semantic_config['top1']) + ' MRR: ' + str(semantic_config['MRR']))
+        print(config_key + ' Top1 : ' + str(semantic_config['top1']) + ' MRR: ' + str(semantic_config['MRR']))
     else:
         print(config_key + ' already exist')
 

@@ -16,6 +16,8 @@ def download_nltk_packages():
         pass
     else:
         ssl._create_default_https_context = _create_unverified_https_context
+    nltk.download('punkt')
+    nltk.download('wordnet')
     nltk.download('stopwords')
     nltk.download('averaged_perceptron_tagger')
 
@@ -113,4 +115,4 @@ if __name__ == "__main__":
                   ' and the bill amount. This tip calculator is designed to calculate the tip quickly.']}
     df = pd.DataFrame(data=d)
     data = pre_process(df, True)
-    print(data)
+    print('Download is completed!	')
