@@ -1,6 +1,5 @@
 #!/bin/bash
-cd /Users/usiusi/Documents/Repositories/AppTestMigrator/ATM-Modified
-#rm -r /Users/usiusi/Documents/Repositories/AppTestMigrator/AppTestMigrator/AppTestMigrator/Espresso-UIHierarchies
+#cd /Users/usiusi/Documents/Repositories/AppTestMigrator/ATM-Modified
 rm -r ./AppTestMigrator/Espresso-UIHierarchies
 rm -r ./AppTestMigrator/target-tests
 rm -r ./AppTestMigrator/UIAutomator-UIHierarchies

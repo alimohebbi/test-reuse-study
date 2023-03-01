@@ -9,35 +9,31 @@ emulator: "emulator1"
 migration_timeout: 3600
 install_timeout: 240
 embedding:
-#  - wm
-#  - w2v
-#  - nnlm
-#  - use
-#  - bert
-#  - glove
-#  - fast
-#  - jaccard
-#  - edit_distance
+  - wm
+  - w2v
+  - nnlm
+  - use
+  - bert
+  - glove
+  - fast
+  - jaccard
+  - edit_distance
   - random
 train_set:
-#  - android
-#  - blogs
-#  - standard
+  - android
+  - blogs
+  - standard
   - empty
-#  - googleplay
+  - googleplay
 algorithm:
-#  - craftdroid
-#  - custom
-#  - atm
-#  - perfect
-#  - adaptdroid
+  - craftdroid
+  - custom
+  - atm
+  - perfect
+  - adaptdroid
   - random
 descriptors:
   - union
-#  - intersection
-#  - craftdroid
-#  - atm
-clusters:
-  app_to_cluster: "/Users/usiusi/Documents/Repositories/word-embedding/embedding/app_to_cluster.csv"
-  app_info: "/Users/usiusi/Documents/Repositories/word-embedding/embedding/app_info.csv"
-  topic_model: "/Users/usiusi/Documents/Repositories/AppClustering/model_selector_data/"
+  - intersection
+  - craftdroid
+  - atm
