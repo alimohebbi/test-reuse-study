@@ -155,3 +155,4 @@ toml==0.10.2
 tornado==6.1
 typing-extensions==3.10.0.2
 websocket-client==1.2.1
+fastDamerauLevenshtein==1.0.7
