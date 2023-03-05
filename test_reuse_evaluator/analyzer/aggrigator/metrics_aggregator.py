@@ -6,11 +6,13 @@ import seaborn as sn
 import yaml
 from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
+sys.path.append("../..")
+sys.path.append("..")
 from util import convert_config_names, make_config_column, reorder_columns, add_file_name_as_config, rename_subjects
 import pandas as pd
 from pandas.io.parsers import read_csv
 
-sys.path.append("../..")
+
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 ROOT_PATH = os.path.join(THIS_FOLDER, '../../')
 

@@ -26,6 +26,13 @@ This artifact produce tables and figures of the study related to semantic matchi
   The plots show correlation of test reuse and semantic matching. Each dot represents a semantic matching config which
   are positioned based on their performance in test reuse and semantic matching in isolation.
 
+- Impact analysis: `test_reuse_evaluator/analyzer/analysis/plots/impact_reuse.pdf`
+  
+  The plot show impact of each semantic matching component divided by the test generator.
+  
+- Effectiveness: `test_reuse_evaluator/analyzer/analysis/tables/`
+  The tables report effectiveness of each semantic matching instances.
+
 - Configurations delta: `delta_calc`
   
   The plot shows if a semantic matching config benefited either of test generators more than the other. The ones on the

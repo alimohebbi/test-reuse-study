@@ -9,7 +9,7 @@ from matplotlib.lines import Line2D
 from pandas import DataFrame, Series
 from scipy import stats
 from scipy.stats import ttest_ind
-
+sys.path.append("..")
 from util import make_df_plot_friendly
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))

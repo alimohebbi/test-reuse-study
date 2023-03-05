@@ -10,7 +10,7 @@ from pandas import read_csv
 from scipy.stats import pearsonr
 import seaborn as sns
 import ssl
-
+sys.path.append("..")
 from util import ReadResultCorrelationTable, ReadResultScatterPlot
 
 ssl._create_default_https_context = ssl._create_unverified_context

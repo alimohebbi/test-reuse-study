@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from pandas import DataFrame
-
+sys.path.append("..")
 from analysis.impact_analysis import significance_test
 from util import ReadResultAnalysis
 
