@@ -59,7 +59,7 @@ This artifact evaluates generated test cases by ATM or CraftDroid.
 ### Requirements
 
 For ATM test case evaluation first you need to install the subject applications located in `atm_subject_apps`. First run
-the emulator then run `install-apks.sh` to autmatically install the apps on the emulator.
+the emulator then run `install-apks.sh` to automatically install the apps on the emulator.
 
 ### Run for evaluating ATM test cases
 

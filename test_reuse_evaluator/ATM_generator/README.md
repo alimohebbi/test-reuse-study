@@ -30,6 +30,10 @@ This artifact generates test cases by using ATM test generator for the given sem
 1. Run Neo4j
    > Each time that you start Neo4j server you need to reset the password to `neo4j`
 1. Set the migration that ATM should use in `migrations.csv`
+    > `config_template` includes example of different config files. Complete list of migrations are available in
+     `config_template/migration_full.csv` and sampled semantic matching configurations are available in
+     `config_template/config_sample.csv`
+   
 1. Set the semantic matching configurations that ATM should use to migrate test cases in `config_sample.csv`
 1. Set the absolute path for the `atm_root` key in the `config.yml`
 1. Activate the virtual environment 
@@ -37,8 +41,3 @@ This artifact generates test cases by using ATM test generator for the given sem
     ```shell
     python atm_runner.py
     ```
-
-> `config_template` includes example of different config files. Complete list of migrations are available in
-> `config_template/migration_full.csv` and sampled semantic matching configurations are available in 
-> `config_template/config_sample.csv` 
-

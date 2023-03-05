@@ -1,6 +1,5 @@
-#root: "/root/test-reuse/Craftdroid-Modified/"
-root: "/Users/usiusi/Documents/Repositories/Craftdroid/craft_custom/"
-apks_dir: "/Users/usiusi/Documents/Repositories/Craftdroid/subject_apps/temp"
+root: "./"
+apks_dir: "./subject_apps"
 decompile_temp: 'apk_decompiled_temp'
 image_repo: 'image_file_name_repo'
 sm_conf_path: 'matching_client/sm_config'

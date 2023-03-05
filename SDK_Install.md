@@ -35,7 +35,7 @@
 
 ## Emulator
 
-You can see all packages as follow `sdkmanager --list`
+You can see all packages as follows `sdkmanager --list`
 
 
 1. Install an image for the emulator
